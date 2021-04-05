@@ -28,7 +28,28 @@ cd SoapyRTLSDR
 rmdir /s /q CMakeFiles
 del /q CMakeCache.*
 make clean
-
 cd ..
+
+
+cd airspyone_host
+rmdir /s /q CMakeFiles
+del /q CMakeCache.*
+make clean
+cd ..
+
+
+cd SoapyAirspy
+rmdir /s /q CMakeFiles
+del /q CMakeCache.*
+make clean
+cd ..
+
+
+
+cd SoapyAudio
+rmdir /s /q CMakeFiles
+del /q CMakeCache.*
+make clean
+
 
 

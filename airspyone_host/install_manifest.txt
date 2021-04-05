@@ -1,0 +1,17 @@
+C:/Program Files/Soapy/lib/pkgconfig/libairspy.pc
+C:/Program Files/Soapy/bin/libairspy.dll.a
+C:/Program Files/Soapy/bin/libairspy.dll
+C:/Program Files/Soapy/bin/libairspy.a
+C:/Program Files/Soapy/include/libairspy/airspy.h
+C:/Program Files/Soapy/include/libairspy/airspy_commands.h
+C:/Program Files/Soapy/include/libairspy/iqconverter_float.h
+C:/Program Files/Soapy/include/libairspy/iqconverter_int16.h
+C:/Program Files/Soapy/include/libairspy/filters.h
+C:/Program Files/Soapy/bin/airspy_gpio.exe
+C:/Program Files/Soapy/bin/airspy_gpiodir.exe
+C:/Program Files/Soapy/bin/airspy_lib_version.exe
+C:/Program Files/Soapy/bin/airspy_si5351c.exe
+C:/Program Files/Soapy/bin/airspy_r820t.exe
+C:/Program Files/Soapy/bin/airspy_spiflash.exe
+C:/Program Files/Soapy/bin/airspy_info.exe
+C:/Program Files/Soapy/bin/airspy_rx.exe

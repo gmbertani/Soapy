@@ -1,0 +1,7 @@
+D:/Users/massimo/Documents/sviluppo/echoes-related/Soapy/SoapyAudio/CMakeFiles/audioSupport.dir
+D:/Users/massimo/Documents/sviluppo/echoes-related/Soapy/SoapyAudio/CMakeFiles/install/local.dir
+D:/Users/massimo/Documents/sviluppo/echoes-related/Soapy/SoapyAudio/CMakeFiles/install.dir
+D:/Users/massimo/Documents/sviluppo/echoes-related/Soapy/SoapyAudio/CMakeFiles/edit_cache.dir
+D:/Users/massimo/Documents/sviluppo/echoes-related/Soapy/SoapyAudio/CMakeFiles/rebuild_cache.dir
+D:/Users/massimo/Documents/sviluppo/echoes-related/Soapy/SoapyAudio/CMakeFiles/list_install_components.dir
+D:/Users/massimo/Documents/sviluppo/echoes-related/Soapy/SoapyAudio/CMakeFiles/install/strip.dir
