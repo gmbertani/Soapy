@@ -1,0 +1,11 @@
+prefix=C:/Program Files/Soapy
+exec_prefix=${prefix}
+libdir=${exec_prefix}/D:\Users\massimo\Documents\sviluppo\echoes-related\soapy\deps\lib64
+includedir=${prefix}/include
+
+Name: RTL-SDR Library
+Description: C Utility Library
+Version: v0.8.x-xxx-xunknown
+Cflags: -I${includedir}/ -ID:\Users\massimo\Documents\sviluppo\echoes-related\soapy\deps\include
+Libs: -L${libdir} -lrtlsdr -lusb-1.0
+Libs.private: 

@@ -1,0 +1,4185 @@
+
+ducmt.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __libSoapySDR_a_iname
+
+ducmh.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$2
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 t .text
+                 U __libSoapySDR_a_iname
+0000000000000000 I _head_libSoapySDR_a
+0000000000000000 i fthunk
+0000000000000000 i hname
+
+ducms00346.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDR_vlogf
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDR_vlogf
+
+ducms00345.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDR_unloadModules
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDR_unloadModules
+
+ducms00344.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDR_unloadModule
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDR_unloadModule
+
+ducms00343.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDR_timeNsToTicks
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDR_timeNsToTicks
+
+ducms00342.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDR_ticksToTimeNs
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDR_ticksToTimeNs
+
+ducms00341.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDR_setLogLevel
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDR_setLogLevel
+
+ducms00340.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDR_registerLogHandler
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDR_registerLogHandler
+
+ducms00339.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDR_log
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDR_log
+
+ducms00338.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDR_loadModules
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDR_loadModules
+
+ducms00337.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDR_loadModule
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDR_loadModule
+
+ducms00336.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDR_listSearchPaths
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDR_listSearchPaths
+
+ducms00335.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDR_listModulesPath
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDR_listModulesPath
+
+ducms00334.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDR_listModules
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDR_listModules
+
+ducms00333.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDR_getRootPath
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDR_getRootPath
+
+ducms00332.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDR_getModuleVersion
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDR_getModuleVersion
+
+ducms00331.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDR_getLoaderResult
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDR_getLoaderResult
+
+ducms00330.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDR_getLibVersion
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDR_getLibVersion
+
+ducms00329.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDR_getAPIVersion
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDR_getAPIVersion
+
+ducms00328.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDR_getABIVersion
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDR_getABIVersion
+
+ducms00327.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDR_free
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDR_free
+
+ducms00326.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDR_formatToSize
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDR_formatToSize
+
+ducms00325.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDR_errToStr
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDR_errToStr
+
+ducms00324.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRStrings_clear
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRStrings_clear
+
+ducms00323.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRKwargs_toString
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRKwargs_toString
+
+ducms00322.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRKwargs_set
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRKwargs_set
+
+ducms00321.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRKwargs_get
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRKwargs_get
+
+ducms00320.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRKwargs_fromString
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRKwargs_fromString
+
+ducms00319.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRKwargs_clear
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRKwargs_clear
+
+ducms00318.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRKwargsList_clear
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRKwargsList_clear
+
+ducms00317.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_writeUART
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_writeUART
+
+ducms00316.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_writeStream
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_writeStream
+
+ducms00315.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_writeSetting
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_writeSetting
+
+ducms00314.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_writeRegisters
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_writeRegisters
+
+ducms00313.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_writeRegister
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_writeRegister
+
+ducms00312.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_writeI2C
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_writeI2C
+
+ducms00311.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_writeGPIOMasked
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_writeGPIOMasked
+
+ducms00310.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_writeGPIODirMasked
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_writeGPIODirMasked
+
+ducms00309.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_writeGPIODir
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_writeGPIODir
+
+ducms00308.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_writeGPIO
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_writeGPIO
+
+ducms00307.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_writeChannelSetting
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_writeChannelSetting
+
+ducms00306.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_unmake_list
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_unmake_list
+
+ducms00305.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_unmake
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_unmake
+
+ducms00304.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_transactSPI
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_transactSPI
+
+ducms00303.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_setupStream
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_setupStream
+
+ducms00302.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_setTimeSource
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_setTimeSource
+
+ducms00301.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_setSampleRate
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_setSampleRate
+
+ducms00300.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_setReferenceClockRate
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_setReferenceClockRate
+
+ducms00299.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_setMasterClockRate
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_setMasterClockRate
+
+ducms00298.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_setIQBalanceMode
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_setIQBalanceMode
+
+ducms00297.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_setIQBalance
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_setIQBalance
+
+ducms00296.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_setHardwareTime
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_setHardwareTime
+
+ducms00295.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_setGainMode
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_setGainMode
+
+ducms00294.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_setGainElement
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_setGainElement
+
+ducms00293.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_setGain
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_setGain
+
+ducms00292.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_setFrontendMapping
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_setFrontendMapping
+
+ducms00291.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_setFrequencyCorrection
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_setFrequencyCorrection
+
+ducms00290.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_setFrequencyComponent
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_setFrequencyComponent
+
+ducms00289.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_setFrequency
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_setFrequency
+
+ducms00288.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_setDCOffsetMode
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_setDCOffsetMode
+
+ducms00287.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_setDCOffset
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_setDCOffset
+
+ducms00286.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_setCommandTime
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_setCommandTime
+
+ducms00285.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_setClockSource
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_setClockSource
+
+ducms00284.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_setBandwidth
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_setBandwidth
+
+ducms00283.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_setAntenna
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_setAntenna
+
+ducms00282.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_releaseWriteBuffer
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_releaseWriteBuffer
+
+ducms00281.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_releaseReadBuffer
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_releaseReadBuffer
+
+ducms00280.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_readUART
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_readUART
+
+ducms00279.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_readStreamStatus
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_readStreamStatus
+
+ducms00278.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_readStream
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_readStream
+
+ducms00277.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_readSetting
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_readSetting
+
+ducms00276.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_readSensor
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_readSensor
+
+ducms00275.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_readRegisters
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_readRegisters
+
+ducms00274.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_readRegister
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_readRegister
+
+ducms00273.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_readI2C
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_readI2C
+
+ducms00272.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_readGPIODir
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_readGPIODir
+
+ducms00271.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_readGPIO
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_readGPIO
+
+ducms00270.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_readChannelSetting
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_readChannelSetting
+
+ducms00269.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_readChannelSensor
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_readChannelSensor
+
+ducms00268.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_make_list
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_make_list
+
+ducms00267.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_makeStrArgs
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_makeStrArgs
+
+ducms00266.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_make
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_make
+
+ducms00265.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_listUARTs
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_listUARTs
+
+ducms00264.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_listTimeSources
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_listTimeSources
+
+ducms00263.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_listSensors
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_listSensors
+
+ducms00262.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_listSampleRates
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_listSampleRates
+
+ducms00261.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_listRegisterInterfaces
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_listRegisterInterfaces
+
+ducms00260.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_listGains
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_listGains
+
+ducms00259.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_listGPIOBanks
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_listGPIOBanks
+
+ducms00258.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_listFrequencies
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_listFrequencies
+
+ducms00257.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_listClockSources
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_listClockSources
+
+ducms00256.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_listChannelSensors
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_listChannelSensors
+
+ducms00255.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_listBandwidths
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_listBandwidths
+
+ducms00254.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_listAntennas
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_listAntennas
+
+ducms00253.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_lastStatus
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_lastStatus
+
+ducms00252.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_lastError
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_lastError
+
+ducms00251.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_hasIQBalanceMode
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_hasIQBalanceMode
+
+ducms00250.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_hasIQBalance
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_hasIQBalance
+
+ducms00249.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_hasHardwareTime
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_hasHardwareTime
+
+ducms00248.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_hasGainMode
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_hasGainMode
+
+ducms00247.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_hasFrequencyCorrection
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_hasFrequencyCorrection
+
+ducms00246.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_hasDCOffsetMode
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_hasDCOffsetMode
+
+ducms00245.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_hasDCOffset
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_hasDCOffset
+
+ducms00244.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_getTimeSource
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_getTimeSource
+
+ducms00243.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_getStreamMTU
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_getStreamMTU
+
+ducms00242.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_getStreamFormats
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_getStreamFormats
+
+ducms00241.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_getStreamArgsInfo
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_getStreamArgsInfo
+
+ducms00240.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_getSettingInfo
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_getSettingInfo
+
+ducms00239.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_getSensorInfo
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_getSensorInfo
+
+ducms00238.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_getSampleRateRange
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_getSampleRateRange
+
+ducms00237.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_getSampleRate
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_getSampleRate
+
+ducms00236.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_getReferenceClockRates
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_getReferenceClockRates
+
+ducms00235.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_getReferenceClockRate
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_getReferenceClockRate
+
+ducms00234.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_getNumDirectAccessBuffers
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_getNumDirectAccessBuffers
+
+ducms00233.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_getNumChannels
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_getNumChannels
+
+ducms00232.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_getNativeStreamFormat
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_getNativeStreamFormat
+
+ducms00231.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_getNativeDeviceHandle
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_getNativeDeviceHandle
+
+ducms00230.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_getMasterClockRates
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_getMasterClockRates
+
+ducms00229.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_getMasterClockRate
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_getMasterClockRate
+
+ducms00228.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_getIQBalanceMode
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_getIQBalanceMode
+
+ducms00227.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_getIQBalance
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_getIQBalance
+
+ducms00226.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_getHardwareTime
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_getHardwareTime
+
+ducms00225.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_getHardwareKey
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_getHardwareKey
+
+ducms00224.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_getHardwareInfo
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_getHardwareInfo
+
+ducms00223.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_getGainRange
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_getGainRange
+
+ducms00222.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_getGainMode
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_getGainMode
+
+ducms00221.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_getGainElementRange
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_getGainElementRange
+
+ducms00220.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_getGainElement
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_getGainElement
+
+ducms00219.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_getGain
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_getGain
+
+ducms00218.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_getFullDuplex
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_getFullDuplex
+
+ducms00217.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_getFrontendMapping
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_getFrontendMapping
+
+ducms00216.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_getFrequencyRangeComponent
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_getFrequencyRangeComponent
+
+ducms00215.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_getFrequencyRange
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_getFrequencyRange
+
+ducms00214.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_getFrequencyCorrection
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_getFrequencyCorrection
+
+ducms00213.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_getFrequencyComponent
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_getFrequencyComponent
+
+ducms00212.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_getFrequencyArgsInfo
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_getFrequencyArgsInfo
+
+ducms00211.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_getFrequency
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_getFrequency
+
+ducms00210.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_getDriverKey
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_getDriverKey
+
+ducms00209.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_getDirectAccessBufferAddrs
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_getDirectAccessBufferAddrs
+
+ducms00208.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_getDCOffsetMode
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_getDCOffsetMode
+
+ducms00207.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_getDCOffset
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_getDCOffset
+
+ducms00206.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_getClockSource
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_getClockSource
+
+ducms00205.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_getChannelSettingInfo
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_getChannelSettingInfo
+
+ducms00204.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_getChannelSensorInfo
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_getChannelSensorInfo
+
+ducms00203.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_getChannelInfo
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_getChannelInfo
+
+ducms00202.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_getBandwidthRange
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_getBandwidthRange
+
+ducms00201.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_getBandwidth
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_getBandwidth
+
+ducms00200.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_getAntenna
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_getAntenna
+
+ducms00199.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_enumerateStrArgs
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_enumerateStrArgs
+
+ducms00198.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_enumerate
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_enumerate
+
+ducms00197.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_deactivateStream
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_deactivateStream
+
+ducms00196.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_closeStream
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_closeStream
+
+ducms00195.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_activateStream
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_activateStream
+
+ducms00194.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_acquireWriteBuffer
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_acquireWriteBuffer
+
+ducms00193.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRDevice_acquireReadBuffer
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRDevice_acquireReadBuffer
+
+ducms00192.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRConverter_listTargetFormats
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRConverter_listTargetFormats
+
+ducms00191.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRConverter_listSourceFormats
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRConverter_listSourceFormats
+
+ducms00190.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRConverter_listPriorities
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRConverter_listPriorities
+
+ducms00189.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRConverter_listAvailableSourceFormats
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRConverter_listAvailableSourceFormats
+
+ducms00188.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRConverter_getFunctionWithPriority
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRConverter_getFunctionWithPriority
+
+ducms00187.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRConverter_getFunction
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRConverter_getFunction
+
+ducms00186.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRArgInfo_clear
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRArgInfo_clear
+
+ducms00185.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 I __imp_SoapySDRArgInfoList_clear
+                 U _head_libSoapySDR_a
+0000000000000000 T SoapySDRArgInfoList_clear
+
+ducms00184.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?writeUART@Device@SoapySDR@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z
+0000000000000000 I __imp_?writeUART@Device@SoapySDR@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z
+                 U _head_libSoapySDR_a
+
+ducms00183.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?writeStream@Device@SoapySDR@@UEAAHPEAVStream@2@PEBQEBX_KAEAH_JJ@Z
+0000000000000000 I __imp_?writeStream@Device@SoapySDR@@UEAAHPEAVStream@2@PEBQEBX_KAEAH_JJ@Z
+                 U _head_libSoapySDR_a
+
+ducms00182.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?writeSetting@Device@SoapySDR@@UEAAXH_KAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1@Z
+0000000000000000 I __imp_?writeSetting@Device@SoapySDR@@UEAAXH_KAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1@Z
+                 U _head_libSoapySDR_a
+
+ducms00181.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?writeSetting@Device@SoapySDR@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z
+0000000000000000 I __imp_?writeSetting@Device@SoapySDR@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z
+                 U _head_libSoapySDR_a
+
+ducms00180.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?writeRegisters@Device@SoapySDR@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@IAEBV?$vector@IV?$allocator@I@std@@@4@@Z
+0000000000000000 I __imp_?writeRegisters@Device@SoapySDR@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@IAEBV?$vector@IV?$allocator@I@std@@@4@@Z
+                 U _head_libSoapySDR_a
+
+ducms00179.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?writeRegister@Device@SoapySDR@@UEAAXII@Z
+0000000000000000 I __imp_?writeRegister@Device@SoapySDR@@UEAAXII@Z
+                 U _head_libSoapySDR_a
+
+ducms00178.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?writeRegister@Device@SoapySDR@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@II@Z
+0000000000000000 I __imp_?writeRegister@Device@SoapySDR@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@II@Z
+                 U _head_libSoapySDR_a
+
+ducms00177.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?writeI2C@Device@SoapySDR@@UEAAXHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+0000000000000000 I __imp_?writeI2C@Device@SoapySDR@@UEAAXHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+                 U _head_libSoapySDR_a
+
+ducms00176.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?writeGPIODir@Device@SoapySDR@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@II@Z
+0000000000000000 I __imp_?writeGPIODir@Device@SoapySDR@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@II@Z
+                 U _head_libSoapySDR_a
+
+ducms00175.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?writeGPIODir@Device@SoapySDR@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@I@Z
+0000000000000000 I __imp_?writeGPIODir@Device@SoapySDR@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@I@Z
+                 U _head_libSoapySDR_a
+
+ducms00174.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?writeGPIO@Device@SoapySDR@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@II@Z
+0000000000000000 I __imp_?writeGPIO@Device@SoapySDR@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@II@Z
+                 U _head_libSoapySDR_a
+
+ducms00173.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?writeGPIO@Device@SoapySDR@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@I@Z
+0000000000000000 I __imp_?writeGPIO@Device@SoapySDR@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@I@Z
+                 U _head_libSoapySDR_a
+
+ducms00172.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?vlogf@SoapySDR@@YAXW4SoapySDRLogLevel@@PEBDPEAD@Z
+0000000000000000 I __imp_?vlogf@SoapySDR@@YAXW4SoapySDRLogLevel@@PEBDPEAD@Z
+                 U _head_libSoapySDR_a
+
+ducms00171.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?unmake@Device@SoapySDR@@SAXPEAV12@@Z
+0000000000000000 I __imp_?unmake@Device@SoapySDR@@SAXPEAV12@@Z
+                 U _head_libSoapySDR_a
+
+ducms00170.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?unmake@Device@SoapySDR@@SAXAEBV?$vector@PEAVDevice@SoapySDR@@V?$allocator@PEAVDevice@SoapySDR@@@std@@@std@@@Z
+0000000000000000 I __imp_?unmake@Device@SoapySDR@@SAXAEBV?$vector@PEAVDevice@SoapySDR@@V?$allocator@PEAVDevice@SoapySDR@@@std@@@std@@@Z
+                 U _head_libSoapySDR_a
+
+ducms00169.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?unloadModules@SoapySDR@@YAXXZ
+0000000000000000 I __imp_?unloadModules@SoapySDR@@YAXXZ
+                 U _head_libSoapySDR_a
+
+ducms00168.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?unloadModule@SoapySDR@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV23@@Z
+0000000000000000 I __imp_?unloadModule@SoapySDR@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV23@@Z
+                 U _head_libSoapySDR_a
+
+ducms00167.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?transactSPI@Device@SoapySDR@@UEAAIHI_K@Z
+0000000000000000 I __imp_?transactSPI@Device@SoapySDR@@UEAAIHI_K@Z
+                 U _head_libSoapySDR_a
+
+ducms00166.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?step@Range@SoapySDR@@QEBANXZ
+0000000000000000 I __imp_?step@Range@SoapySDR@@QEBANXZ
+                 U _head_libSoapySDR_a
+
+ducms00165.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?setupStream@Device@SoapySDR@@UEAAPEAVStream@2@HAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV?$vector@_KV?$allocator@_K@std@@@5@AEBV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@5@@Z
+0000000000000000 I __imp_?setupStream@Device@SoapySDR@@UEAAPEAVStream@2@HAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV?$vector@_KV?$allocator@_K@std@@@5@AEBV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@5@@Z
+                 U _head_libSoapySDR_a
+
+ducms00164.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?setTimeSource@Device@SoapySDR@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+0000000000000000 I __imp_?setTimeSource@Device@SoapySDR@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+                 U _head_libSoapySDR_a
+
+ducms00163.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?setSampleRate@Device@SoapySDR@@UEAAXH_KN@Z
+0000000000000000 I __imp_?setSampleRate@Device@SoapySDR@@UEAAXH_KN@Z
+                 U _head_libSoapySDR_a
+
+ducms00162.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?setReferenceClockRate@Device@SoapySDR@@UEAAXN@Z
+0000000000000000 I __imp_?setReferenceClockRate@Device@SoapySDR@@UEAAXN@Z
+                 U _head_libSoapySDR_a
+
+ducms00161.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?setMasterClockRate@Device@SoapySDR@@UEAAXN@Z
+0000000000000000 I __imp_?setMasterClockRate@Device@SoapySDR@@UEAAXN@Z
+                 U _head_libSoapySDR_a
+
+ducms00160.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?setLogLevel@SoapySDR@@YAXW4SoapySDRLogLevel@@@Z
+0000000000000000 I __imp_?setLogLevel@SoapySDR@@YAXW4SoapySDRLogLevel@@@Z
+                 U _head_libSoapySDR_a
+
+ducms00159.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?setIQBalanceMode@Device@SoapySDR@@UEAAXH_K_N@Z
+0000000000000000 I __imp_?setIQBalanceMode@Device@SoapySDR@@UEAAXH_K_N@Z
+                 U _head_libSoapySDR_a
+
+ducms00158.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?setIQBalance@Device@SoapySDR@@UEAAXH_KAEBV?$complex@N@std@@@Z
+0000000000000000 I __imp_?setIQBalance@Device@SoapySDR@@UEAAXH_KAEBV?$complex@N@std@@@Z
+                 U _head_libSoapySDR_a
+
+ducms00157.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?setHardwareTime@Device@SoapySDR@@UEAAX_JAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+0000000000000000 I __imp_?setHardwareTime@Device@SoapySDR@@UEAAX_JAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+                 U _head_libSoapySDR_a
+
+ducms00156.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?setGainMode@Device@SoapySDR@@UEAAXH_K_N@Z
+0000000000000000 I __imp_?setGainMode@Device@SoapySDR@@UEAAXH_K_N@Z
+                 U _head_libSoapySDR_a
+
+ducms00155.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?setGain@Device@SoapySDR@@UEAAXH_KN@Z
+0000000000000000 I __imp_?setGain@Device@SoapySDR@@UEAAXH_KN@Z
+                 U _head_libSoapySDR_a
+
+ducms00154.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?setGain@Device@SoapySDR@@UEAAXH_KAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@N@Z
+0000000000000000 I __imp_?setGain@Device@SoapySDR@@UEAAXH_KAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@N@Z
+                 U _head_libSoapySDR_a
+
+ducms00153.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?setFrontendMapping@Device@SoapySDR@@UEAAXHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+0000000000000000 I __imp_?setFrontendMapping@Device@SoapySDR@@UEAAXHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+                 U _head_libSoapySDR_a
+
+ducms00152.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?setFrequencyCorrection@Device@SoapySDR@@UEAAXH_KN@Z
+0000000000000000 I __imp_?setFrequencyCorrection@Device@SoapySDR@@UEAAXH_KN@Z
+                 U _head_libSoapySDR_a
+
+ducms00151.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?setFrequency@Device@SoapySDR@@UEAAXH_KNAEBV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@std@@@Z
+0000000000000000 I __imp_?setFrequency@Device@SoapySDR@@UEAAXH_KNAEBV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@std@@@Z
+                 U _head_libSoapySDR_a
+
+ducms00150.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?setFrequency@Device@SoapySDR@@UEAAXH_KAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@NAEBV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@4@@Z
+0000000000000000 I __imp_?setFrequency@Device@SoapySDR@@UEAAXH_KAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@NAEBV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@4@@Z
+                 U _head_libSoapySDR_a
+
+ducms00149.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?setDCOffsetMode@Device@SoapySDR@@UEAAXH_K_N@Z
+0000000000000000 I __imp_?setDCOffsetMode@Device@SoapySDR@@UEAAXH_K_N@Z
+                 U _head_libSoapySDR_a
+
+ducms00148.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?setDCOffset@Device@SoapySDR@@UEAAXH_KAEBV?$complex@N@std@@@Z
+0000000000000000 I __imp_?setDCOffset@Device@SoapySDR@@UEAAXH_KAEBV?$complex@N@std@@@Z
+                 U _head_libSoapySDR_a
+
+ducms00147.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?setCommandTime@Device@SoapySDR@@UEAAX_JAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+0000000000000000 I __imp_?setCommandTime@Device@SoapySDR@@UEAAX_JAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+                 U _head_libSoapySDR_a
+
+ducms00146.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?setClockSource@Device@SoapySDR@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+0000000000000000 I __imp_?setClockSource@Device@SoapySDR@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+                 U _head_libSoapySDR_a
+
+ducms00145.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?setBandwidth@Device@SoapySDR@@UEAAXH_KN@Z
+0000000000000000 I __imp_?setBandwidth@Device@SoapySDR@@UEAAXH_KN@Z
+                 U _head_libSoapySDR_a
+
+ducms00144.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?setAntenna@Device@SoapySDR@@UEAAXH_KAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+0000000000000000 I __imp_?setAntenna@Device@SoapySDR@@UEAAXH_KAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+                 U _head_libSoapySDR_a
+
+ducms00143.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?releaseWriteBuffer@Device@SoapySDR@@UEAAXPEAVStream@2@_K1AEAH_J@Z
+0000000000000000 I __imp_?releaseWriteBuffer@Device@SoapySDR@@UEAAXPEAVStream@2@_K1AEAH_J@Z
+                 U _head_libSoapySDR_a
+
+ducms00142.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?releaseReadBuffer@Device@SoapySDR@@UEAAXPEAVStream@2@_K@Z
+0000000000000000 I __imp_?releaseReadBuffer@Device@SoapySDR@@UEAAXPEAVStream@2@_K@Z
+                 U _head_libSoapySDR_a
+
+ducms00141.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?registerLogHandler@SoapySDR@@YAXAEBQ6AXW4SoapySDRLogLevel@@PEBD@Z@Z
+0000000000000000 I __imp_?registerLogHandler@SoapySDR@@YAXAEBQ6AXW4SoapySDRLogLevel@@PEBD@Z@Z
+                 U _head_libSoapySDR_a
+
+ducms00140.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?readUART@Device@SoapySDR@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV34@J@Z
+0000000000000000 I __imp_?readUART@Device@SoapySDR@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV34@J@Z
+                 U _head_libSoapySDR_a
+
+ducms00139.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?readStreamStatus@Device@SoapySDR@@UEAAHPEAVStream@2@AEA_KAEAHAEA_JJ@Z
+0000000000000000 I __imp_?readStreamStatus@Device@SoapySDR@@UEAAHPEAVStream@2@AEA_KAEAHAEA_JJ@Z
+                 U _head_libSoapySDR_a
+
+ducms00138.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?readStream@Device@SoapySDR@@UEAAHPEAVStream@2@PEBQEAX_KAEAHAEA_JJ@Z
+0000000000000000 I __imp_?readStream@Device@SoapySDR@@UEAAHPEAVStream@2@PEBQEAX_KAEAHAEA_JJ@Z
+                 U _head_libSoapySDR_a
+
+ducms00137.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?readSetting@Device@SoapySDR@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H_KAEBV34@@Z
+0000000000000000 I __imp_?readSetting@Device@SoapySDR@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H_KAEBV34@@Z
+                 U _head_libSoapySDR_a
+
+ducms00136.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?readSetting@Device@SoapySDR@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV34@@Z
+0000000000000000 I __imp_?readSetting@Device@SoapySDR@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV34@@Z
+                 U _head_libSoapySDR_a
+
+ducms00135.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?readSensor@Device@SoapySDR@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H_KAEBV34@@Z
+0000000000000000 I __imp_?readSensor@Device@SoapySDR@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H_KAEBV34@@Z
+                 U _head_libSoapySDR_a
+
+ducms00134.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?readSensor@Device@SoapySDR@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV34@@Z
+0000000000000000 I __imp_?readSensor@Device@SoapySDR@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV34@@Z
+                 U _head_libSoapySDR_a
+
+ducms00133.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?readRegisters@Device@SoapySDR@@UEBA?AV?$vector@IV?$allocator@I@std@@@std@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@I_K@Z
+0000000000000000 I __imp_?readRegisters@Device@SoapySDR@@UEBA?AV?$vector@IV?$allocator@I@std@@@std@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@I_K@Z
+                 U _head_libSoapySDR_a
+
+ducms00132.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?readRegister@Device@SoapySDR@@UEBAII@Z
+0000000000000000 I __imp_?readRegister@Device@SoapySDR@@UEBAII@Z
+                 U _head_libSoapySDR_a
+
+ducms00131.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?readRegister@Device@SoapySDR@@UEBAIAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@I@Z
+0000000000000000 I __imp_?readRegister@Device@SoapySDR@@UEBAIAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@I@Z
+                 U _head_libSoapySDR_a
+
+ducms00130.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?readI2C@Device@SoapySDR@@UEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H_K@Z
+0000000000000000 I __imp_?readI2C@Device@SoapySDR@@UEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H_K@Z
+                 U _head_libSoapySDR_a
+
+ducms00129.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?readGPIODir@Device@SoapySDR@@UEBAIAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+0000000000000000 I __imp_?readGPIODir@Device@SoapySDR@@UEBAIAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+                 U _head_libSoapySDR_a
+
+ducms00128.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?readGPIO@Device@SoapySDR@@UEBAIAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+0000000000000000 I __imp_?readGPIO@Device@SoapySDR@@UEBAIAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+                 U _head_libSoapySDR_a
+
+ducms00127.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?minimum@Range@SoapySDR@@QEBANXZ
+0000000000000000 I __imp_?minimum@Range@SoapySDR@@QEBANXZ
+                 U _head_libSoapySDR_a
+
+ducms00126.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?maximum@Range@SoapySDR@@QEBANXZ
+0000000000000000 I __imp_?maximum@Range@SoapySDR@@QEBANXZ
+                 U _head_libSoapySDR_a
+
+ducms00125.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?make@Device@SoapySDR@@SAPEAV12@AEBV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@std@@@Z
+0000000000000000 I __imp_?make@Device@SoapySDR@@SAPEAV12@AEBV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@std@@@Z
+                 U _head_libSoapySDR_a
+
+ducms00124.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?make@Device@SoapySDR@@SAPEAV12@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+0000000000000000 I __imp_?make@Device@SoapySDR@@SAPEAV12@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+                 U _head_libSoapySDR_a
+
+ducms00123.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?make@Device@SoapySDR@@SA?AV?$vector@PEAVDevice@SoapySDR@@V?$allocator@PEAVDevice@SoapySDR@@@std@@@std@@AEBV?$vector@V?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@std@@V?$allocator@V?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@std@@@2@@4@@Z
+0000000000000000 I __imp_?make@Device@SoapySDR@@SA?AV?$vector@PEAVDevice@SoapySDR@@V?$allocator@PEAVDevice@SoapySDR@@@std@@@std@@AEBV?$vector@V?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@std@@V?$allocator@V?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@std@@@2@@4@@Z
+                 U _head_libSoapySDR_a
+
+ducms00122.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?log@SoapySDR@@YAXW4SoapySDRLogLevel@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+0000000000000000 I __imp_?log@SoapySDR@@YAXW4SoapySDRLogLevel@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+                 U _head_libSoapySDR_a
+
+ducms00121.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?loadModules@SoapySDR@@YAXXZ
+0000000000000000 I __imp_?loadModules@SoapySDR@@YAXXZ
+                 U _head_libSoapySDR_a
+
+ducms00120.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?loadModule@SoapySDR@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV23@@Z
+0000000000000000 I __imp_?loadModule@SoapySDR@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV23@@Z
+                 U _head_libSoapySDR_a
+
+ducms00119.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?listUARTs@Device@SoapySDR@@UEBA?AV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@XZ
+0000000000000000 I __imp_?listUARTs@Device@SoapySDR@@UEBA?AV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@XZ
+                 U _head_libSoapySDR_a
+
+ducms00118.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?listTimeSources@Device@SoapySDR@@UEBA?AV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@XZ
+0000000000000000 I __imp_?listTimeSources@Device@SoapySDR@@UEBA?AV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@XZ
+                 U _head_libSoapySDR_a
+
+ducms00117.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?listTargetFormats@ConverterRegistry@SoapySDR@@SA?AV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@@Z
+0000000000000000 I __imp_?listTargetFormats@ConverterRegistry@SoapySDR@@SA?AV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@@Z
+                 U _head_libSoapySDR_a
+
+ducms00116.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?listSourceFormats@ConverterRegistry@SoapySDR@@SA?AV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@@Z
+0000000000000000 I __imp_?listSourceFormats@ConverterRegistry@SoapySDR@@SA?AV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@@Z
+                 U _head_libSoapySDR_a
+
+ducms00115.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?listSensors@Device@SoapySDR@@UEBA?AV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@XZ
+0000000000000000 I __imp_?listSensors@Device@SoapySDR@@UEBA?AV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@XZ
+                 U _head_libSoapySDR_a
+
+ducms00114.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?listSensors@Device@SoapySDR@@UEBA?AV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@H_K@Z
+0000000000000000 I __imp_?listSensors@Device@SoapySDR@@UEBA?AV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@H_K@Z
+                 U _head_libSoapySDR_a
+
+ducms00113.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?listSearchPaths@SoapySDR@@YA?AV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@XZ
+0000000000000000 I __imp_?listSearchPaths@SoapySDR@@YA?AV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@XZ
+                 U _head_libSoapySDR_a
+
+ducms00112.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?listSampleRates@Device@SoapySDR@@UEBA?AV?$vector@NV?$allocator@N@std@@@std@@H_K@Z
+0000000000000000 I __imp_?listSampleRates@Device@SoapySDR@@UEBA?AV?$vector@NV?$allocator@N@std@@@std@@H_K@Z
+                 U _head_libSoapySDR_a
+
+ducms00111.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?listRegisterInterfaces@Device@SoapySDR@@UEBA?AV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@XZ
+0000000000000000 I __imp_?listRegisterInterfaces@Device@SoapySDR@@UEBA?AV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@XZ
+                 U _head_libSoapySDR_a
+
+ducms00110.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?listPriorities@ConverterRegistry@SoapySDR@@SA?AV?$vector@W4FunctionPriority@ConverterRegistry@SoapySDR@@V?$allocator@W4FunctionPriority@ConverterRegistry@SoapySDR@@@std@@@std@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@0@Z
+0000000000000000 I __imp_?listPriorities@ConverterRegistry@SoapySDR@@SA?AV?$vector@W4FunctionPriority@ConverterRegistry@SoapySDR@@V?$allocator@W4FunctionPriority@ConverterRegistry@SoapySDR@@@std@@@std@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@0@Z
+                 U _head_libSoapySDR_a
+
+ducms00109.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?listModules@SoapySDR@@YA?AV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@XZ
+0000000000000000 I __imp_?listModules@SoapySDR@@YA?AV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@XZ
+                 U _head_libSoapySDR_a
+
+ducms00108.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?listModules@SoapySDR@@YA?AV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@@Z
+0000000000000000 I __imp_?listModules@SoapySDR@@YA?AV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@@Z
+                 U _head_libSoapySDR_a
+
+ducms00107.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?listMakeFunctions@Registry@SoapySDR@@SA?AV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@P6APEAVDevice@SoapySDR@@AEBV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@2@@ZU?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@P6APEAVDevice@SoapySDR@@AEBV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@2@@Z@std@@@2@@std@@XZ
+0000000000000000 I __imp_?listMakeFunctions@Registry@SoapySDR@@SA?AV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@P6APEAVDevice@SoapySDR@@AEBV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@2@@ZU?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@P6APEAVDevice@SoapySDR@@AEBV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@2@@Z@std@@@2@@std@@XZ
+                 U _head_libSoapySDR_a
+
+ducms00106.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?listGains@Device@SoapySDR@@UEBA?AV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@H_K@Z
+0000000000000000 I __imp_?listGains@Device@SoapySDR@@UEBA?AV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@H_K@Z
+                 U _head_libSoapySDR_a
+
+ducms00105.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?listGPIOBanks@Device@SoapySDR@@UEBA?AV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@XZ
+0000000000000000 I __imp_?listGPIOBanks@Device@SoapySDR@@UEBA?AV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@XZ
+                 U _head_libSoapySDR_a
+
+ducms00104.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?listFrequencies@Device@SoapySDR@@UEBA?AV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@H_K@Z
+0000000000000000 I __imp_?listFrequencies@Device@SoapySDR@@UEBA?AV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@H_K@Z
+                 U _head_libSoapySDR_a
+
+ducms00103.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?listFindFunctions@Registry@SoapySDR@@SA?AV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@P6A?AV?$vector@V?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@std@@V?$allocator@V?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@std@@@2@@2@AEBV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@2@@ZU?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@P6A?AV?$vector@V?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@std@@V?$allocator@V?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@std@@@2@@2@AEBV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@2@@Z@std@@@2@@std@@XZ
+0000000000000000 I __imp_?listFindFunctions@Registry@SoapySDR@@SA?AV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@P6A?AV?$vector@V?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@std@@V?$allocator@V?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@std@@@2@@2@AEBV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@2@@ZU?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@P6A?AV?$vector@V?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@std@@V?$allocator@V?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@std@@@2@@2@AEBV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@2@@Z@std@@@2@@std@@XZ
+                 U _head_libSoapySDR_a
+
+ducms00102.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?listClockSources@Device@SoapySDR@@UEBA?AV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@XZ
+0000000000000000 I __imp_?listClockSources@Device@SoapySDR@@UEBA?AV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@XZ
+                 U _head_libSoapySDR_a
+
+ducms00101.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?listBandwidths@Device@SoapySDR@@UEBA?AV?$vector@NV?$allocator@N@std@@@std@@H_K@Z
+0000000000000000 I __imp_?listBandwidths@Device@SoapySDR@@UEBA?AV?$vector@NV?$allocator@N@std@@@std@@H_K@Z
+                 U _head_libSoapySDR_a
+
+ducms00100.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?listAvailableSourceFormats@ConverterRegistry@SoapySDR@@SA?AV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@XZ
+0000000000000000 I __imp_?listAvailableSourceFormats@ConverterRegistry@SoapySDR@@SA?AV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@XZ
+                 U _head_libSoapySDR_a
+
+ducms00099.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?listAntennas@Device@SoapySDR@@UEBA?AV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@H_K@Z
+0000000000000000 I __imp_?listAntennas@Device@SoapySDR@@UEBA?AV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@H_K@Z
+                 U _head_libSoapySDR_a
+
+ducms00098.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?hasIQBalanceMode@Device@SoapySDR@@UEBA_NH_K@Z
+0000000000000000 I __imp_?hasIQBalanceMode@Device@SoapySDR@@UEBA_NH_K@Z
+                 U _head_libSoapySDR_a
+
+ducms00097.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?hasIQBalance@Device@SoapySDR@@UEBA_NH_K@Z
+0000000000000000 I __imp_?hasIQBalance@Device@SoapySDR@@UEBA_NH_K@Z
+                 U _head_libSoapySDR_a
+
+ducms00096.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?hasHardwareTime@Device@SoapySDR@@UEBA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+0000000000000000 I __imp_?hasHardwareTime@Device@SoapySDR@@UEBA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+                 U _head_libSoapySDR_a
+
+ducms00095.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?hasGainMode@Device@SoapySDR@@UEBA_NH_K@Z
+0000000000000000 I __imp_?hasGainMode@Device@SoapySDR@@UEBA_NH_K@Z
+                 U _head_libSoapySDR_a
+
+ducms00094.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?hasFrequencyCorrection@Device@SoapySDR@@UEBA_NH_K@Z
+0000000000000000 I __imp_?hasFrequencyCorrection@Device@SoapySDR@@UEBA_NH_K@Z
+                 U _head_libSoapySDR_a
+
+ducms00093.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?hasDCOffsetMode@Device@SoapySDR@@UEBA_NH_K@Z
+0000000000000000 I __imp_?hasDCOffsetMode@Device@SoapySDR@@UEBA_NH_K@Z
+                 U _head_libSoapySDR_a
+
+ducms00092.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?hasDCOffset@Device@SoapySDR@@UEBA_NH_K@Z
+0000000000000000 I __imp_?hasDCOffset@Device@SoapySDR@@UEBA_NH_K@Z
+                 U _head_libSoapySDR_a
+
+ducms00091.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?getTimeSource@Device@SoapySDR@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
+0000000000000000 I __imp_?getTimeSource@Device@SoapySDR@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
+                 U _head_libSoapySDR_a
+
+ducms00090.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?getStreamMTU@Device@SoapySDR@@UEBA_KPEAVStream@2@@Z
+0000000000000000 I __imp_?getStreamMTU@Device@SoapySDR@@UEBA_KPEAVStream@2@@Z
+                 U _head_libSoapySDR_a
+
+ducms00089.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?getStreamFormats@Device@SoapySDR@@UEBA?AV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@H_K@Z
+0000000000000000 I __imp_?getStreamFormats@Device@SoapySDR@@UEBA?AV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@H_K@Z
+                 U _head_libSoapySDR_a
+
+ducms00088.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?getStreamArgsInfo@Device@SoapySDR@@UEBA?AV?$vector@VArgInfo@SoapySDR@@V?$allocator@VArgInfo@SoapySDR@@@std@@@std@@H_K@Z
+0000000000000000 I __imp_?getStreamArgsInfo@Device@SoapySDR@@UEBA?AV?$vector@VArgInfo@SoapySDR@@V?$allocator@VArgInfo@SoapySDR@@@std@@@std@@H_K@Z
+                 U _head_libSoapySDR_a
+
+ducms00087.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?getSettingInfo@Device@SoapySDR@@UEBA?AV?$vector@VArgInfo@SoapySDR@@V?$allocator@VArgInfo@SoapySDR@@@std@@@std@@XZ
+0000000000000000 I __imp_?getSettingInfo@Device@SoapySDR@@UEBA?AV?$vector@VArgInfo@SoapySDR@@V?$allocator@VArgInfo@SoapySDR@@@std@@@std@@XZ
+                 U _head_libSoapySDR_a
+
+ducms00086.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?getSettingInfo@Device@SoapySDR@@UEBA?AV?$vector@VArgInfo@SoapySDR@@V?$allocator@VArgInfo@SoapySDR@@@std@@@std@@H_K@Z
+0000000000000000 I __imp_?getSettingInfo@Device@SoapySDR@@UEBA?AV?$vector@VArgInfo@SoapySDR@@V?$allocator@VArgInfo@SoapySDR@@@std@@@std@@H_K@Z
+                 U _head_libSoapySDR_a
+
+ducms00085.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?getSensorInfo@Device@SoapySDR@@UEBA?AVArgInfo@2@H_KAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+0000000000000000 I __imp_?getSensorInfo@Device@SoapySDR@@UEBA?AVArgInfo@2@H_KAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+                 U _head_libSoapySDR_a
+
+ducms00084.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?getSensorInfo@Device@SoapySDR@@UEBA?AVArgInfo@2@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+0000000000000000 I __imp_?getSensorInfo@Device@SoapySDR@@UEBA?AVArgInfo@2@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+                 U _head_libSoapySDR_a
+
+ducms00083.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?getSampleRateRange@Device@SoapySDR@@UEBA?AV?$vector@VRange@SoapySDR@@V?$allocator@VRange@SoapySDR@@@std@@@std@@H_K@Z
+0000000000000000 I __imp_?getSampleRateRange@Device@SoapySDR@@UEBA?AV?$vector@VRange@SoapySDR@@V?$allocator@VRange@SoapySDR@@@std@@@std@@H_K@Z
+                 U _head_libSoapySDR_a
+
+ducms00082.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?getSampleRate@Device@SoapySDR@@UEBANH_K@Z
+0000000000000000 I __imp_?getSampleRate@Device@SoapySDR@@UEBANH_K@Z
+                 U _head_libSoapySDR_a
+
+ducms00081.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?getRootPath@SoapySDR@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
+0000000000000000 I __imp_?getRootPath@SoapySDR@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
+                 U _head_libSoapySDR_a
+
+ducms00080.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?getReferenceClockRates@Device@SoapySDR@@UEBA?AV?$vector@VRange@SoapySDR@@V?$allocator@VRange@SoapySDR@@@std@@@std@@XZ
+0000000000000000 I __imp_?getReferenceClockRates@Device@SoapySDR@@UEBA?AV?$vector@VRange@SoapySDR@@V?$allocator@VRange@SoapySDR@@@std@@@std@@XZ
+                 U _head_libSoapySDR_a
+
+ducms00079.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?getReferenceClockRate@Device@SoapySDR@@UEBANXZ
+0000000000000000 I __imp_?getReferenceClockRate@Device@SoapySDR@@UEBANXZ
+                 U _head_libSoapySDR_a
+
+ducms00078.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?getNumDirectAccessBuffers@Device@SoapySDR@@UEAA_KPEAVStream@2@@Z
+0000000000000000 I __imp_?getNumDirectAccessBuffers@Device@SoapySDR@@UEAA_KPEAVStream@2@@Z
+                 U _head_libSoapySDR_a
+
+ducms00077.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?getNumChannels@Device@SoapySDR@@UEBA_KH@Z
+0000000000000000 I __imp_?getNumChannels@Device@SoapySDR@@UEBA_KH@Z
+                 U _head_libSoapySDR_a
+
+ducms00076.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?getNativeStreamFormat@Device@SoapySDR@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H_KAEAN@Z
+0000000000000000 I __imp_?getNativeStreamFormat@Device@SoapySDR@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H_KAEAN@Z
+                 U _head_libSoapySDR_a
+
+ducms00075.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?getNativeDeviceHandle@Device@SoapySDR@@UEBAPEAXXZ
+0000000000000000 I __imp_?getNativeDeviceHandle@Device@SoapySDR@@UEBAPEAXXZ
+                 U _head_libSoapySDR_a
+
+ducms00074.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?getModuleVersion@SoapySDR@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV23@@Z
+0000000000000000 I __imp_?getModuleVersion@SoapySDR@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV23@@Z
+                 U _head_libSoapySDR_a
+
+ducms00073.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?getMasterClockRates@Device@SoapySDR@@UEBA?AV?$vector@VRange@SoapySDR@@V?$allocator@VRange@SoapySDR@@@std@@@std@@XZ
+0000000000000000 I __imp_?getMasterClockRates@Device@SoapySDR@@UEBA?AV?$vector@VRange@SoapySDR@@V?$allocator@VRange@SoapySDR@@@std@@@std@@XZ
+                 U _head_libSoapySDR_a
+
+ducms00072.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?getMasterClockRate@Device@SoapySDR@@UEBANXZ
+0000000000000000 I __imp_?getMasterClockRate@Device@SoapySDR@@UEBANXZ
+                 U _head_libSoapySDR_a
+
+ducms00071.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?getLoaderResult@SoapySDR@@YA?AV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@std@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@@Z
+0000000000000000 I __imp_?getLoaderResult@SoapySDR@@YA?AV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@std@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@@Z
+                 U _head_libSoapySDR_a
+
+ducms00070.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?getLibVersion@SoapySDR@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
+0000000000000000 I __imp_?getLibVersion@SoapySDR@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
+                 U _head_libSoapySDR_a
+
+ducms00069.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?getIQBalanceMode@Device@SoapySDR@@UEBA_NH_K@Z
+0000000000000000 I __imp_?getIQBalanceMode@Device@SoapySDR@@UEBA_NH_K@Z
+                 U _head_libSoapySDR_a
+
+ducms00068.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?getIQBalance@Device@SoapySDR@@UEBA?AV?$complex@N@std@@H_K@Z
+0000000000000000 I __imp_?getIQBalance@Device@SoapySDR@@UEBA?AV?$complex@N@std@@H_K@Z
+                 U _head_libSoapySDR_a
+
+ducms00067.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?getHardwareTime@Device@SoapySDR@@UEBA_JAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+0000000000000000 I __imp_?getHardwareTime@Device@SoapySDR@@UEBA_JAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+                 U _head_libSoapySDR_a
+
+ducms00066.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?getHardwareKey@Device@SoapySDR@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
+0000000000000000 I __imp_?getHardwareKey@Device@SoapySDR@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
+                 U _head_libSoapySDR_a
+
+ducms00065.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?getHardwareInfo@Device@SoapySDR@@UEBA?AV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@std@@XZ
+0000000000000000 I __imp_?getHardwareInfo@Device@SoapySDR@@UEBA?AV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@std@@XZ
+                 U _head_libSoapySDR_a
+
+ducms00064.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?getGainRange@Device@SoapySDR@@UEBA?AVRange@2@H_KAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+0000000000000000 I __imp_?getGainRange@Device@SoapySDR@@UEBA?AVRange@2@H_KAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+                 U _head_libSoapySDR_a
+
+ducms00063.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?getGainRange@Device@SoapySDR@@UEBA?AVRange@2@H_K@Z
+0000000000000000 I __imp_?getGainRange@Device@SoapySDR@@UEBA?AVRange@2@H_K@Z
+                 U _head_libSoapySDR_a
+
+ducms00062.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?getGainMode@Device@SoapySDR@@UEBA_NH_K@Z
+0000000000000000 I __imp_?getGainMode@Device@SoapySDR@@UEBA_NH_K@Z
+                 U _head_libSoapySDR_a
+
+ducms00061.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?getGain@Device@SoapySDR@@UEBANH_KAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+0000000000000000 I __imp_?getGain@Device@SoapySDR@@UEBANH_KAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+                 U _head_libSoapySDR_a
+
+ducms00060.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?getGain@Device@SoapySDR@@UEBANH_K@Z
+0000000000000000 I __imp_?getGain@Device@SoapySDR@@UEBANH_K@Z
+                 U _head_libSoapySDR_a
+
+ducms00059.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?getFunction@ConverterRegistry@SoapySDR@@SAP6AXPEBXPEAX_KN@ZAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@3AEBW4FunctionPriority@12@@Z
+0000000000000000 I __imp_?getFunction@ConverterRegistry@SoapySDR@@SAP6AXPEBXPEAX_KN@ZAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@3AEBW4FunctionPriority@12@@Z
+                 U _head_libSoapySDR_a
+
+ducms00058.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?getFunction@ConverterRegistry@SoapySDR@@SAP6AXPEBXPEAX_KN@ZAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@3@Z
+0000000000000000 I __imp_?getFunction@ConverterRegistry@SoapySDR@@SAP6AXPEBXPEAX_KN@ZAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@3@Z
+                 U _head_libSoapySDR_a
+
+ducms00057.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?getFullDuplex@Device@SoapySDR@@UEBA_NH_K@Z
+0000000000000000 I __imp_?getFullDuplex@Device@SoapySDR@@UEBA_NH_K@Z
+                 U _head_libSoapySDR_a
+
+ducms00056.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?getFrontendMapping@Device@SoapySDR@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z
+0000000000000000 I __imp_?getFrontendMapping@Device@SoapySDR@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z
+                 U _head_libSoapySDR_a
+
+ducms00055.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?getFrequencyRange@Device@SoapySDR@@UEBA?AV?$vector@VRange@SoapySDR@@V?$allocator@VRange@SoapySDR@@@std@@@std@@H_KAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@@Z
+0000000000000000 I __imp_?getFrequencyRange@Device@SoapySDR@@UEBA?AV?$vector@VRange@SoapySDR@@V?$allocator@VRange@SoapySDR@@@std@@@std@@H_KAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@@Z
+                 U _head_libSoapySDR_a
+
+ducms00054.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?getFrequencyRange@Device@SoapySDR@@UEBA?AV?$vector@VRange@SoapySDR@@V?$allocator@VRange@SoapySDR@@@std@@@std@@H_K@Z
+0000000000000000 I __imp_?getFrequencyRange@Device@SoapySDR@@UEBA?AV?$vector@VRange@SoapySDR@@V?$allocator@VRange@SoapySDR@@@std@@@std@@H_K@Z
+                 U _head_libSoapySDR_a
+
+ducms00053.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?getFrequencyCorrection@Device@SoapySDR@@UEBANH_K@Z
+0000000000000000 I __imp_?getFrequencyCorrection@Device@SoapySDR@@UEBANH_K@Z
+                 U _head_libSoapySDR_a
+
+ducms00052.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?getFrequencyArgsInfo@Device@SoapySDR@@UEBA?AV?$vector@VArgInfo@SoapySDR@@V?$allocator@VArgInfo@SoapySDR@@@std@@@std@@H_K@Z
+0000000000000000 I __imp_?getFrequencyArgsInfo@Device@SoapySDR@@UEBA?AV?$vector@VArgInfo@SoapySDR@@V?$allocator@VArgInfo@SoapySDR@@@std@@@std@@H_K@Z
+                 U _head_libSoapySDR_a
+
+ducms00051.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?getFrequency@Device@SoapySDR@@UEBANH_KAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+0000000000000000 I __imp_?getFrequency@Device@SoapySDR@@UEBANH_KAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+                 U _head_libSoapySDR_a
+
+ducms00050.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?getFrequency@Device@SoapySDR@@UEBANH_K@Z
+0000000000000000 I __imp_?getFrequency@Device@SoapySDR@@UEBANH_K@Z
+                 U _head_libSoapySDR_a
+
+ducms00049.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?getDriverKey@Device@SoapySDR@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
+0000000000000000 I __imp_?getDriverKey@Device@SoapySDR@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
+                 U _head_libSoapySDR_a
+
+ducms00048.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?getDirectAccessBufferAddrs@Device@SoapySDR@@UEAAHPEAVStream@2@_KPEAPEAX@Z
+0000000000000000 I __imp_?getDirectAccessBufferAddrs@Device@SoapySDR@@UEAAHPEAVStream@2@_KPEAPEAX@Z
+                 U _head_libSoapySDR_a
+
+ducms00047.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?getDCOffsetMode@Device@SoapySDR@@UEBA_NH_K@Z
+0000000000000000 I __imp_?getDCOffsetMode@Device@SoapySDR@@UEBA_NH_K@Z
+                 U _head_libSoapySDR_a
+
+ducms00046.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?getDCOffset@Device@SoapySDR@@UEBA?AV?$complex@N@std@@H_K@Z
+0000000000000000 I __imp_?getDCOffset@Device@SoapySDR@@UEBA?AV?$complex@N@std@@H_K@Z
+                 U _head_libSoapySDR_a
+
+ducms00045.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?getClockSource@Device@SoapySDR@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
+0000000000000000 I __imp_?getClockSource@Device@SoapySDR@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
+                 U _head_libSoapySDR_a
+
+ducms00044.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?getChannelInfo@Device@SoapySDR@@UEBA?AV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@std@@H_K@Z
+0000000000000000 I __imp_?getChannelInfo@Device@SoapySDR@@UEBA?AV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@std@@H_K@Z
+                 U _head_libSoapySDR_a
+
+ducms00043.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?getBandwidthRange@Device@SoapySDR@@UEBA?AV?$vector@VRange@SoapySDR@@V?$allocator@VRange@SoapySDR@@@std@@@std@@H_K@Z
+0000000000000000 I __imp_?getBandwidthRange@Device@SoapySDR@@UEBA?AV?$vector@VRange@SoapySDR@@V?$allocator@VRange@SoapySDR@@@std@@@std@@H_K@Z
+                 U _head_libSoapySDR_a
+
+ducms00042.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?getBandwidth@Device@SoapySDR@@UEBANH_K@Z
+0000000000000000 I __imp_?getBandwidth@Device@SoapySDR@@UEBANH_K@Z
+                 U _head_libSoapySDR_a
+
+ducms00041.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?getAntenna@Device@SoapySDR@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H_K@Z
+0000000000000000 I __imp_?getAntenna@Device@SoapySDR@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H_K@Z
+                 U _head_libSoapySDR_a
+
+ducms00040.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?getAPIVersion@SoapySDR@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
+0000000000000000 I __imp_?getAPIVersion@SoapySDR@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
+                 U _head_libSoapySDR_a
+
+ducms00039.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?getABIVersion@SoapySDR@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
+0000000000000000 I __imp_?getABIVersion@SoapySDR@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
+                 U _head_libSoapySDR_a
+
+ducms00038.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?formatToSize@SoapySDR@@YA_KAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+0000000000000000 I __imp_?formatToSize@SoapySDR@@YA_KAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+                 U _head_libSoapySDR_a
+
+ducms00037.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?errToStr@SoapySDR@@YAPEBDH@Z
+0000000000000000 I __imp_?errToStr@SoapySDR@@YAPEBDH@Z
+                 U _head_libSoapySDR_a
+
+ducms00036.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?enumerate@Device@SoapySDR@@SA?AV?$vector@V?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@std@@V?$allocator@V?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@std@@@2@@std@@AEBV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@4@@Z
+0000000000000000 I __imp_?enumerate@Device@SoapySDR@@SA?AV?$vector@V?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@std@@V?$allocator@V?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@std@@@2@@std@@AEBV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@4@@Z
+                 U _head_libSoapySDR_a
+
+ducms00035.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?enumerate@Device@SoapySDR@@SA?AV?$vector@V?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@std@@V?$allocator@V?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@std@@@2@@std@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@@Z
+0000000000000000 I __imp_?enumerate@Device@SoapySDR@@SA?AV?$vector@V?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@std@@V?$allocator@V?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@std@@@2@@std@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@@Z
+                 U _head_libSoapySDR_a
+
+ducms00034.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?deactivateStream@Device@SoapySDR@@UEAAHPEAVStream@2@H_J@Z
+0000000000000000 I __imp_?deactivateStream@Device@SoapySDR@@UEAAHPEAVStream@2@H_J@Z
+                 U _head_libSoapySDR_a
+
+ducms00033.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?closeStream@Device@SoapySDR@@UEAAXPEAVStream@2@@Z
+0000000000000000 I __imp_?closeStream@Device@SoapySDR@@UEAAXPEAVStream@2@@Z
+                 U _head_libSoapySDR_a
+
+ducms00032.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?activateStream@Device@SoapySDR@@UEAAHPEAVStream@2@H_J_K@Z
+0000000000000000 I __imp_?activateStream@Device@SoapySDR@@UEAAHPEAVStream@2@H_J_K@Z
+                 U _head_libSoapySDR_a
+
+ducms00031.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?acquireWriteBuffer@Device@SoapySDR@@UEAAHPEAVStream@2@AEA_KPEAPEAXJ@Z
+0000000000000000 I __imp_?acquireWriteBuffer@Device@SoapySDR@@UEAAHPEAVStream@2@AEA_KPEAPEAXJ@Z
+                 U _head_libSoapySDR_a
+
+ducms00030.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?acquireReadBuffer@Device@SoapySDR@@UEAAHPEAVStream@2@AEA_KPEAPEBXAEAHAEA_JJ@Z
+0000000000000000 I __imp_?acquireReadBuffer@Device@SoapySDR@@UEAAHPEAVStream@2@AEA_KPEAPEBXAEAHAEA_JJ@Z
+                 U _head_libSoapySDR_a
+
+ducms00029.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?KwargsToString@SoapySDR@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@3@@Z
+0000000000000000 I __imp_?KwargsToString@SoapySDR@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@3@@Z
+                 U _head_libSoapySDR_a
+
+ducms00028.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ?KwargsFromString@SoapySDR@@YA?AV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@std@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@@Z
+0000000000000000 I __imp_?KwargsFromString@SoapySDR@@YA?AV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@std@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@@Z
+                 U _head_libSoapySDR_a
+
+ducms00027.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ??_FModuleManager@SoapySDR@@QEAAXXZ
+0000000000000000 I __imp_??_FModuleManager@SoapySDR@@QEAAXXZ
+                 U _head_libSoapySDR_a
+
+ducms00026.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ??4Registry@SoapySDR@@QEAAAEAV01@AEBV01@@Z
+0000000000000000 I __imp_??4Registry@SoapySDR@@QEAAAEAV01@AEBV01@@Z
+                 U _head_libSoapySDR_a
+
+ducms00025.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ??4Range@SoapySDR@@QEAAAEAV01@AEBV01@@Z
+0000000000000000 I __imp_??4Range@SoapySDR@@QEAAAEAV01@AEBV01@@Z
+                 U _head_libSoapySDR_a
+
+ducms00024.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ??4Range@SoapySDR@@QEAAAEAV01@$$QEAV01@@Z
+0000000000000000 I __imp_??4Range@SoapySDR@@QEAAAEAV01@$$QEAV01@@Z
+                 U _head_libSoapySDR_a
+
+ducms00023.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ??4ModuleVersion@SoapySDR@@QEAAAEAV01@AEBV01@@Z
+0000000000000000 I __imp_??4ModuleVersion@SoapySDR@@QEAAAEAV01@AEBV01@@Z
+                 U _head_libSoapySDR_a
+
+ducms00022.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ??4ModuleVersion@SoapySDR@@QEAAAEAV01@$$QEAV01@@Z
+0000000000000000 I __imp_??4ModuleVersion@SoapySDR@@QEAAAEAV01@$$QEAV01@@Z
+                 U _head_libSoapySDR_a
+
+ducms00021.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ??4ModuleManager@SoapySDR@@QEAAAEAV01@AEBV01@@Z
+0000000000000000 I __imp_??4ModuleManager@SoapySDR@@QEAAAEAV01@AEBV01@@Z
+                 U _head_libSoapySDR_a
+
+ducms00020.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ??4Device@SoapySDR@@QEAAAEAV01@AEBV01@@Z
+0000000000000000 I __imp_??4Device@SoapySDR@@QEAAAEAV01@AEBV01@@Z
+                 U _head_libSoapySDR_a
+
+ducms00019.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ??4ConverterRegistry@SoapySDR@@QEAAAEAV01@AEBV01@@Z
+0000000000000000 I __imp_??4ConverterRegistry@SoapySDR@@QEAAAEAV01@AEBV01@@Z
+                 U _head_libSoapySDR_a
+
+ducms00018.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ??4ConverterRegistry@SoapySDR@@QEAAAEAV01@$$QEAV01@@Z
+0000000000000000 I __imp_??4ConverterRegistry@SoapySDR@@QEAAAEAV01@$$QEAV01@@Z
+                 U _head_libSoapySDR_a
+
+ducms00017.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ??4ArgInfo@SoapySDR@@QEAAAEAV01@AEBV01@@Z
+0000000000000000 I __imp_??4ArgInfo@SoapySDR@@QEAAAEAV01@AEBV01@@Z
+                 U _head_libSoapySDR_a
+
+ducms00016.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ??4ArgInfo@SoapySDR@@QEAAAEAV01@$$QEAV01@@Z
+0000000000000000 I __imp_??4ArgInfo@SoapySDR@@QEAAAEAV01@$$QEAV01@@Z
+                 U _head_libSoapySDR_a
+
+ducms00015.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ??1Registry@SoapySDR@@QEAA@XZ
+0000000000000000 I __imp_??1Registry@SoapySDR@@QEAA@XZ
+                 U _head_libSoapySDR_a
+
+ducms00014.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ??1ModuleManager@SoapySDR@@QEAA@XZ
+0000000000000000 I __imp_??1ModuleManager@SoapySDR@@QEAA@XZ
+                 U _head_libSoapySDR_a
+
+ducms00013.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ??1Device@SoapySDR@@UEAA@XZ
+0000000000000000 I __imp_??1Device@SoapySDR@@UEAA@XZ
+                 U _head_libSoapySDR_a
+
+ducms00012.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ??1ArgInfo@SoapySDR@@QEAA@XZ
+0000000000000000 I __imp_??1ArgInfo@SoapySDR@@QEAA@XZ
+                 U _head_libSoapySDR_a
+
+ducms00011.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ??0Registry@SoapySDR@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBQ6A?AV?$vector@V?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@std@@V?$allocator@V?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@std@@@2@@3@AEBV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@3@@ZAEBQ6APEAVDevice@1@1@Z0@Z
+0000000000000000 I __imp_??0Registry@SoapySDR@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBQ6A?AV?$vector@V?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@std@@V?$allocator@V?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@std@@@2@@3@AEBV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@3@@ZAEBQ6APEAVDevice@1@1@Z0@Z
+                 U _head_libSoapySDR_a
+
+ducms00010.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ??0Registry@SoapySDR@@QEAA@AEBV01@@Z
+0000000000000000 I __imp_??0Registry@SoapySDR@@QEAA@AEBV01@@Z
+                 U _head_libSoapySDR_a
+
+ducms00009.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ??0Range@SoapySDR@@QEAA@XZ
+0000000000000000 I __imp_??0Range@SoapySDR@@QEAA@XZ
+                 U _head_libSoapySDR_a
+
+ducms00008.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ??0Range@SoapySDR@@QEAA@NNN@Z
+0000000000000000 I __imp_??0Range@SoapySDR@@QEAA@NNN@Z
+                 U _head_libSoapySDR_a
+
+ducms00007.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ??0ModuleVersion@SoapySDR@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+0000000000000000 I __imp_??0ModuleVersion@SoapySDR@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+                 U _head_libSoapySDR_a
+
+ducms00006.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ??0ModuleManager@SoapySDR@@QEAA@_N@Z
+0000000000000000 I __imp_??0ModuleManager@SoapySDR@@QEAA@_N@Z
+                 U _head_libSoapySDR_a
+
+ducms00005.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ??0Device@SoapySDR@@QEAA@XZ
+0000000000000000 I __imp_??0Device@SoapySDR@@QEAA@XZ
+                 U _head_libSoapySDR_a
+
+ducms00004.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ??0Device@SoapySDR@@QEAA@AEBV01@@Z
+0000000000000000 I __imp_??0Device@SoapySDR@@QEAA@AEBV01@@Z
+                 U _head_libSoapySDR_a
+
+ducms00003.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ??0ConverterRegistry@SoapySDR@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0AEBW4FunctionPriority@01@P6AXPEBXPEAX_KN@Z@Z
+0000000000000000 I __imp_??0ConverterRegistry@SoapySDR@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0AEBW4FunctionPriority@01@P6AXPEBXPEAX_KN@Z@Z
+                 U _head_libSoapySDR_a
+
+ducms00002.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ??0ArgInfo@SoapySDR@@QEAA@XZ
+0000000000000000 I __imp_??0ArgInfo@SoapySDR@@QEAA@XZ
+                 U _head_libSoapySDR_a
+
+ducms00001.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ??0ArgInfo@SoapySDR@@QEAA@AEBV01@@Z
+0000000000000000 I __imp_??0ArgInfo@SoapySDR@@QEAA@AEBV01@@Z
+                 U _head_libSoapySDR_a
+
+ducms00000.o:
+0000000000000000 b .bss
+0000000000000000 d .data
+0000000000000000 i .idata$4
+0000000000000000 i .idata$5
+0000000000000000 i .idata$6
+0000000000000000 i .idata$7
+0000000000000000 t .text
+0000000000000000 T ??0ArgInfo@SoapySDR@@QEAA@$$QEAV01@@Z
+0000000000000000 I __imp_??0ArgInfo@SoapySDR@@QEAA@$$QEAV01@@Z
+                 U _head_libSoapySDR_a
