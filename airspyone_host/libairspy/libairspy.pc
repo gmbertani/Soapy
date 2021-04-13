@@ -1,4 +1,4 @@
-prefix=C:/Program Files/Soapy
+prefix=D:/program files/Soapy
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include

@@ -2,54 +2,54 @@ rem ----------------------------------------------------------------
 rem BUILDALL
 rem builds SoapySDR utilities, library and devices support libraries
 rem ----------------------------------------------------------------
-SET INSTALL_PREFIX="c:\program files\Soapy"
+@echo off 
 
+SET INSTALL_PREFIX="d:\program files\Soapy"
+rem rmdir /s /q %INSTALL_PREFIX%
 rem GOTO SKIP
 
-rem builds the unixem library firs
+rem builds the unixem library first
 cd UNIXem\build\mingw730
 make clean
 cd ..\..\..
 
 cd SoapySDR\build
+make clean
 rmdir /s /q CMakeFiles
 del /q CMakeCache.*
-
-make clean
 cd ..\..
 
 cd librtlsdr
+make clean
 rmdir /s /q CMakeFiles
 del /q CMakeCache.*
-make clean
 cd ..
 
 cd SoapyRTLSDR
+make clean
 rmdir /s /q CMakeFiles
 del /q CMakeCache.*
-make clean
 cd ..
-
 
 cd airspyone_host
+make clean
 rmdir /s /q CMakeFiles
 del /q CMakeCache.*
-make clean
 cd ..
 
-
 cd SoapyAirspy
+make clean
 rmdir /s /q CMakeFiles
 del /q CMakeCache.*
-make clean
 cd ..
 
 
 
 cd SoapyAudio
+make clean
 rmdir /s /q CMakeFiles
 del /q CMakeCache.*
-make clean
 
 
+pause
 

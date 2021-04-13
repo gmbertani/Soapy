@@ -1,1 +1,1 @@
-C:/Program Files/Soapy/lib/SoapySDR/modules0.8/libaudioSupport.dll
+D:/program files/Soapy/lib/SoapySDR/modules0.8/libaudioSupport.dll

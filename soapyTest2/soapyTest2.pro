@@ -3,11 +3,9 @@ CONFIG += console
 CONFIG -= app_bundle
 CONFIG -= qt
 
-#INCLUDEPATH += $$quote("d:\program files\PothosSDR\include")
-#LIBS += -L$$quote("d:\program files\PothosSDR\bin") -lSoapySDR
-
-INCLUDEPATH += $$quote("C:\program files\Soapy\include")
-LIBS += -L$$quote("c:\program files\Soapy\bin") -lSoapySDR
+SOAPY_INSTALL_PATH = $$quote("D:/program files/Soapy")
+INCLUDEPATH += $$SOAPY_INSTALL_PATH/include
+LIBS += -L$$SOAPY_INSTALL_PATH/bin -lSoapySDR
 
 SOURCES = \
         main.cpp
