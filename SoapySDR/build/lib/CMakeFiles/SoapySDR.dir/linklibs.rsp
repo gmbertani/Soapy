@@ -1,0 +1,1 @@
+  -LD:/Users/massimo/Documents/sviluppo/echoes-related/Soapy/SoapySDR/../UNIXem/lib  -Wl,-Bstatic -lunixem.core.mingw730 -Wl,-Bdynamic -pthread -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
