@@ -1,0 +1,37 @@
+Source: soapyuhd
+Section: libs
+Priority: optional
+Maintainer: Josh Blum <josh@pothosware.com>
+Build-Depends:
+    debhelper (>= 9.0.0),
+    cmake,
+    libboost-all-dev,
+    libuhd-dev,
+    libsoapysdr-dev
+Standards-Version: 4.1.4
+Homepage: https://github.com/pothosware/SoapyUHD/wiki
+Vcs-Git: https://github.com/pothosware/SoapyUHD.git
+Vcs-Browser: https://github.com/pothosware/SoapyUHD
+
+Package: soapysdr0.7-module-uhd
+Architecture: any
+Multi-Arch: same
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Soapy UHD - UHD devices for Soapy SDR.
+ A Soapy module that supports UHD devices within the Soapy API.
+
+Package: soapysdr-module-uhd
+Architecture: all
+Depends: soapysdr0.7-module-uhd, ${misc:Depends}
+Description: Soapy UHD - UHD devices for Soapy SDR.
+ A Soapy module that supports UHD devices within the Soapy API.
+ .
+ This is an empty dependency package that pulls in the USRP module
+ for the default version of libsoapysdr.
+
+Package: uhd-soapysdr
+Architecture: any
+Multi-Arch: same
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Soapy UHD - Soapy SDR devices for UHD.
+ A UHD module that supports Soapy devices within the UHD API.

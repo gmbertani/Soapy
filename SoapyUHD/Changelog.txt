@@ -1,0 +1,94 @@
+Release 0.4.1 (pending)
+==========================
+
+- Fix get_tree() for X300 on UHD 4.0 release
+- Fix for getBandwidthRange() for SOAPY_SDR_RX
+
+Release 0.4.1 (2020-09-20)
+==========================
+
+- Fix for UHD_VERSION define and 4.0 release compilation
+
+Release 0.4.0 (2020-09-17)
+==========================
+
+- Support for compilation with UHD 4.0 release
+
+Release 0.3.6 (2019-06-22)
+==========================
+
+- Support tuning on boards without a CORDIC in the DSP
+  by registering a dummy second tuning element
+
+Release 0.3.5 (2018-12-07)
+==========================
+
+- Create fake channels if the number of TX and RX channels
+  are not equal to fix segmentation faults in UHD based tools
+
+Release 0.3.4 (2017-12-14)
+==========================
+
+- Optional check for dsp freq range in property tree
+- Tx de/activateStream() return 0 for NOP, not an error
+- Support timestamp for deactivateStream() stream command
+- Conditional support for new logging API (replaces msg.hpp)
+- Tx stream activation hooks based on start and end of burst
+
+Release 0.3.3 (2017-04-29)
+==========================
+
+- Results for frequency component with no tune result
+- Fix arg for set_rx_subdev_spec() in UHDSoapyDevice
+- Support getBandwidthRange()/getSampleRateRange()
+- UHDSoapyDevice supports zero length buffer send()
+- Implement timestamp interpolation for uhd rx streams
+- Added label convention to soapy uhd discovery routine
+- Support for optional gain range step in type conversions
+
+Release 0.3.2 (2017-01-22)
+==========================
+
+- Added tx/rx_subdev device argument for uhd device
+- Added corrections hooks for soapy devices in uhd
+- Symlinks to workaround uhd 3.10 multi-arch bug
+- Minor corrections for license and copyright text
+- Update debian files for SoapySDR module ABI format
+
+Release 0.3.1 (2016-08-13)
+==========================
+
+- support setHardwareTime("CMD"), deprecated setCommandTime()
+- support changes to property tree API (backwards compatible)
+- support property tree API changes for uhd v3.10.0
+
+Release 0.3.0 (2015-11-20)
+==========================
+
+- SoapyUHDDevice - implement getSensorInfo() for SoapySDR v0.4
+- SoapyUHDDevice - implement getStreamArgsInfo() for SoapySDR v0.4
+- SoapyUHDDevice - implement getNativeStreamFormat() for SoapySDR v0.4
+- SoapyUHDDevice - implement getStreamFormats() for SoapySDR v0.4
+- UHDSoapyDevice - use getSensorInfo() for sensors
+
+Release 0.2.0 (2015-10-10)
+==========================
+
+- Hooks for 'has' DC offset mode, DC offset, and IQ balance
+- Switched to using per-channel and global sensors API
+- Added GPIO access support for Soapy UHD and vice-versa
+
+Release 0.1.2 (2015-09-13)
+==========================
+
+- Fix metaRangeToNumericList for single element entries
+
+Release 0.1.1 (2015-08-15)
+==========================
+
+- Modifications for ubuntu 12.04 w/ cmake 2.8.7
+
+Release 0.1.0 (2015-06-15)
+==========================
+
+- Initial release of Soapy UHD support module
