@@ -1,0 +1,29 @@
+Source: soapybladerf
+Section: libs
+Priority: optional
+Maintainer: Josh Blum <josh@pothosware.com>
+Build-Depends:
+    debhelper (>= 9.0.0),
+    cmake,
+    libbladerf-dev,
+    libsoapysdr-dev
+Standards-Version: 4.1.4
+Homepage: https://github.com/pothosware/SoapyBladeRF/wiki
+Vcs-Git: https://github.com/pothosware/SoapyBladeRF.git
+Vcs-Browser: https://github.com/pothosware/SoapyBladeRF
+
+Package: soapysdr0.7-module-bladerf
+Architecture: any
+Multi-Arch: same
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Soapy BladeRF - BladeRF device support for Soapy SDR.
+ A Soapy module that supports BladeRF devices within the Soapy API.
+
+Package: soapysdr-module-bladerf
+Architecture: all
+Depends: soapysdr0.7-module-bladerf, ${misc:Depends}
+Description: Soapy BladeRF - BladeRF device support for Soapy SDR.
+ A Soapy module that supports BladeRF devices within the Soapy API.
+ .
+ This is an empty dependency package that pulls in the BladeRF module
+ for the default version of libsoapysdr.

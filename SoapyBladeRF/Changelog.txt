@@ -1,0 +1,82 @@
+Release 0.4.1 (2019-01-26)
+==========================
+
+- Support for MIMO 2x channel streams
+- Added bladerfv2 RSSI and Temperature sensors
+- Added bladerfv2 RFIC register access
+- Switch to name-based register access API
+- Range and gain stage APIs for gain, bandwidth, frequency
+- Remove ifdefs for v2 and other version conditionals
+  This is too complicated to maintain across versions.
+
+Release 0.4.0 (2018-12-07)
+==========================
+
+- Support for version2 of the libbladerf API
+
+Release 0.3.5 (2018-03-06)
+==========================
+
+- Added settings hooks for device loading and programming
+- Fixed formatting for setGainMode error message
+- Conditional check for bladerf gain mode support
+
+Release 0.3.4 (2018-01-16)
+==========================
+
+- Support for setting the gain mode (hardware AGC)
+- Support for DC offset and IQ imbalance corrections
+- Added readback support for arbitrary settings API
+
+Release 0.3.3 (2017-04-29)
+==========================
+
+- Added label convention to bladerf discovery routine
+- Update debian files for SoapySDR module ABI format
+
+Release 0.3.2 (2016-05-20)
+==========================
+
+- Added settings hooks for xb200 support
+- Added settings hooks for sampling mode
+- Added settings hooks for loopback modes
+
+Release 0.3.1 (2016-03-01)
+==========================
+
+- Fix tx end of burst implementation in deactivateStream()
+- Clear EOB when the last sample will not be transmitted
+- Implemented masked GPIO write based on v1.5.0 API
+
+Release 0.3.0 (2015-11-20)
+==========================
+
+- Implemented getStreamFormats() for SoapySDR v0.4
+- Implemented getNativeStreamFormat() for SoapySDR v0.4
+- Implemented getStreamArgsInfo() for SoapySDR v0.4
+
+Release 0.2.0 (2015-10-10)
+==========================
+
+- Added GPIO access hooks for CONFIG and EXPANSION bank
+
+Release 0.1.2 (2015-09-16)
+==========================
+
+- Return SOAPY_SDR_NOT_SUPPORTED for RX readStreamStatus()
+- Fix readStreamStatus() timeout infinite loop condition
+
+Release 0.1.1 (2015-08-15)
+==========================
+
+- Fix undefined behavior with bladerf_sync_rx() minimum timeout
+- Clip read/write number of samples to conversion buffer size
+- Arbitrary sized conversion buffers based on buffer size
+- Fix find function serial string to use null terminator
+- Support use of BLADERF_META_FLAG_TX_UPDATE_TIMESTAMP flag
+- Remove BLADERF_META_FLAG_TX_BURST_END padding (2015.07)
+
+Release 0.1.0 (2015-07-14)
+==========================
+
+- Initial release of Soapy BladeRF support module
