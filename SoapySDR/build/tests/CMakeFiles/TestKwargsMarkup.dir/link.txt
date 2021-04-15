@@ -1,3 +1,0 @@
-"D:\program files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\TestKwargsMarkup.dir/objects.a
-D:\Qt\Tools\mingw730_64\bin\ar.exe cr CMakeFiles\TestKwargsMarkup.dir/objects.a @CMakeFiles\TestKwargsMarkup.dir\objects1.rsp
-D:\Qt\Tools\mingw730_64\bin\g++.exe -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\TestKwargsMarkup.dir/objects.a -Wl,--no-whole-archive -o TestKwargsMarkup.exe -Wl,--out-implib,libTestKwargsMarkup.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\TestKwargsMarkup.dir\linklibs.rsp
