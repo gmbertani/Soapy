@@ -5,6 +5,7 @@
 #include <SoapySDR/Device.hpp>
 #include <SoapySDR/Types.hpp>
 #include <SoapySDR/Formats.hpp>
+#include <SoapySDR/Logger.hpp>
 
 #include <string>	// string
 #include <vector>	// vector<...>
@@ -14,6 +15,7 @@ using namespace std;
 
 int main()
 {
+    SoapySDR::setLogLevel(SOAPY_SDR_DEBUG);
 
     // 0. enumerate devices (list all devices' information)
     SoapySDR::KwargsList results = SoapySDR::Device::enumerate();
@@ -22,7 +24,7 @@ int main()
     for(i = 0; i < results.size(); ++i)
     {
         cout << "*******************************************" << endl;
-        cout << "Found device #" << (char)(i+'0') << " ";
+        cout << "Found device #" << (char)(i+'0') << " " << endl;
         for( it = results[i].begin(); it != results[i].end(); ++it)
         {
              cout << it->first.c_str() << " = " << it->second.c_str() << endl;
@@ -48,7 +50,7 @@ int main()
         while(i >= results.size());
 
         cout << "************" << endl;
-        cout << "Testing device#" << i;
+        cout << "Testing device (" << (char)(i+'0')  << ") " << endl;
         string driver = "";
 
         for( it = results[i].begin(); it != results[i].end(); ++it)
@@ -92,7 +94,9 @@ int main()
         {
             cout << str_list[i].c_str() << ", ";
         }
-        cout << endl;
+
+        string antenna = sdr->getAntenna( SOAPY_SDR_RX, 0 );
+        cout << " current selected: " << antenna << endl;
 
         //	2.2 gains
         str_list = sdr->listGains( SOAPY_SDR_RX, 0 );
@@ -104,20 +108,62 @@ int main()
         }
         cout << endl;
 
-        //	2.3. ranges(frequency ranges)
-        SoapySDR::RangeList ranges = sdr->getFrequencyRange( SOAPY_SDR_RX, 0 );
+        bool autoGain = false;
+        if( sdr->hasGainMode( SOAPY_SDR_RX, 0 ) )
+        {
+            autoGain = sdr->getGainMode( SOAPY_SDR_RX, 0 );
+            cout << "Automatic gain status: " << autoGain << endl;
+        }
+
+        if(autoGain == false)
+        {
+            SoapySDR::Range gainRange;
+            double gain;
+            for(uint8_t i = 0; i < str_list.size(); ++i)
+            {
+                gainRange = sdr->getGainRange( SOAPY_SDR_RX, 0, str_list[i].c_str() );
+                gain = sdr->getGain( SOAPY_SDR_RX, 0, str_list[i].c_str() );
+                cout << str_list[i].c_str() << " gain range =  ["
+                    << gainRange.minimum() << ".." << gainRange.maximum() << "] = " << gain << " dB" << endl;
+            }
+        }
+
+
+
+        //	2.4. frequency ranges
+        SoapySDR::RangeList frequencies = sdr->getFrequencyRange( SOAPY_SDR_RX, 0 );
 
         cout << "Rx freq ranges: ";
-        for(uint8_t i = 0; i < ranges.size(); ++i)
+        for(uint8_t i = 0; i < frequencies.size(); ++i)
         {
-            cout << "[" << ranges[i].minimum() << "Hz -> " << ranges[i].maximum() << "Hz], ";
+            cout << "[" << frequencies[i].minimum() << "Hz -> " << frequencies[i].maximum() << "Hz], ";
+        }
+        cout << endl;
+
+        //	2.5. sample rate range
+        SoapySDR::RangeList rates = sdr->getSampleRateRange(SOAPY_SDR_RX, 0);
+        cout << "Rx sample rate ranges: ";
+        for(uint8_t i = 0; i < rates.size(); ++i)
+        {
+            cout << "[" << rates[i].minimum() << "Hz -> " << rates[i].maximum() << "Hz], ";
         }
         cout << endl;
 
         // 3. apply settings
-        sdr->setSampleRate( SOAPY_SDR_RX, 0, 1e6 );
+        if(driver == "audio")
+        {
+            cout << "Audio device, setting freq=4800Hz with SR=9600Hz" << endl;
+            sdr->setSampleRate( SOAPY_SDR_RX, 0, 9600 );
+            sdr->setFrequency( SOAPY_SDR_RX, 0, 4800 );
+        }
+        else
+        {
+            cout << "SDR device, setting freq=143.050.000Hz with SR=3MHz" << endl;
+            //graves radar frequency, 1MHz SR
+            sdr->setSampleRate( SOAPY_SDR_RX, 0, 3e6 );
+            sdr->setFrequency( SOAPY_SDR_RX, 0, 143e6 );
+        }
 
-        sdr->setFrequency( SOAPY_SDR_RX, 0, 143e6 );
 
         // 4. setup a stream (complex floats)
         SoapySDR::Stream *rx_stream = sdr->setupStream( SOAPY_SDR_RX, SOAPY_SDR_CF32 );
@@ -133,12 +179,14 @@ int main()
         complex<float> buff[1024];
 
         // 6. receive some samples
-        for( int i = 0; i < 20; ++i)
+        int totSamples = 20;
+        for( int i = 0; i < totSamples; ++i)
         {
             void *buffs[] = {buff};
             int flags;
             long long time_ns;
             int ret = sdr->readStream( rx_stream, buffs, 1024, flags, time_ns, 1e5);
+            cout << "sample#" << i << "/" << totSamples;
             cout << "ret = " << ret;
             cout << ", flags = " << flags;
             cout << ", time_ns = " << time_ns;
