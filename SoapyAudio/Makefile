@@ -197,30 +197,6 @@ Registration.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\audioSupport.dir\build.make CMakeFiles/audioSupport.dir/Registration.cpp.s
 .PHONY : Registration.cpp.s
 
-RtAudio/RtAudio.obj: RtAudio/RtAudio.cpp.obj
-.PHONY : RtAudio/RtAudio.obj
-
-# target to build an object file
-RtAudio/RtAudio.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\audioSupport.dir\build.make CMakeFiles/audioSupport.dir/RtAudio/RtAudio.cpp.obj
-.PHONY : RtAudio/RtAudio.cpp.obj
-
-RtAudio/RtAudio.i: RtAudio/RtAudio.cpp.i
-.PHONY : RtAudio/RtAudio.i
-
-# target to preprocess a source file
-RtAudio/RtAudio.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\audioSupport.dir\build.make CMakeFiles/audioSupport.dir/RtAudio/RtAudio.cpp.i
-.PHONY : RtAudio/RtAudio.cpp.i
-
-RtAudio/RtAudio.s: RtAudio/RtAudio.cpp.s
-.PHONY : RtAudio/RtAudio.s
-
-# target to generate assembly for a file
-RtAudio/RtAudio.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\audioSupport.dir\build.make CMakeFiles/audioSupport.dir/RtAudio/RtAudio.cpp.s
-.PHONY : RtAudio/RtAudio.cpp.s
-
 Settings.obj: Settings.cpp.obj
 .PHONY : Settings.obj
 
@@ -309,9 +285,6 @@ help:
 	@echo ... Registration.obj
 	@echo ... Registration.i
 	@echo ... Registration.s
-	@echo ... RtAudio/RtAudio.obj
-	@echo ... RtAudio/RtAudio.i
-	@echo ... RtAudio/RtAudio.s
 	@echo ... Settings.obj
 	@echo ... Settings.i
 	@echo ... Settings.s
