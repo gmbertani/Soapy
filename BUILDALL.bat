@@ -50,10 +50,10 @@ CD librtlsdr
 %make% clean
 RMDIR /s /q CMakeFiles
 DEL /q CMakeCache.*
-cd tests
-rmdir /s /q CMakeFiles
-del /q CMakeCache.*
-cd ..
+REM cd tests
+REM rmdir /s /q CMakeFiles
+REM del /q CMakeCache.*
+REM cd ..
 cmake -G "MinGW Makefiles" -DCMAKE_INSTALL_PREFIX=%INSTALL_PREFIX% -DLIBUSB_INCLUDE_DIR=%LIBUSB_INCLUDE_DIR% -DLIBUSB_LIBRARY_DIRS=%LIBUSB_LIBRARY_DIRS% -DLIBUSB_LIBRARIES=%LIBUSB_LIBRARIES% .
 %make% VERBOSE=1
 %make% install
