@@ -221,11 +221,16 @@ int SoapyAirspy::readStream(
         long long &timeNs,
         const long timeoutUs)
 {    
+    SoapySDR::logf(SOAPY_SDR_DEBUG, "%s(%p, %p, %u, ..., %ld)",  
+            __func__, stream, buffs, numElems, timeoutUs );
+
     if (!airspy_is_streaming(dev)) {
         return 0;
     }
     
     if (sampleRateChanged.load()) {
+        
+        
         airspy_stop_rx(dev);
         airspy_set_samplerate(dev, sampleRate);
         airspy_start_rx(dev, &_rx_callback, (void *) this);
@@ -234,10 +239,11 @@ int SoapyAirspy::readStream(
 
     //this is the user's buffer for channel 0
     void *buff0 = buffs[0];
-
+  
     //are elements left in the buffer? if not, do a new read.
     if (bufferedElems == 0)
     {
+            
         int ret = this->acquireReadBuffer(stream, _currentHandle, (const void **)&_currentBuff, flags, timeNs, timeoutUs);
         if (ret < 0) return ret;
         bufferedElems = ret;
