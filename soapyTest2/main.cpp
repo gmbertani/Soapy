@@ -15,7 +15,7 @@ using namespace std;
 
 int main()
 {
-    SoapySDR::setLogLevel(SOAPY_SDR_DEBUG);
+    //SoapySDR::setLogLevel(SOAPY_SDR_DEBUG);
 
     // 0. enumerate devices (list all devices' information)
     SoapySDR::KwargsList results = SoapySDR::Device::enumerate();
@@ -112,7 +112,7 @@ int main()
         if( sdr->hasGainMode( SOAPY_SDR_RX, 0 ) )
         {
             autoGain = sdr->getGainMode( SOAPY_SDR_RX, 0 );
-            cout << "Automatic gain status: " << autoGain << endl;
+            cout << "Automatic gain (AGC) status: " << autoGain << endl;
         }
 
         if(autoGain == false)
@@ -162,6 +162,11 @@ int main()
             //graves radar frequency, 1MHz SR
             sdr->setSampleRate( SOAPY_SDR_RX, 0, 3e6 );
             sdr->setFrequency( SOAPY_SDR_RX, 0, 143e6 );
+            if(autoGain == true)
+            {
+                //disable AGC
+                sdr->setGainMode( SOAPY_SDR_RX, 0, false );
+            }
         }
 
 
@@ -173,28 +178,43 @@ int main()
             SoapySDR::Device::unmake( sdr );
             return EXIT_FAILURE;
         }
-        sdr->activateStream( rx_stream, 0, 0, 0);
 
-        // 5. create a re-usable buffer for rx samples
-        complex<float> buff[1024];
+        cout << "activating stream..." << endl;
 
-        // 6. receive some samples
-        int totSamples = 20;
-        for( int i = 0; i < totSamples; ++i)
+        int ret = sdr->activateStream( rx_stream, 0, 0, 0 );
+        if( ret == 0 )
         {
-            void *buffs[] = {buff};
-            int flags;
-            long long time_ns;
-            int ret = sdr->readStream( rx_stream, buffs, 1024, flags, time_ns, 1e5);
-            cout << "sample#" << i << "/" << totSamples;
-            cout << "ret = " << ret;
-            cout << ", flags = " << flags;
-            cout << ", time_ns = " << time_ns;
-            cout << endl;
+
+            // 5. create a re-usable buffer for rx samples
+            complex<float> buff[1024];
+
+            // 6. receive some samples
+            int totSamples = 20;
+
+            cout << "receiving " << totSamples << " samples..." << endl;
+
+            for( int i = 0; i < totSamples; ++i)
+            {
+
+                void *buffs[] = {buff};
+                int flags = 0;
+                long long time_ns = 0;
+
+                cout << "sample#" << i << "/" << totSamples << endl;
+                ret = sdr->readStream( rx_stream, buffs, 1024, flags, time_ns, 1e5 );
+
+                cout << "ret = " << ret << ", flags = " << flags << ", time_ns = " << time_ns << endl;
+            }
+
+            // 7. shutdown the stream
+            sdr->deactivateStream( rx_stream, 0, 0 );	//stop streaming
+        }
+        else
+        {
+            cout << "activateStream() failed with code " << ret << endl;
+
         }
 
-        // 7. shutdown the stream
-        sdr->deactivateStream( rx_stream, 0, 0);	//stop streaming
         sdr->closeStream( rx_stream );
 
         // 8. cleanup device handle
