@@ -1,3 +1,0 @@
-"D:\program files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\SoapySDRUtil.dir/objects.a
-D:\Qt\Tools\mingw730_64\bin\ar.exe cr CMakeFiles\SoapySDRUtil.dir/objects.a @CMakeFiles\SoapySDRUtil.dir\objects1.rsp
-D:\Qt\Tools\mingw730_64\bin\g++.exe -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\SoapySDRUtil.dir/objects.a -Wl,--no-whole-archive -o SoapySDRUtil.exe -Wl,--out-implib,libSoapySDRUtil.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\SoapySDRUtil.dir\linklibs.rsp

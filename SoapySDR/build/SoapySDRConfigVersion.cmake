@@ -7,7 +7,7 @@
 # PACKAGE_VERSION_COMPATIBLE if the current version is >= requested version.
 # The variable CVF_VERSION must be set before calling configure_file().
 
-set(PACKAGE_VERSION "0.8.0-g0b8aba45")
+set(PACKAGE_VERSION "0.8.0-g9775990e")
 
 if (PACKAGE_FIND_VERSION_RANGE)
   # Package version must be in the requested version range
