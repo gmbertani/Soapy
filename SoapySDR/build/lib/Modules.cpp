@@ -72,7 +72,7 @@ std::string SoapySDR::getRootPath(void)
     }
     #endif
 
-    return "D:/program files/Soapy";
+    return "D:/Users/massimo/Documents/echoes-git/trunk/echoes/deps/Soapy";
 }
 
 /***********************************************************************

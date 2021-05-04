@@ -1,4 +1,4 @@
-prefix=D:/program files/Soapy
+prefix=D:/Users/massimo/Documents/echoes-git/trunk/echoes/deps/Soapy
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include

@@ -21,5 +21,5 @@ std::string SoapySDR::getABIVersion(void)
 
 std::string SoapySDR::getLibVersion(void)
 {
-    return "0.8.0-g9775990e";
+    return "0.8.0-g9b12f082";
 }

@@ -2,70 +2,69 @@ rem ----------------------------------------------------------------
 rem CLEANALL
 rem cleans SoapySDR utilities, library and devices support libraries
 rem ----------------------------------------------------------------
-@echo off 
+@echo on 
 
-SET INSTALL_PREFIX="d:\program files\Soapy"
-rem rmdir /s /q %INSTALL_PREFIX%
-rem GOTO SKIP
+SET INSTALL_PREFIX="D:\Users\massimo\Documents\echoes-git\trunk\echoes\deps\Soapy"
 
 SET make="D:\Qt\Tools\mingw730_64\bin\mingw32-make.exe"
+SET SRCDIR=%CD%
 
 rem builds the unixem library first
-cd UNIXem\build\mingw730
+cd %SRCDIR%\UNIXem\build\mingw730
 %make% clean
-cd ..\..\..
+cd %SRCDIR%
 
-cd SoapySDR\build
+cd %SRCDIR%\SoapySDR\build
 %make% clean
+cd %SRCDIR%\SoapySDR\tests
 rmdir /s /q CMakeFiles
 del /q CMakeCache.*
-cd tests
-rmdir /s /q CMakeFiles
-del /q CMakeCache.*
-cd ..
-cd ..\..
+cd %SRCDIR%
+del /q /s %SRCDIR%\SoapySDR\build
 
-cd librtlsdr
+cd %SRCDIR%\librtlsdr
 %make% clean
 rmdir /s /q CMakeFiles
 del /q CMakeCache.*
-cd ..
+cd %SRCDIR%
 
-cd SoapyRTLSDR
+cd %SRCDIR%\SoapyRTLSDR
 %make% clean
 rmdir /s /q CMakeFiles
 del /q CMakeCache.*
-cd ..
+cd %SRCDIR%
 
-cd airspyone_host
+cd %SRCDIR%\airspyone_host
 %make% clean
 rmdir /s /q CMakeFiles
 del /q CMakeCache.*
-cd ..
+cd %SRCDIR%
 
-cd SoapyAirspy
+cd %SRCDIR%\SoapyAirspy
 %make% clean
 rmdir /s /q CMakeFiles
 del /q CMakeCache.*
-cd ..
+cd %SRCDIR%
 
-CD rtAudio-5.1.0
+cd %SRCDIR%\rtAudio-5.1.0
 %make% clean
 DEL /q *.vcxproj
 DEL /q *.filters
 DEL /q *.cmake
 RMDIR /s /q CMakeFiles
 del /q CMakeCache.*
-CD _build_
-DEL /q *.*
-RMDIR /s /q CMakeFiles
-RMDIR /s /q Testing
-cd ..\..
+DEL /q %SRCDIR%\rtAudio-5.1.0\_build_\*.*
+RMDIR /s /q %SRCDIR%\rtAudio-5.1.0\_build_\CMakeFiles
+RMDIR /s /q %SRCDIR%\rtAudio-5.1.0\_build_\Testing
+cd %SRCDIR%
 
-cd SoapyAudio
+cd %SRCDIR%\SoapyAudio
 %make% clean
 rmdir /s /q CMakeFiles
 del /q CMakeCache.*
+
+cd %SRCDIR%
+del /q /s *.cmake
 
 
 pause

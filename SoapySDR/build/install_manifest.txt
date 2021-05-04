@@ -1,33 +1,33 @@
-D:/program files/Soapy/cmake/SoapySDRConfig.cmake
-D:/program files/Soapy/cmake/SoapySDRUtil.cmake
-D:/program files/Soapy/cmake/SoapySDRConfigVersion.cmake
-D:/program files/Soapy/include/SoapySDR/Config.h
-D:/program files/Soapy/include/SoapySDR/Config.hpp
-D:/program files/Soapy/include/SoapySDR/Constants.h
-D:/program files/Soapy/include/SoapySDR/ConverterPrimitives.hpp
-D:/program files/Soapy/include/SoapySDR/ConverterRegistry.hpp
-D:/program files/Soapy/include/SoapySDR/Converters.h
-D:/program files/Soapy/include/SoapySDR/Device.h
-D:/program files/Soapy/include/SoapySDR/Device.hpp
-D:/program files/Soapy/include/SoapySDR/Errors.h
-D:/program files/Soapy/include/SoapySDR/Errors.hpp
-D:/program files/Soapy/include/SoapySDR/Formats.h
-D:/program files/Soapy/include/SoapySDR/Formats.hpp
-D:/program files/Soapy/include/SoapySDR/Logger.h
-D:/program files/Soapy/include/SoapySDR/Logger.hpp
-D:/program files/Soapy/include/SoapySDR/Modules.h
-D:/program files/Soapy/include/SoapySDR/Modules.hpp
-D:/program files/Soapy/include/SoapySDR/Registry.hpp
-D:/program files/Soapy/include/SoapySDR/Time.h
-D:/program files/Soapy/include/SoapySDR/Time.hpp
-D:/program files/Soapy/include/SoapySDR/Types.h
-D:/program files/Soapy/include/SoapySDR/Types.hpp
-D:/program files/Soapy/include/SoapySDR/Version.h
-D:/program files/Soapy/include/SoapySDR/Version.hpp
-D:/program files/Soapy/lib/libSoapySDR.dll.a
-D:/program files/Soapy/bin/libSoapySDR.dll
-D:/program files/Soapy/cmake/SoapySDRExport.cmake
-D:/program files/Soapy/cmake/SoapySDRExport-release.cmake
-D:/program files/Soapy/lib/pkgconfig/SoapySDR.pc
-D:/program files/Soapy/bin/SoapySDRUtil.exe
-D:/program files/Soapy/share/man/man1/SoapySDRUtil.1
+D:/Users/massimo/Documents/echoes-git/trunk/echoes/deps/Soapy/cmake/SoapySDRConfig.cmake
+D:/Users/massimo/Documents/echoes-git/trunk/echoes/deps/Soapy/cmake/SoapySDRUtil.cmake
+D:/Users/massimo/Documents/echoes-git/trunk/echoes/deps/Soapy/cmake/SoapySDRConfigVersion.cmake
+D:/Users/massimo/Documents/echoes-git/trunk/echoes/deps/Soapy/include/SoapySDR/Config.h
+D:/Users/massimo/Documents/echoes-git/trunk/echoes/deps/Soapy/include/SoapySDR/Config.hpp
+D:/Users/massimo/Documents/echoes-git/trunk/echoes/deps/Soapy/include/SoapySDR/Constants.h
+D:/Users/massimo/Documents/echoes-git/trunk/echoes/deps/Soapy/include/SoapySDR/ConverterPrimitives.hpp
+D:/Users/massimo/Documents/echoes-git/trunk/echoes/deps/Soapy/include/SoapySDR/ConverterRegistry.hpp
+D:/Users/massimo/Documents/echoes-git/trunk/echoes/deps/Soapy/include/SoapySDR/Converters.h
+D:/Users/massimo/Documents/echoes-git/trunk/echoes/deps/Soapy/include/SoapySDR/Device.h
+D:/Users/massimo/Documents/echoes-git/trunk/echoes/deps/Soapy/include/SoapySDR/Device.hpp
+D:/Users/massimo/Documents/echoes-git/trunk/echoes/deps/Soapy/include/SoapySDR/Errors.h
+D:/Users/massimo/Documents/echoes-git/trunk/echoes/deps/Soapy/include/SoapySDR/Errors.hpp
+D:/Users/massimo/Documents/echoes-git/trunk/echoes/deps/Soapy/include/SoapySDR/Formats.h
+D:/Users/massimo/Documents/echoes-git/trunk/echoes/deps/Soapy/include/SoapySDR/Formats.hpp
+D:/Users/massimo/Documents/echoes-git/trunk/echoes/deps/Soapy/include/SoapySDR/Logger.h
+D:/Users/massimo/Documents/echoes-git/trunk/echoes/deps/Soapy/include/SoapySDR/Logger.hpp
+D:/Users/massimo/Documents/echoes-git/trunk/echoes/deps/Soapy/include/SoapySDR/Modules.h
+D:/Users/massimo/Documents/echoes-git/trunk/echoes/deps/Soapy/include/SoapySDR/Modules.hpp
+D:/Users/massimo/Documents/echoes-git/trunk/echoes/deps/Soapy/include/SoapySDR/Registry.hpp
+D:/Users/massimo/Documents/echoes-git/trunk/echoes/deps/Soapy/include/SoapySDR/Time.h
+D:/Users/massimo/Documents/echoes-git/trunk/echoes/deps/Soapy/include/SoapySDR/Time.hpp
+D:/Users/massimo/Documents/echoes-git/trunk/echoes/deps/Soapy/include/SoapySDR/Types.h
+D:/Users/massimo/Documents/echoes-git/trunk/echoes/deps/Soapy/include/SoapySDR/Types.hpp
+D:/Users/massimo/Documents/echoes-git/trunk/echoes/deps/Soapy/include/SoapySDR/Version.h
+D:/Users/massimo/Documents/echoes-git/trunk/echoes/deps/Soapy/include/SoapySDR/Version.hpp
+D:/Users/massimo/Documents/echoes-git/trunk/echoes/deps/Soapy/lib/libSoapySDR.dll.a
+D:/Users/massimo/Documents/echoes-git/trunk/echoes/deps/Soapy/bin/libSoapySDR.dll
+D:/Users/massimo/Documents/echoes-git/trunk/echoes/deps/Soapy/cmake/SoapySDRExport.cmake
+D:/Users/massimo/Documents/echoes-git/trunk/echoes/deps/Soapy/cmake/SoapySDRExport-release.cmake
+D:/Users/massimo/Documents/echoes-git/trunk/echoes/deps/Soapy/lib/pkgconfig/SoapySDR.pc
+D:/Users/massimo/Documents/echoes-git/trunk/echoes/deps/Soapy/bin/SoapySDRUtil.exe
+D:/Users/massimo/Documents/echoes-git/trunk/echoes/deps/Soapy/share/man/man1/SoapySDRUtil.1
