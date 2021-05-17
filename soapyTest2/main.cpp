@@ -11,6 +11,23 @@
 #include <vector>	// vector<...>
 #include <map>		// map< ... , ... >
 
+#define CS8_STREAM 1
+
+
+#ifdef CF32_STREAM
+    #define TYPE_STREAM SOAPY_SDR_CF32
+    #define TYPE_BUFF   complex<float>
+#elif U8_STREAM
+    #define TYPE_STREAM SOAPY_SDR_U8
+    #define TYPE_BUFF   uint8_t
+#elif CS8_STREAM
+    #define TYPE_STREAM SOAPY_SDR_CS8
+    #define TYPE_BUFF   complex<int8_t>
+#endif
+
+
+
+
 using namespace std;
 
 int main()
@@ -169,9 +186,13 @@ int main()
             }
         }
 
+        double streamFS;
+        string nativeFormat = sdr->getNativeStreamFormat( SOAPY_SDR_RX, 0, streamFS );
+        cout << "Native format: " << nativeFormat << endl;
+        cout << "fullscale: " << streamFS << endl;
 
         // 4. setup a stream (complex floats)
-        SoapySDR::Stream *rx_stream = sdr->setupStream( SOAPY_SDR_RX, SOAPY_SDR_CF32 );
+        SoapySDR::Stream *rx_stream = sdr->setupStream( SOAPY_SDR_RX, TYPE_STREAM );
         if( rx_stream == NULL )
         {
             cerr << "Failed" << endl;
@@ -179,14 +200,16 @@ int main()
             return EXIT_FAILURE;
         }
 
-        cout << "activating stream..." << endl;
+        size_t streamMTU = sdr->getStreamMTU(rx_stream);
+
+        cout << "activating stream, MTU=" << streamMTU << endl;
 
         int ret = sdr->activateStream( rx_stream, 0, 0, 0 );
         if( ret == 0 )
         {
 
             // 5. create a re-usable buffer for rx samples
-            complex<float> buff[1024];
+            TYPE_BUFF buff[1024];
 
             // 6. receive some samples
             int totSamples = 20;
@@ -216,6 +239,8 @@ int main()
         }
 
         sdr->closeStream( rx_stream );
+
+
 
         // 8. cleanup device handle
         SoapySDR::Device::unmake( sdr );
