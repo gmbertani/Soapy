@@ -11,7 +11,12 @@
 #include <vector>	// vector<...>
 #include <map>		// map< ... , ... >
 
-#define CS8_STREAM 1
+#include <typeinfo>
+#include <type_traits>
+
+#define CF32_STREAM 1
+//#define U8_STREAM 1
+//#define CS8_STREAM 1
 
 
 #ifdef CF32_STREAM
@@ -28,11 +33,36 @@
 
 
 
+
+
 using namespace std;
 
 int main()
 {
     //SoapySDR::setLogLevel(SOAPY_SDR_DEBUG);
+    complex<float> cf32;
+    complex<int16_t> cf16;
+    complex<int8_t> cf8;
+    uint8_t  u8;
+    int8_t  i8;
+    string str;
+
+    const std::type_info& ticf32 = typeid( cf32  );
+    const std::type_info& ticf16 = typeid( cf16 );
+    const std::type_info& ticf8 = typeid( cf8 );
+    const std::type_info& tiu8 = typeid( u8 );
+    const std::type_info& tii8 = typeid( i8 );
+    const std::type_info& tistr = typeid( str );
+
+    cout << "type infos: "  << ticf32.name() << endl;
+    cout << "type infos: "  << ticf16.name() << endl;
+    cout << "type infos: "  << ticf8.name() << endl;
+    cout << "type infos: "  << tiu8.name() << endl;
+    cout << "type infos: "  << tii8.name() << endl;
+    cout << "type infos: "  << tistr.name() << endl;
+
+
+
 
     // 0. enumerate devices (list all devices' information)
     SoapySDR::KwargsList results = SoapySDR::Device::enumerate();
@@ -101,6 +131,38 @@ int main()
         }
 
         // 2. query device info
+
+        SoapySDR::ArgInfoList si = sdr->getSettingInfo();
+        int i = 0;
+        cout << "----------------------" << endl;
+        cout << " SETTINGS " << endl;
+        for(i = 0; i < si.size(); i++)
+        {
+            SoapySDR::ArgInfo info = si.at(i);
+            cout << "name: " << info.name << endl;
+            cout << "desc: " << info.description << endl;
+            cout << "type: " << info.type << endl;
+            cout << "key: " << info.key << endl;
+            cout << "value: " << info.value << endl;
+            cout << "range: " << info.range.minimum() << ", " << info.range.maximum() << ", " << info.range.step() << endl;
+            cout << "unit: " << info.units << endl;
+
+            cout << "----------------------" << endl;
+        }
+
+
+        if( sdr->hasDCOffsetMode( SOAPY_SDR_RX, 0 ) )
+        {
+            bool autoDCoff = sdr->getDCOffsetMode( SOAPY_SDR_RX, 0 );
+            cout << "Automatic DC offset mode: " << autoDCoff << endl;
+        }
+
+        if(sdr->hasDCOffset( SOAPY_SDR_RX, 0 ) )
+        {
+            complex<double> dcOff = sdr->getDCOffset( SOAPY_SDR_RX, 0 );
+            cout << "Manual DC offset= " << dcOff.real() << "+" << dcOff.imag() << "j " << endl;
+        }
+
         vector< string > str_list;	//string list
 
         //	2.1 antennas
@@ -207,9 +269,10 @@ int main()
         int ret = sdr->activateStream( rx_stream, 0, 0, 0 );
         if( ret == 0 )
         {
-
+            int bufTotalSize = 65536;
+            int bufSize = 4096;
             // 5. create a re-usable buffer for rx samples
-            TYPE_BUFF buff[1024];
+            TYPE_BUFF buff[bufTotalSize];
 
             // 6. receive some samples
             int totSamples = 20;
@@ -224,7 +287,7 @@ int main()
                 long long time_ns = 0;
 
                 cout << "sample#" << i << "/" << totSamples << endl;
-                ret = sdr->readStream( rx_stream, buffs, 1024, flags, time_ns, 1e5 );
+                ret = sdr->readStream( rx_stream, buffs, bufSize, flags, time_ns, 1e5 );
 
                 cout << "ret = " << ret << ", flags = " << flags << ", time_ns = " << time_ns << endl;
             }
