@@ -46,7 +46,7 @@ rmdir /s /q CMakeFiles
 del /q CMakeCache.*
 cd %SRCDIR%
 
-cd %SRCDIR%\rtAudio-5.1.0
+cd %SRCDIR%\rtAudio
 %make% clean
 DEL /q *.vcxproj
 DEL /q *.filters
@@ -54,8 +54,8 @@ DEL /q *.cmake
 RMDIR /s /q CMakeFiles
 del /q CMakeCache.*
 DEL /q %SRCDIR%\rtAudio-5.1.0\_build_\*.*
-RMDIR /s /q %SRCDIR%\rtAudio-5.1.0\_build_\CMakeFiles
-RMDIR /s /q %SRCDIR%\rtAudio-5.1.0\_build_\Testing
+RMDIR /s /q %SRCDIR%\rtAudio\_build_\CMakeFiles
+RMDIR /s /q %SRCDIR%\rtAudio\_build_\Testing
 cd %SRCDIR%
 
 cd %SRCDIR%\SoapyAudio
