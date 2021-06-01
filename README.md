@@ -14,3 +14,6 @@ drive D: and you probably don't.
 2. The libUSB binary and libpthread present under deps/ has been compiled under MSYS2/mingw 64bit
 
 3. the UNIXem library supplies the glob and dlfnc apis missing in mingw
+
+4. my patches have been saved in files with GMB extension. To update the sources, overwrite with the original ones
+then overwrite/merge with the parched files.
