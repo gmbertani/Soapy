@@ -56,13 +56,25 @@ RM = "D:\program files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\SoapyRTLSDR
+CMAKE_SOURCE_DIR = D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\SoapyRTLSDR
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\SoapyRTLSDR
+CMAKE_BINARY_DIR = D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\SoapyRTLSDR
 
 #=============================================================================
 # Targets provided globally by CMake.
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	"D:\program files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	"D:\program files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
 
 # Special rule for the target install/local
 install/local: preinstall
@@ -117,23 +129,11 @@ list_install_components:
 list_install_components/fast: list_install_components
 .PHONY : list_install_components/fast
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"D:\program files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"D:\program files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip/fast
-
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\SoapyRTLSDR\CMakeFiles D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\SoapyRTLSDR\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\SoapyRTLSDR\CMakeFiles D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\SoapyRTLSDR\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\SoapyRTLSDR\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\SoapyRTLSDR\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -172,6 +172,19 @@ rtlsdrSupport: cmake_check_build_system
 rtlsdrSupport/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtlsdrSupport.dir\build.make CMakeFiles/rtlsdrSupport.dir/build
 .PHONY : rtlsdrSupport/fast
+
+#=============================================================================
+# Target rules for targets named uninstall
+
+# Build rule for target.
+uninstall: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 uninstall
+.PHONY : uninstall
+
+# fast build rule for target.
+uninstall/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\uninstall.dir\build.make CMakeFiles/uninstall.dir/build
+.PHONY : uninstall/fast
 
 Registration.obj: Registration.cpp.obj
 .PHONY : Registration.obj
@@ -281,6 +294,7 @@ help:
 	@echo ... install/strip
 	@echo ... list_install_components
 	@echo ... rebuild_cache
+	@echo ... uninstall
 	@echo ... rtlsdrSupport
 	@echo ... Registration.obj
 	@echo ... Registration.i

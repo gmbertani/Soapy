@@ -258,11 +258,7 @@ std::string SoapySDR::loadModule(const std::string &path)
 #else
     void *handle = dlopen(path.c_str(), RTLD_LAZY);
     getModuleLoading().clear();
-	if (handle == NULL) 
-	{
-		return "dlopen() failed: " + std::string(dlerror());
-	}
-	
+    if (handle == NULL) return "dlopen() failed: " + std::string(dlerror());
 #endif
 
     //stash the handle

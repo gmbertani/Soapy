@@ -56,10 +56,10 @@ RM = "D:\program files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\airspyone_host
+CMAKE_SOURCE_DIR = D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\airspyone_host
+CMAKE_BINARY_DIR = D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -131,14 +131,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\airspyone_host && $(CMAKE_COMMAND) -E cmake_progress_start D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\airspyone_host\CMakeFiles D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\airspyone_host\libairspy\src\\CMakeFiles\progress.marks
-	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\airspyone_host && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libairspy/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\airspyone_host\CMakeFiles 0
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(CMAKE_COMMAND) -E cmake_progress_start D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host\CMakeFiles D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host\libairspy\src\\CMakeFiles\progress.marks
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libairspy/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\airspyone_host && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libairspy/src/clean
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libairspy/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -147,22 +147,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\airspyone_host && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libairspy/src/preinstall
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libairspy/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\airspyone_host && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libairspy/src/preinstall
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libairspy/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\airspyone_host && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 libairspy/src/CMakeFiles/airspy.dir/rule:
-	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\airspyone_host && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libairspy/src/CMakeFiles/airspy.dir/rule
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libairspy/src/CMakeFiles/airspy.dir/rule
 .PHONY : libairspy/src/CMakeFiles/airspy.dir/rule
 
 # Convenience name for target.
@@ -171,12 +171,12 @@ airspy: libairspy/src/CMakeFiles/airspy.dir/rule
 
 # fast build rule for target.
 airspy/fast:
-	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\airspyone_host && $(MAKE) $(MAKESILENT) -f libairspy\src\CMakeFiles\airspy.dir\build.make libairspy/src/CMakeFiles/airspy.dir/build
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f libairspy\src\CMakeFiles\airspy.dir\build.make libairspy/src/CMakeFiles/airspy.dir/build
 .PHONY : airspy/fast
 
 # Convenience name for target.
 libairspy/src/CMakeFiles/airspy-static.dir/rule:
-	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\airspyone_host && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libairspy/src/CMakeFiles/airspy-static.dir/rule
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libairspy/src/CMakeFiles/airspy-static.dir/rule
 .PHONY : libairspy/src/CMakeFiles/airspy-static.dir/rule
 
 # Convenience name for target.
@@ -185,7 +185,7 @@ airspy-static: libairspy/src/CMakeFiles/airspy-static.dir/rule
 
 # fast build rule for target.
 airspy-static/fast:
-	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\airspyone_host && $(MAKE) $(MAKESILENT) -f libairspy\src\CMakeFiles\airspy-static.dir\build.make libairspy/src/CMakeFiles/airspy-static.dir/build
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f libairspy\src\CMakeFiles\airspy-static.dir\build.make libairspy/src/CMakeFiles/airspy-static.dir/build
 .PHONY : airspy-static/fast
 
 airspy.obj: airspy.c.obj
@@ -193,8 +193,8 @@ airspy.obj: airspy.c.obj
 
 # target to build an object file
 airspy.c.obj:
-	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\airspyone_host && $(MAKE) $(MAKESILENT) -f libairspy\src\CMakeFiles\airspy.dir\build.make libairspy/src/CMakeFiles/airspy.dir/airspy.c.obj
-	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\airspyone_host && $(MAKE) $(MAKESILENT) -f libairspy\src\CMakeFiles\airspy-static.dir\build.make libairspy/src/CMakeFiles/airspy-static.dir/airspy.c.obj
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f libairspy\src\CMakeFiles\airspy.dir\build.make libairspy/src/CMakeFiles/airspy.dir/airspy.c.obj
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f libairspy\src\CMakeFiles\airspy-static.dir\build.make libairspy/src/CMakeFiles/airspy-static.dir/airspy.c.obj
 .PHONY : airspy.c.obj
 
 airspy.i: airspy.c.i
@@ -202,8 +202,8 @@ airspy.i: airspy.c.i
 
 # target to preprocess a source file
 airspy.c.i:
-	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\airspyone_host && $(MAKE) $(MAKESILENT) -f libairspy\src\CMakeFiles\airspy.dir\build.make libairspy/src/CMakeFiles/airspy.dir/airspy.c.i
-	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\airspyone_host && $(MAKE) $(MAKESILENT) -f libairspy\src\CMakeFiles\airspy-static.dir\build.make libairspy/src/CMakeFiles/airspy-static.dir/airspy.c.i
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f libairspy\src\CMakeFiles\airspy.dir\build.make libairspy/src/CMakeFiles/airspy.dir/airspy.c.i
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f libairspy\src\CMakeFiles\airspy-static.dir\build.make libairspy/src/CMakeFiles/airspy-static.dir/airspy.c.i
 .PHONY : airspy.c.i
 
 airspy.s: airspy.c.s
@@ -211,8 +211,8 @@ airspy.s: airspy.c.s
 
 # target to generate assembly for a file
 airspy.c.s:
-	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\airspyone_host && $(MAKE) $(MAKESILENT) -f libairspy\src\CMakeFiles\airspy.dir\build.make libairspy/src/CMakeFiles/airspy.dir/airspy.c.s
-	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\airspyone_host && $(MAKE) $(MAKESILENT) -f libairspy\src\CMakeFiles\airspy-static.dir\build.make libairspy/src/CMakeFiles/airspy-static.dir/airspy.c.s
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f libairspy\src\CMakeFiles\airspy.dir\build.make libairspy/src/CMakeFiles/airspy.dir/airspy.c.s
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f libairspy\src\CMakeFiles\airspy-static.dir\build.make libairspy/src/CMakeFiles/airspy-static.dir/airspy.c.s
 .PHONY : airspy.c.s
 
 iqconverter_float.obj: iqconverter_float.c.obj
@@ -220,8 +220,8 @@ iqconverter_float.obj: iqconverter_float.c.obj
 
 # target to build an object file
 iqconverter_float.c.obj:
-	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\airspyone_host && $(MAKE) $(MAKESILENT) -f libairspy\src\CMakeFiles\airspy.dir\build.make libairspy/src/CMakeFiles/airspy.dir/iqconverter_float.c.obj
-	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\airspyone_host && $(MAKE) $(MAKESILENT) -f libairspy\src\CMakeFiles\airspy-static.dir\build.make libairspy/src/CMakeFiles/airspy-static.dir/iqconverter_float.c.obj
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f libairspy\src\CMakeFiles\airspy.dir\build.make libairspy/src/CMakeFiles/airspy.dir/iqconverter_float.c.obj
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f libairspy\src\CMakeFiles\airspy-static.dir\build.make libairspy/src/CMakeFiles/airspy-static.dir/iqconverter_float.c.obj
 .PHONY : iqconverter_float.c.obj
 
 iqconverter_float.i: iqconverter_float.c.i
@@ -229,8 +229,8 @@ iqconverter_float.i: iqconverter_float.c.i
 
 # target to preprocess a source file
 iqconverter_float.c.i:
-	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\airspyone_host && $(MAKE) $(MAKESILENT) -f libairspy\src\CMakeFiles\airspy.dir\build.make libairspy/src/CMakeFiles/airspy.dir/iqconverter_float.c.i
-	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\airspyone_host && $(MAKE) $(MAKESILENT) -f libairspy\src\CMakeFiles\airspy-static.dir\build.make libairspy/src/CMakeFiles/airspy-static.dir/iqconverter_float.c.i
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f libairspy\src\CMakeFiles\airspy.dir\build.make libairspy/src/CMakeFiles/airspy.dir/iqconverter_float.c.i
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f libairspy\src\CMakeFiles\airspy-static.dir\build.make libairspy/src/CMakeFiles/airspy-static.dir/iqconverter_float.c.i
 .PHONY : iqconverter_float.c.i
 
 iqconverter_float.s: iqconverter_float.c.s
@@ -238,8 +238,8 @@ iqconverter_float.s: iqconverter_float.c.s
 
 # target to generate assembly for a file
 iqconverter_float.c.s:
-	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\airspyone_host && $(MAKE) $(MAKESILENT) -f libairspy\src\CMakeFiles\airspy.dir\build.make libairspy/src/CMakeFiles/airspy.dir/iqconverter_float.c.s
-	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\airspyone_host && $(MAKE) $(MAKESILENT) -f libairspy\src\CMakeFiles\airspy-static.dir\build.make libairspy/src/CMakeFiles/airspy-static.dir/iqconverter_float.c.s
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f libairspy\src\CMakeFiles\airspy.dir\build.make libairspy/src/CMakeFiles/airspy.dir/iqconverter_float.c.s
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f libairspy\src\CMakeFiles\airspy-static.dir\build.make libairspy/src/CMakeFiles/airspy-static.dir/iqconverter_float.c.s
 .PHONY : iqconverter_float.c.s
 
 iqconverter_int16.obj: iqconverter_int16.c.obj
@@ -247,8 +247,8 @@ iqconverter_int16.obj: iqconverter_int16.c.obj
 
 # target to build an object file
 iqconverter_int16.c.obj:
-	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\airspyone_host && $(MAKE) $(MAKESILENT) -f libairspy\src\CMakeFiles\airspy.dir\build.make libairspy/src/CMakeFiles/airspy.dir/iqconverter_int16.c.obj
-	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\airspyone_host && $(MAKE) $(MAKESILENT) -f libairspy\src\CMakeFiles\airspy-static.dir\build.make libairspy/src/CMakeFiles/airspy-static.dir/iqconverter_int16.c.obj
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f libairspy\src\CMakeFiles\airspy.dir\build.make libairspy/src/CMakeFiles/airspy.dir/iqconverter_int16.c.obj
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f libairspy\src\CMakeFiles\airspy-static.dir\build.make libairspy/src/CMakeFiles/airspy-static.dir/iqconverter_int16.c.obj
 .PHONY : iqconverter_int16.c.obj
 
 iqconverter_int16.i: iqconverter_int16.c.i
@@ -256,8 +256,8 @@ iqconverter_int16.i: iqconverter_int16.c.i
 
 # target to preprocess a source file
 iqconverter_int16.c.i:
-	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\airspyone_host && $(MAKE) $(MAKESILENT) -f libairspy\src\CMakeFiles\airspy.dir\build.make libairspy/src/CMakeFiles/airspy.dir/iqconverter_int16.c.i
-	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\airspyone_host && $(MAKE) $(MAKESILENT) -f libairspy\src\CMakeFiles\airspy-static.dir\build.make libairspy/src/CMakeFiles/airspy-static.dir/iqconverter_int16.c.i
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f libairspy\src\CMakeFiles\airspy.dir\build.make libairspy/src/CMakeFiles/airspy.dir/iqconverter_int16.c.i
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f libairspy\src\CMakeFiles\airspy-static.dir\build.make libairspy/src/CMakeFiles/airspy-static.dir/iqconverter_int16.c.i
 .PHONY : iqconverter_int16.c.i
 
 iqconverter_int16.s: iqconverter_int16.c.s
@@ -265,8 +265,8 @@ iqconverter_int16.s: iqconverter_int16.c.s
 
 # target to generate assembly for a file
 iqconverter_int16.c.s:
-	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\airspyone_host && $(MAKE) $(MAKESILENT) -f libairspy\src\CMakeFiles\airspy.dir\build.make libairspy/src/CMakeFiles/airspy.dir/iqconverter_int16.c.s
-	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\airspyone_host && $(MAKE) $(MAKESILENT) -f libairspy\src\CMakeFiles\airspy-static.dir\build.make libairspy/src/CMakeFiles/airspy-static.dir/iqconverter_int16.c.s
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f libairspy\src\CMakeFiles\airspy.dir\build.make libairspy/src/CMakeFiles/airspy.dir/iqconverter_int16.c.s
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f libairspy\src\CMakeFiles\airspy-static.dir\build.make libairspy/src/CMakeFiles/airspy-static.dir/iqconverter_int16.c.s
 .PHONY : iqconverter_int16.c.s
 
 # Help Target
@@ -303,6 +303,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\airspyone_host && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

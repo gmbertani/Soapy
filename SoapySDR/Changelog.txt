@@ -1,6 +1,6 @@
 This this the changelog file for the SoapySDR project.
 
-Release 0.8.0 (pending)
+Release 0.8.0 (2021-04-25)
 ==========================
 
 Build:
@@ -15,6 +15,8 @@ API:
 - Python bindings duck typing for read/writeSetting()/readSensor()
 - Changed SoapySDRDevice_setupStream() to return the stream pointer
 - Added unloadModules() API call to manually cleanup modules on exit
+- Device: added parallel make() function with string arguments
+- Added ABI check to Python module
 
 Release 0.7.2 (2020-01-12)
 ==========================
