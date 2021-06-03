@@ -262,20 +262,21 @@ int main()
             return EXIT_FAILURE;
         }
 
+
+        int totSamples = 200;
+        cout << "activating stream to read " << totSamples << " samples" << endl;
+        int ret = sdr->activateStream( rx_stream, 0, 0, 100 );
         size_t streamMTU = sdr->getStreamMTU(rx_stream);
-
-        cout << "activating stream, MTU=" << streamMTU << endl;
-
-        int ret = sdr->activateStream( rx_stream, 0, 0, 0 );
+        cout << "MTU=" << streamMTU << endl;
         if( ret == 0 )
         {
-            int bufTotalSize = 65536;
-            int bufSize = 4096;
+            int bufTotalSize = streamMTU;
+            int bufSize = streamMTU;
             // 5. create a re-usable buffer for rx samples
             TYPE_BUFF buff[bufTotalSize];
 
             // 6. receive some samples
-            int totSamples = 20;
+
 
             cout << "receiving " << totSamples << " samples..." << endl;
 
@@ -290,6 +291,10 @@ int main()
                 ret = sdr->readStream( rx_stream, buffs, bufSize, flags, time_ns, 1e5 );
 
                 cout << "ret = " << ret << ", flags = " << flags << ", time_ns = " << time_ns << endl;
+                if(ret != bufSize)
+                {
+                    break;
+                }
             }
 
             // 7. shutdown the stream
