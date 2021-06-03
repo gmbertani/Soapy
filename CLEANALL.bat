@@ -50,7 +50,6 @@ cd %SRCDIR%\rtAudio
 %make% clean
 DEL /q *.vcxproj
 DEL /q *.filters
-DEL /q *.cmake
 RMDIR /s /q CMakeFiles
 del /q CMakeCache.*
 DEL /q %SRCDIR%\rtAudio-5.1.0\_build_\*.*
@@ -64,8 +63,6 @@ rmdir /s /q CMakeFiles
 del /q CMakeCache.*
 
 cd %SRCDIR%
-del /q /s *.cmake
-
 
 pause
 
