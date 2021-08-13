@@ -169,6 +169,7 @@ std::vector<std::string> SoapyAudio::listAntennas(const int direction, const siz
 
 void SoapyAudio::setAntenna(const int direction, const size_t channel, const std::string &name)
 {
+    SoapySDR_logf(SOAPY_SDR_DEBUG, "setAntenna() does nothing in audio devices");
     // TODO
 }
 
