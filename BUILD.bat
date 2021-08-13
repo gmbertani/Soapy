@@ -15,6 +15,10 @@ rem SET LIBUSB_INCLUDE_DIR="D:\Users\massimo\Documents\sviluppo\echoes-related\s
 rem SET LIBUSB_LIBRARY_DIRS="D:\Users\massimo\Documents\sviluppo\echoes-related\soapy\myRepo\deps\lib64"
 SET LIBUSB_INCLUDE_DIR="C:\Users\massimo\Documents\sviluppo\echoes-related\soapy\myRepo\deps\include"
 SET LIBUSB_LIBRARY_DIRS="C:\Users\massimo\Documents\sviluppo\echoes-related\soapy\myRepo\deps\lib64"
+REM ----------------------------------------------------------------
+
+
+
 SET LIBUSB_LIBRARIES="libusb-1.0.a"
 SET BUILD_TYPE="Release"
 SET SRCDIR=%CD%

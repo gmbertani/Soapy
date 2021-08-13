@@ -5,13 +5,21 @@ REM without ask.
 REM ----------------------------------------------------------------
 @ECHO off
 REM SET INSTALL_PREFIX="D:\program files\Soapy"
-SET INSTALL_PREFIX="D:\Users\massimo\Documents\echoes-git\trunk\echoes\deps\Soapy"
-SET make="D:\Qt\Tools\mingw730_64\bin\mingw32-make.exe"
+rem SET INSTALL_PREFIX="D:\Users\massimo\Documents\echoes-git\trunk\echoes\deps\Soapy"
+SET INSTALL_PREFIX="c:\Users\massimo\Documents\echoes-git\trunk\echoes\deps\Soapy"
+rem SET make="D:\Qt\Tools\mingw730_64\bin\mingw32-make.exe"
+SET make="C:\Qt\Tools\mingw730_64\bin\mingw32-make.exe"
 
 REM for laziness, the libusb provided is the static library with its header
 REM so there is no .pc file and CMake is not able to detect it implicitly
-SET LIBUSB_INCLUDE_DIR="D:\Users\massimo\Documents\sviluppo\echoes-related\soapy\myRepo\deps\include"
-SET LIBUSB_LIBRARY_DIRS="D:\Users\massimo\Documents\sviluppo\echoes-related\soapy\myRepo\deps\lib64"
+rem SET LIBUSB_INCLUDE_DIR="D:\Users\massimo\Documents\sviluppo\echoes-related\soapy\myRepo\deps\include"
+rem SET LIBUSB_LIBRARY_DIRS="D:\Users\massimo\Documents\sviluppo\echoes-related\soapy\myRepo\deps\lib64"
+SET LIBUSB_INCLUDE_DIR="C:\Users\massimo\Documents\sviluppo\echoes-related\soapy\myRepo\deps\include"
+SET LIBUSB_LIBRARY_DIRS="C:\Users\massimo\Documents\sviluppo\echoes-related\soapy\myRepo\deps\lib64"
+
+REM ----------------------------------------------------------------
+
+
 SET LIBUSB_LIBRARIES="libusb-1.0.a"
 SET BUILD_TYPE="Release"
 SET SRCDIR=%CD%
