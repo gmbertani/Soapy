@@ -270,7 +270,8 @@ int SoapyAudio::readStream(
         long long &timeNs,
         const long timeoutUs)
 {    
-    if (!dac.isStreamRunning()) {
+    if (!dac.isStreamRunning()) {      
+        SoapySDR_logf(SOAPY_SDR_DEBUG, "readStream(): no stream running");
         return 0;
     }
     
@@ -293,13 +294,19 @@ int SoapyAudio::readStream(
     if (bufferedElems == 0 || (sampleOffset && (bufferedElems < abs(sampleOffset))))
     {
         int ret = this->acquireReadBuffer(stream, _currentHandle, (const void **)&_currentBuff, flags, timeNs, timeoutUs);
-        if (ret < 0) return ret;
+        if (ret < 0) 
+        {
+            SoapySDR_logf(SOAPY_SDR_DEBUG, "readStream(): acquireReadBuffer() returned %d", ret);
+            return ret;
+        }
         bufferedElems = ret;
     }
 
     size_t returnedElems = std::min(bufferedElems, numElems);
 
-    if (sampleOffset && (bufferedElems < abs(sampleOffset))) {
+    if (sampleOffset && (bufferedElems < abs(sampleOffset))) 
+    {
+        SoapySDR_logf(SOAPY_SDR_DEBUG, "readStream(): bufferedElems=%d, sampleOffset=%d", bufferedElems, sampleOffset);
         return 0;
     }
 
@@ -594,9 +601,14 @@ int SoapyAudio::readStream(
         }
     }
     
+    
+    
     //bump variables for next call into readStream
     bufferedElems -= returnedElems;
     _currentBuff += returnedElems * elementsPerSample;
+
+    SoapySDR_logf(SOAPY_SDR_DEBUG, "readStream(): bufferedElems=%d, _currentBuff=%d", bufferedElems, _currentBuff);
+
 
     //return number of elements written to buff0
     if (bufferedElems != 0) flags |= SOAPY_SDR_MORE_FRAGMENTS;

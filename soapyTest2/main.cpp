@@ -39,7 +39,7 @@ using namespace std;
 
 int main()
 {
-    //SoapySDR::setLogLevel(SOAPY_SDR_DEBUG);
+    SoapySDR::setLogLevel(SOAPY_SDR_DEBUG);
     complex<float> cf32;
     complex<int16_t> cf16;
     complex<int8_t> cf8;
@@ -124,7 +124,7 @@ int main()
         //	1.2 make device
         SoapySDR::Device *sdr = SoapySDR::Device::make(args);
 
-        if( sdr == NULL )
+        if( sdr == nullptr )
         {
             cerr << "SoapySDR::Device::make failed" << endl;
             return EXIT_FAILURE;
@@ -133,7 +133,7 @@ int main()
         // 2. query device info
 
         SoapySDR::ArgInfoList si = sdr->getSettingInfo();
-        int i = 0;
+        unsigned i = 0;
         cout << "----------------------" << endl;
         cout << " SETTINGS " << endl;
         for(i = 0; i < si.size(); i++)
@@ -255,7 +255,7 @@ int main()
 
         // 4. setup a stream (complex floats)
         SoapySDR::Stream *rx_stream = sdr->setupStream( SOAPY_SDR_RX, TYPE_STREAM );
-        if( rx_stream == NULL )
+        if( rx_stream == nullptr )
         {
             cerr << "Failed" << endl;
             SoapySDR::Device::unmake( sdr );
@@ -288,7 +288,7 @@ int main()
                 long long time_ns = 0;
 
                 cout << "sample#" << i << "/" << totSamples << endl;
-                ret = sdr->readStream( rx_stream, buffs, bufSize, flags, time_ns, 1e5 );
+                ret = sdr->readStream( rx_stream, buffs, bufSize, flags, time_ns, 1e6 );
 
                 cout << "ret = " << ret << ", flags = " << flags << ", time_ns = " << time_ns << endl;
                 if(ret != bufSize)
