@@ -296,7 +296,7 @@ int SoapyAudio::readStream(
         int ret = this->acquireReadBuffer(stream, _currentHandle, (const void **)&_currentBuff, flags, timeNs, timeoutUs);
         if (ret < 0) 
         {
-            SoapySDR_logf(SOAPY_SDR_DEBUG, "readStream(): acquireReadBuffer() returned %d", ret);
+            //SoapySDR_logf(SOAPY_SDR_DEBUG, "readStream(): acquireReadBuffer() returned %d", ret);
             return ret;
         }
         bufferedElems = ret;
@@ -306,7 +306,7 @@ int SoapyAudio::readStream(
 
     if (sampleOffset && (bufferedElems < abs(sampleOffset))) 
     {
-        SoapySDR_logf(SOAPY_SDR_DEBUG, "readStream(): bufferedElems=%d, sampleOffset=%d", bufferedElems, sampleOffset);
+        //SoapySDR_logf(SOAPY_SDR_DEBUG, "readStream(): bufferedElems=%d, sampleOffset=%d", bufferedElems, sampleOffset);
         return 0;
     }
 
@@ -607,7 +607,7 @@ int SoapyAudio::readStream(
     bufferedElems -= returnedElems;
     _currentBuff += returnedElems * elementsPerSample;
 
-    SoapySDR_logf(SOAPY_SDR_DEBUG, "readStream(): bufferedElems=%d, _currentBuff=%d", bufferedElems, _currentBuff);
+    //SoapySDR_logf(SOAPY_SDR_DEBUG, "readStream(): bufferedElems=%d, _currentBuff=%d", bufferedElems, _currentBuff);
 
 
     //return number of elements written to buff0

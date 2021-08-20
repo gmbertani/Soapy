@@ -237,7 +237,8 @@ void SoapyAudio::setGain(const int direction, const size_t channel, const std::s
 
 double SoapyAudio::getGain(const int direction, const size_t channel, const std::string &name) const
 {
-    if ((name.length() >= 2) && (name.substr(0, 2) == "AUDIO"))
+//    if ((name.length() >= 2) && (name.substr(0, 2) == "AUDIO"))  FIX GMB 20aug21
+    if ((name.length() >= 2) && (name.substr(0, 2) == "AU"))
     {
         return audioGain;
     }

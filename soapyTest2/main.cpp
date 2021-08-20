@@ -282,15 +282,21 @@ int main()
 
             for( int i = 0; i < totSamples; ++i)
             {
-
                 void *buffs[] = {buff};
                 int flags = 0;
                 long long time_ns = 0;
 
                 cout << "sample#" << i << "/" << totSamples << endl;
-                ret = sdr->readStream( rx_stream, buffs, bufSize, flags, time_ns, 1e6 );
+                ret = sdr->readStream( rx_stream, buffs, bufSize, flags, time_ns, 10e6 );
 
                 cout << "ret = " << ret << ", flags = " << flags << ", time_ns = " << time_ns << endl;
+
+                if(buff[i] == buff[ bufTotalSize/2 ] &&
+                   buff[0] == buff[ bufTotalSize - i - 1 ])
+                {
+                    cout << "WARNING: the buffer contains no valid data, all elements have value=" << buff[0] << endl;
+                }
+
                 if(ret != bufSize)
                 {
                     break;
