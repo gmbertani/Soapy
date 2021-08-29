@@ -210,7 +210,7 @@ SoapySDR::Stream *SoapyAudio::setupStream(
 void SoapyAudio::closeStream(SoapySDR::Stream *stream)
 {
     _buffs.clear();
-}
+    SoapySDR_logf(SOAPY_SDR_DEBUG, "Closed stream");}
 
 size_t SoapyAudio::getStreamMTU(SoapySDR::Stream *stream) const
 {
@@ -239,6 +239,7 @@ int SoapyAudio::activateStream(
         dac.startStream();
 
         streamActive = true;
+        SoapySDR_logf(SOAPY_SDR_DEBUG, "Activate stream");
     } catch (RtAudioError& e) {
         throw std::runtime_error("RtAudio init error '" + e.getMessage());
     }
@@ -251,14 +252,16 @@ int SoapyAudio::deactivateStream(SoapySDR::Stream *stream, const int flags, cons
     if (flags != 0) return SOAPY_SDR_NOT_SUPPORTED;
 
     if (dac.isStreamRunning()) {
+        SoapySDR_logf(SOAPY_SDR_DEBUG,  "stopping stream");
         dac.stopStream();
     }
     if (dac.isStreamOpen()) {
+        SoapySDR_logf(SOAPY_SDR_DEBUG,  "closing stream");
         dac.closeStream();
     }
     
     streamActive = false;
-    
+    SoapySDR_logf(SOAPY_SDR_DEBUG, "Deactivated stream");
     return 0;
 }
 
