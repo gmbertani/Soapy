@@ -327,7 +327,7 @@ SoapySDR::ArgInfoList SoapyAudio::getFrequencyArgsInfo(const int direction, cons
 
 void SoapyAudio::setSampleRate(const int direction, const size_t channel, const double rate)
 {
-    SoapySDR_logf(SOAPY_SDR_DEBUG, "Setting sample rate: %d", sampleRate);
+    SoapySDR_logf(SOAPY_SDR_DEBUG, "Setting audio sample rate: %f", rate);
 
     if (sampleRate != rate) {
         sampleRate = rate;
