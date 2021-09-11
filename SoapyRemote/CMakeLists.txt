@@ -4,6 +4,16 @@
 cmake_minimum_required(VERSION 3.1.0)
 project(SoapyRemote CXX C)
 
+#GMB 11sep21 - linking against unixem with MinGW32
+
+include_directories("../UNIXem/include")
+link_directories("../UNIXem/lib")
+link_directories("common")
+link_libraries ("libiphlpapi.a")
+link_libraries ("unixem.core.mingw730.a")
+
+#GMB END
+
 #C++11 is a required language feature for this project
 set(CMAKE_CXX_STANDARD 11)
 
@@ -49,9 +59,11 @@ if(MSVC)
     add_definitions(-DNOMINMAX) #enables std::min and std::max
 endif()
 
+
 add_subdirectory(common)
 add_subdirectory(client)
 add_subdirectory(server)
+
 
 if(CMAKE_SYSTEM_NAME STREQUAL "Linux")
     add_subdirectory(system)

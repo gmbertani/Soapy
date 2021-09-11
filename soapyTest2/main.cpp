@@ -231,9 +231,9 @@ int main()
         // 3. apply settings
         if(driver == "audio")
         {
-            cout << "Audio device, setting freq=4800Hz with SR=9600Hz" << endl;
-            sdr->setSampleRate( SOAPY_SDR_RX, 0, 9600 );
-            sdr->setFrequency( SOAPY_SDR_RX, 0, 4800 );
+            cout << "Audio device, setting freq=0 with SR=44100" << endl;
+            sdr->setSampleRate( SOAPY_SDR_RX, 0, 44100 );
+            sdr->setFrequency( SOAPY_SDR_RX, 0, 0 );
         }
         else
         {
@@ -282,6 +282,7 @@ int main()
 
             for( int i = 0; i < totSamples; ++i)
             {
+                double avgI, avgQ;
                 void *buffs[] = {buff};
                 int flags = 0;
                 long long time_ns = 0;
@@ -292,9 +293,22 @@ int main()
                 cout << "ret = " << ret << ", flags = " << flags << ", time_ns = " << time_ns << endl;
 
                 if(buff[i] == buff[ bufTotalSize/2 ] &&
-                   buff[0] == buff[ bufTotalSize - i - 1 ])
+                        buff[0] == buff[ bufTotalSize - i - 1 ])
                 {
                     cout << "WARNING: the buffer contains no valid data, all elements have value=" << buff[0] << endl;
+                }
+                else
+                {
+                    avgI = 0.0;
+                    avgQ = 0.0;
+                    for(int n=0; n < bufSize; n++)
+                    {
+                        avgI = (avgI + buff[n].real()) / 2;
+                        avgQ = (avgQ + buff[n].imag()) / 2;
+                    }
+
+                    cout << "avg = (" << avgI << "," << avgQ << ")" << endl;
+
                 }
 
                 if(ret != bufSize)
@@ -313,6 +327,130 @@ int main()
         }
 
         sdr->closeStream( rx_stream );
+
+
+        // 3. apply settings
+        if(driver == "audio")
+        {
+            cout << "Audio device, setting freq=0Hz with SR=192000" << endl;
+            sdr->setSampleRate( SOAPY_SDR_RX, 0, 192000 );
+            sdr->setFrequency( SOAPY_SDR_RX, 0, 0 );
+        }
+        else
+        {
+            cout << "SDR device, setting freq=143.050.000Hz with SR=3MHz" << endl;
+            //graves radar frequency, 1MHz SR
+            sdr->setSampleRate( SOAPY_SDR_RX, 0, 3e6 );
+            sdr->setFrequency( SOAPY_SDR_RX, 0, 143e6 );
+            if(autoGain == true)
+            {
+                //disable AGC
+                sdr->setGainMode( SOAPY_SDR_RX, 0, false );
+            }
+        }
+
+
+        // 4. setup a stream (complex floats)
+        rx_stream = sdr->setupStream( SOAPY_SDR_RX, TYPE_STREAM );
+        if( rx_stream == nullptr )
+        {
+            cerr << "Failed" << endl;
+            SoapySDR::Device::unmake( sdr );
+            return EXIT_FAILURE;
+        }
+
+
+        totSamples = 200;
+        cout << "activating stream to read " << totSamples << " samples" << endl;
+        ret = sdr->activateStream( rx_stream, 0, 0, 100 );
+        streamMTU = sdr->getStreamMTU(rx_stream);
+        cout << "MTU=" << streamMTU << endl;
+        if( ret == 0 )
+        {
+            int bufTotalSize = streamMTU;
+            int bufSize = streamMTU;
+            // 5. create a re-usable buffer for rx samples
+            TYPE_BUFF buff[bufTotalSize];
+
+            // 6. receive some samples
+
+
+            cout << "receiving " << totSamples << " samples..." << endl;
+
+            for( int i = 0; i < totSamples; ++i)
+            {
+                double avgI, avgQ;
+                void *buffs[] = {buff};
+                int flags = 0;
+                long long time_ns = 0;
+
+                cout << "sample#" << i << "/" << totSamples << endl;
+                ret = sdr->readStream( rx_stream, buffs, bufSize, flags, time_ns, 10e6 );
+
+                cout << "ret = " << ret << ", flags = " << flags << ", time_ns = " << time_ns << endl;
+
+                if(buff[i] == buff[ bufTotalSize/2 ] &&
+                        buff[0] == buff[ bufTotalSize - i - 1 ])
+                {
+                    cout << "WARNING: the buffer contains no valid data, all elements have value=" << buff[0] << endl;
+                }
+                else
+                {
+                    avgI = 0.0;
+                    avgQ = 0.0;
+                    for(int n=0; n < bufSize; n++)
+                    {
+                        avgI = (avgI + buff[n].real()) / 2;
+                        avgQ = (avgQ + buff[n].imag()) / 2;
+                    }
+
+                    cout << "avg = (" << avgI << "," << avgQ << ")" << endl;
+
+                }
+
+                if(ret != bufSize)
+                {
+                    break;
+                }
+            }
+
+            // 7. shutdown the stream
+            sdr->deactivateStream( rx_stream, 0, 0 );	//stop streaming
+        }
+        else
+        {
+            cout << "activateStream() failed with code " << ret << endl;
+
+        }
+
+        sdr->closeStream( rx_stream );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

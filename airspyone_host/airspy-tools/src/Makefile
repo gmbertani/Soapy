@@ -47,19 +47,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\CMake\bin\cmake.exe"
+CMAKE_COMMAND = "D:\program files\CMake\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
+RM = "D:\program files\CMake\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host
+CMAKE_SOURCE_DIR = D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host
+CMAKE_BINARY_DIR = D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = C:\Users\Massimo\Documents\sviluppo\echoes-related\Soapy\myRe
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	"C:\Program Files\CMake\bin\cmake-gui.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"D:\program files\CMake\bin\cmake-gui.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -77,7 +77,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"D:\program files\CMake\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -96,49 +96,49 @@ list_install_components/fast: list_install_components
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	"D:\program files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	"D:\program files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	"C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake
+	"D:\program files\CMake\bin\cmake.exe" -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	"C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake
+	"D:\program files\CMake\bin\cmake.exe" -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	"D:\program files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	"D:\program files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\Massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host\CMakeFiles C:\Users\Massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host\airspy-tools\src\\CMakeFiles\progress.marks
-	cd /d C:\Users\Massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 airspy-tools/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host\CMakeFiles 0
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(CMAKE_COMMAND) -E cmake_progress_start D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host\CMakeFiles D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host\airspy-tools\src\\CMakeFiles\progress.marks
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 airspy-tools/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\Massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 airspy-tools/src/clean
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 airspy-tools/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -147,22 +147,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\Massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 airspy-tools/src/preinstall
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 airspy-tools/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\Massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 airspy-tools/src/preinstall
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 airspy-tools/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\Massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 airspy-tools/src/CMakeFiles/airspy_si5351c.dir/rule:
-	cd /d C:\Users\Massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 airspy-tools/src/CMakeFiles/airspy_si5351c.dir/rule
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 airspy-tools/src/CMakeFiles/airspy_si5351c.dir/rule
 .PHONY : airspy-tools/src/CMakeFiles/airspy_si5351c.dir/rule
 
 # Convenience name for target.
@@ -171,12 +171,12 @@ airspy_si5351c: airspy-tools/src/CMakeFiles/airspy_si5351c.dir/rule
 
 # fast build rule for target.
 airspy_si5351c/fast:
-	cd /d C:\Users\Massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_si5351c.dir\build.make airspy-tools/src/CMakeFiles/airspy_si5351c.dir/build
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_si5351c.dir\build.make airspy-tools/src/CMakeFiles/airspy_si5351c.dir/build
 .PHONY : airspy_si5351c/fast
 
 # Convenience name for target.
 airspy-tools/src/CMakeFiles/airspy_gpio.dir/rule:
-	cd /d C:\Users\Massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 airspy-tools/src/CMakeFiles/airspy_gpio.dir/rule
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 airspy-tools/src/CMakeFiles/airspy_gpio.dir/rule
 .PHONY : airspy-tools/src/CMakeFiles/airspy_gpio.dir/rule
 
 # Convenience name for target.
@@ -185,12 +185,12 @@ airspy_gpio: airspy-tools/src/CMakeFiles/airspy_gpio.dir/rule
 
 # fast build rule for target.
 airspy_gpio/fast:
-	cd /d C:\Users\Massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_gpio.dir\build.make airspy-tools/src/CMakeFiles/airspy_gpio.dir/build
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_gpio.dir\build.make airspy-tools/src/CMakeFiles/airspy_gpio.dir/build
 .PHONY : airspy_gpio/fast
 
 # Convenience name for target.
 airspy-tools/src/CMakeFiles/airspy_gpiodir.dir/rule:
-	cd /d C:\Users\Massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 airspy-tools/src/CMakeFiles/airspy_gpiodir.dir/rule
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 airspy-tools/src/CMakeFiles/airspy_gpiodir.dir/rule
 .PHONY : airspy-tools/src/CMakeFiles/airspy_gpiodir.dir/rule
 
 # Convenience name for target.
@@ -199,12 +199,12 @@ airspy_gpiodir: airspy-tools/src/CMakeFiles/airspy_gpiodir.dir/rule
 
 # fast build rule for target.
 airspy_gpiodir/fast:
-	cd /d C:\Users\Massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_gpiodir.dir\build.make airspy-tools/src/CMakeFiles/airspy_gpiodir.dir/build
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_gpiodir.dir\build.make airspy-tools/src/CMakeFiles/airspy_gpiodir.dir/build
 .PHONY : airspy_gpiodir/fast
 
 # Convenience name for target.
 airspy-tools/src/CMakeFiles/airspy_info.dir/rule:
-	cd /d C:\Users\Massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 airspy-tools/src/CMakeFiles/airspy_info.dir/rule
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 airspy-tools/src/CMakeFiles/airspy_info.dir/rule
 .PHONY : airspy-tools/src/CMakeFiles/airspy_info.dir/rule
 
 # Convenience name for target.
@@ -213,12 +213,12 @@ airspy_info: airspy-tools/src/CMakeFiles/airspy_info.dir/rule
 
 # fast build rule for target.
 airspy_info/fast:
-	cd /d C:\Users\Massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_info.dir\build.make airspy-tools/src/CMakeFiles/airspy_info.dir/build
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_info.dir\build.make airspy-tools/src/CMakeFiles/airspy_info.dir/build
 .PHONY : airspy_info/fast
 
 # Convenience name for target.
 airspy-tools/src/CMakeFiles/airspy_spiflash.dir/rule:
-	cd /d C:\Users\Massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 airspy-tools/src/CMakeFiles/airspy_spiflash.dir/rule
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 airspy-tools/src/CMakeFiles/airspy_spiflash.dir/rule
 .PHONY : airspy-tools/src/CMakeFiles/airspy_spiflash.dir/rule
 
 # Convenience name for target.
@@ -227,12 +227,12 @@ airspy_spiflash: airspy-tools/src/CMakeFiles/airspy_spiflash.dir/rule
 
 # fast build rule for target.
 airspy_spiflash/fast:
-	cd /d C:\Users\Massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_spiflash.dir\build.make airspy-tools/src/CMakeFiles/airspy_spiflash.dir/build
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_spiflash.dir\build.make airspy-tools/src/CMakeFiles/airspy_spiflash.dir/build
 .PHONY : airspy_spiflash/fast
 
 # Convenience name for target.
 airspy-tools/src/CMakeFiles/airspy_r820t.dir/rule:
-	cd /d C:\Users\Massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 airspy-tools/src/CMakeFiles/airspy_r820t.dir/rule
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 airspy-tools/src/CMakeFiles/airspy_r820t.dir/rule
 .PHONY : airspy-tools/src/CMakeFiles/airspy_r820t.dir/rule
 
 # Convenience name for target.
@@ -241,12 +241,12 @@ airspy_r820t: airspy-tools/src/CMakeFiles/airspy_r820t.dir/rule
 
 # fast build rule for target.
 airspy_r820t/fast:
-	cd /d C:\Users\Massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_r820t.dir\build.make airspy-tools/src/CMakeFiles/airspy_r820t.dir/build
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_r820t.dir\build.make airspy-tools/src/CMakeFiles/airspy_r820t.dir/build
 .PHONY : airspy_r820t/fast
 
 # Convenience name for target.
 airspy-tools/src/CMakeFiles/airspy_lib_version.dir/rule:
-	cd /d C:\Users\Massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 airspy-tools/src/CMakeFiles/airspy_lib_version.dir/rule
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 airspy-tools/src/CMakeFiles/airspy_lib_version.dir/rule
 .PHONY : airspy-tools/src/CMakeFiles/airspy_lib_version.dir/rule
 
 # Convenience name for target.
@@ -255,12 +255,12 @@ airspy_lib_version: airspy-tools/src/CMakeFiles/airspy_lib_version.dir/rule
 
 # fast build rule for target.
 airspy_lib_version/fast:
-	cd /d C:\Users\Massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_lib_version.dir\build.make airspy-tools/src/CMakeFiles/airspy_lib_version.dir/build
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_lib_version.dir\build.make airspy-tools/src/CMakeFiles/airspy_lib_version.dir/build
 .PHONY : airspy_lib_version/fast
 
 # Convenience name for target.
 airspy-tools/src/CMakeFiles/airspy_rx.dir/rule:
-	cd /d C:\Users\Massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 airspy-tools/src/CMakeFiles/airspy_rx.dir/rule
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 airspy-tools/src/CMakeFiles/airspy_rx.dir/rule
 .PHONY : airspy-tools/src/CMakeFiles/airspy_rx.dir/rule
 
 # Convenience name for target.
@@ -269,7 +269,7 @@ airspy_rx: airspy-tools/src/CMakeFiles/airspy_rx.dir/rule
 
 # fast build rule for target.
 airspy_rx/fast:
-	cd /d C:\Users\Massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_rx.dir\build.make airspy-tools/src/CMakeFiles/airspy_rx.dir/build
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_rx.dir\build.make airspy-tools/src/CMakeFiles/airspy_rx.dir/build
 .PHONY : airspy_rx/fast
 
 airspy_gpio.obj: airspy_gpio.c.obj
@@ -277,7 +277,7 @@ airspy_gpio.obj: airspy_gpio.c.obj
 
 # target to build an object file
 airspy_gpio.c.obj:
-	cd /d C:\Users\Massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_gpio.dir\build.make airspy-tools/src/CMakeFiles/airspy_gpio.dir/airspy_gpio.c.obj
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_gpio.dir\build.make airspy-tools/src/CMakeFiles/airspy_gpio.dir/airspy_gpio.c.obj
 .PHONY : airspy_gpio.c.obj
 
 airspy_gpio.i: airspy_gpio.c.i
@@ -285,7 +285,7 @@ airspy_gpio.i: airspy_gpio.c.i
 
 # target to preprocess a source file
 airspy_gpio.c.i:
-	cd /d C:\Users\Massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_gpio.dir\build.make airspy-tools/src/CMakeFiles/airspy_gpio.dir/airspy_gpio.c.i
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_gpio.dir\build.make airspy-tools/src/CMakeFiles/airspy_gpio.dir/airspy_gpio.c.i
 .PHONY : airspy_gpio.c.i
 
 airspy_gpio.s: airspy_gpio.c.s
@@ -293,7 +293,7 @@ airspy_gpio.s: airspy_gpio.c.s
 
 # target to generate assembly for a file
 airspy_gpio.c.s:
-	cd /d C:\Users\Massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_gpio.dir\build.make airspy-tools/src/CMakeFiles/airspy_gpio.dir/airspy_gpio.c.s
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_gpio.dir\build.make airspy-tools/src/CMakeFiles/airspy_gpio.dir/airspy_gpio.c.s
 .PHONY : airspy_gpio.c.s
 
 airspy_gpiodir.obj: airspy_gpiodir.c.obj
@@ -301,7 +301,7 @@ airspy_gpiodir.obj: airspy_gpiodir.c.obj
 
 # target to build an object file
 airspy_gpiodir.c.obj:
-	cd /d C:\Users\Massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_gpiodir.dir\build.make airspy-tools/src/CMakeFiles/airspy_gpiodir.dir/airspy_gpiodir.c.obj
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_gpiodir.dir\build.make airspy-tools/src/CMakeFiles/airspy_gpiodir.dir/airspy_gpiodir.c.obj
 .PHONY : airspy_gpiodir.c.obj
 
 airspy_gpiodir.i: airspy_gpiodir.c.i
@@ -309,7 +309,7 @@ airspy_gpiodir.i: airspy_gpiodir.c.i
 
 # target to preprocess a source file
 airspy_gpiodir.c.i:
-	cd /d C:\Users\Massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_gpiodir.dir\build.make airspy-tools/src/CMakeFiles/airspy_gpiodir.dir/airspy_gpiodir.c.i
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_gpiodir.dir\build.make airspy-tools/src/CMakeFiles/airspy_gpiodir.dir/airspy_gpiodir.c.i
 .PHONY : airspy_gpiodir.c.i
 
 airspy_gpiodir.s: airspy_gpiodir.c.s
@@ -317,7 +317,7 @@ airspy_gpiodir.s: airspy_gpiodir.c.s
 
 # target to generate assembly for a file
 airspy_gpiodir.c.s:
-	cd /d C:\Users\Massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_gpiodir.dir\build.make airspy-tools/src/CMakeFiles/airspy_gpiodir.dir/airspy_gpiodir.c.s
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_gpiodir.dir\build.make airspy-tools/src/CMakeFiles/airspy_gpiodir.dir/airspy_gpiodir.c.s
 .PHONY : airspy_gpiodir.c.s
 
 airspy_info.obj: airspy_info.c.obj
@@ -325,7 +325,7 @@ airspy_info.obj: airspy_info.c.obj
 
 # target to build an object file
 airspy_info.c.obj:
-	cd /d C:\Users\Massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_info.dir\build.make airspy-tools/src/CMakeFiles/airspy_info.dir/airspy_info.c.obj
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_info.dir\build.make airspy-tools/src/CMakeFiles/airspy_info.dir/airspy_info.c.obj
 .PHONY : airspy_info.c.obj
 
 airspy_info.i: airspy_info.c.i
@@ -333,7 +333,7 @@ airspy_info.i: airspy_info.c.i
 
 # target to preprocess a source file
 airspy_info.c.i:
-	cd /d C:\Users\Massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_info.dir\build.make airspy-tools/src/CMakeFiles/airspy_info.dir/airspy_info.c.i
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_info.dir\build.make airspy-tools/src/CMakeFiles/airspy_info.dir/airspy_info.c.i
 .PHONY : airspy_info.c.i
 
 airspy_info.s: airspy_info.c.s
@@ -341,7 +341,7 @@ airspy_info.s: airspy_info.c.s
 
 # target to generate assembly for a file
 airspy_info.c.s:
-	cd /d C:\Users\Massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_info.dir\build.make airspy-tools/src/CMakeFiles/airspy_info.dir/airspy_info.c.s
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_info.dir\build.make airspy-tools/src/CMakeFiles/airspy_info.dir/airspy_info.c.s
 .PHONY : airspy_info.c.s
 
 airspy_lib_version.obj: airspy_lib_version.c.obj
@@ -349,7 +349,7 @@ airspy_lib_version.obj: airspy_lib_version.c.obj
 
 # target to build an object file
 airspy_lib_version.c.obj:
-	cd /d C:\Users\Massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_lib_version.dir\build.make airspy-tools/src/CMakeFiles/airspy_lib_version.dir/airspy_lib_version.c.obj
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_lib_version.dir\build.make airspy-tools/src/CMakeFiles/airspy_lib_version.dir/airspy_lib_version.c.obj
 .PHONY : airspy_lib_version.c.obj
 
 airspy_lib_version.i: airspy_lib_version.c.i
@@ -357,7 +357,7 @@ airspy_lib_version.i: airspy_lib_version.c.i
 
 # target to preprocess a source file
 airspy_lib_version.c.i:
-	cd /d C:\Users\Massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_lib_version.dir\build.make airspy-tools/src/CMakeFiles/airspy_lib_version.dir/airspy_lib_version.c.i
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_lib_version.dir\build.make airspy-tools/src/CMakeFiles/airspy_lib_version.dir/airspy_lib_version.c.i
 .PHONY : airspy_lib_version.c.i
 
 airspy_lib_version.s: airspy_lib_version.c.s
@@ -365,7 +365,7 @@ airspy_lib_version.s: airspy_lib_version.c.s
 
 # target to generate assembly for a file
 airspy_lib_version.c.s:
-	cd /d C:\Users\Massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_lib_version.dir\build.make airspy-tools/src/CMakeFiles/airspy_lib_version.dir/airspy_lib_version.c.s
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_lib_version.dir\build.make airspy-tools/src/CMakeFiles/airspy_lib_version.dir/airspy_lib_version.c.s
 .PHONY : airspy_lib_version.c.s
 
 airspy_r820t.obj: airspy_r820t.c.obj
@@ -373,7 +373,7 @@ airspy_r820t.obj: airspy_r820t.c.obj
 
 # target to build an object file
 airspy_r820t.c.obj:
-	cd /d C:\Users\Massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_r820t.dir\build.make airspy-tools/src/CMakeFiles/airspy_r820t.dir/airspy_r820t.c.obj
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_r820t.dir\build.make airspy-tools/src/CMakeFiles/airspy_r820t.dir/airspy_r820t.c.obj
 .PHONY : airspy_r820t.c.obj
 
 airspy_r820t.i: airspy_r820t.c.i
@@ -381,7 +381,7 @@ airspy_r820t.i: airspy_r820t.c.i
 
 # target to preprocess a source file
 airspy_r820t.c.i:
-	cd /d C:\Users\Massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_r820t.dir\build.make airspy-tools/src/CMakeFiles/airspy_r820t.dir/airspy_r820t.c.i
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_r820t.dir\build.make airspy-tools/src/CMakeFiles/airspy_r820t.dir/airspy_r820t.c.i
 .PHONY : airspy_r820t.c.i
 
 airspy_r820t.s: airspy_r820t.c.s
@@ -389,7 +389,7 @@ airspy_r820t.s: airspy_r820t.c.s
 
 # target to generate assembly for a file
 airspy_r820t.c.s:
-	cd /d C:\Users\Massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_r820t.dir\build.make airspy-tools/src/CMakeFiles/airspy_r820t.dir/airspy_r820t.c.s
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_r820t.dir\build.make airspy-tools/src/CMakeFiles/airspy_r820t.dir/airspy_r820t.c.s
 .PHONY : airspy_r820t.c.s
 
 airspy_rx.obj: airspy_rx.c.obj
@@ -397,7 +397,7 @@ airspy_rx.obj: airspy_rx.c.obj
 
 # target to build an object file
 airspy_rx.c.obj:
-	cd /d C:\Users\Massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_rx.dir\build.make airspy-tools/src/CMakeFiles/airspy_rx.dir/airspy_rx.c.obj
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_rx.dir\build.make airspy-tools/src/CMakeFiles/airspy_rx.dir/airspy_rx.c.obj
 .PHONY : airspy_rx.c.obj
 
 airspy_rx.i: airspy_rx.c.i
@@ -405,7 +405,7 @@ airspy_rx.i: airspy_rx.c.i
 
 # target to preprocess a source file
 airspy_rx.c.i:
-	cd /d C:\Users\Massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_rx.dir\build.make airspy-tools/src/CMakeFiles/airspy_rx.dir/airspy_rx.c.i
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_rx.dir\build.make airspy-tools/src/CMakeFiles/airspy_rx.dir/airspy_rx.c.i
 .PHONY : airspy_rx.c.i
 
 airspy_rx.s: airspy_rx.c.s
@@ -413,7 +413,7 @@ airspy_rx.s: airspy_rx.c.s
 
 # target to generate assembly for a file
 airspy_rx.c.s:
-	cd /d C:\Users\Massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_rx.dir\build.make airspy-tools/src/CMakeFiles/airspy_rx.dir/airspy_rx.c.s
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_rx.dir\build.make airspy-tools/src/CMakeFiles/airspy_rx.dir/airspy_rx.c.s
 .PHONY : airspy_rx.c.s
 
 airspy_si5351c.obj: airspy_si5351c.c.obj
@@ -421,7 +421,7 @@ airspy_si5351c.obj: airspy_si5351c.c.obj
 
 # target to build an object file
 airspy_si5351c.c.obj:
-	cd /d C:\Users\Massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_si5351c.dir\build.make airspy-tools/src/CMakeFiles/airspy_si5351c.dir/airspy_si5351c.c.obj
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_si5351c.dir\build.make airspy-tools/src/CMakeFiles/airspy_si5351c.dir/airspy_si5351c.c.obj
 .PHONY : airspy_si5351c.c.obj
 
 airspy_si5351c.i: airspy_si5351c.c.i
@@ -429,7 +429,7 @@ airspy_si5351c.i: airspy_si5351c.c.i
 
 # target to preprocess a source file
 airspy_si5351c.c.i:
-	cd /d C:\Users\Massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_si5351c.dir\build.make airspy-tools/src/CMakeFiles/airspy_si5351c.dir/airspy_si5351c.c.i
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_si5351c.dir\build.make airspy-tools/src/CMakeFiles/airspy_si5351c.dir/airspy_si5351c.c.i
 .PHONY : airspy_si5351c.c.i
 
 airspy_si5351c.s: airspy_si5351c.c.s
@@ -437,7 +437,7 @@ airspy_si5351c.s: airspy_si5351c.c.s
 
 # target to generate assembly for a file
 airspy_si5351c.c.s:
-	cd /d C:\Users\Massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_si5351c.dir\build.make airspy-tools/src/CMakeFiles/airspy_si5351c.dir/airspy_si5351c.c.s
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_si5351c.dir\build.make airspy-tools/src/CMakeFiles/airspy_si5351c.dir/airspy_si5351c.c.s
 .PHONY : airspy_si5351c.c.s
 
 airspy_spiflash.obj: airspy_spiflash.c.obj
@@ -445,7 +445,7 @@ airspy_spiflash.obj: airspy_spiflash.c.obj
 
 # target to build an object file
 airspy_spiflash.c.obj:
-	cd /d C:\Users\Massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_spiflash.dir\build.make airspy-tools/src/CMakeFiles/airspy_spiflash.dir/airspy_spiflash.c.obj
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_spiflash.dir\build.make airspy-tools/src/CMakeFiles/airspy_spiflash.dir/airspy_spiflash.c.obj
 .PHONY : airspy_spiflash.c.obj
 
 airspy_spiflash.i: airspy_spiflash.c.i
@@ -453,7 +453,7 @@ airspy_spiflash.i: airspy_spiflash.c.i
 
 # target to preprocess a source file
 airspy_spiflash.c.i:
-	cd /d C:\Users\Massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_spiflash.dir\build.make airspy-tools/src/CMakeFiles/airspy_spiflash.dir/airspy_spiflash.c.i
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_spiflash.dir\build.make airspy-tools/src/CMakeFiles/airspy_spiflash.dir/airspy_spiflash.c.i
 .PHONY : airspy_spiflash.c.i
 
 airspy_spiflash.s: airspy_spiflash.c.s
@@ -461,7 +461,7 @@ airspy_spiflash.s: airspy_spiflash.c.s
 
 # target to generate assembly for a file
 airspy_spiflash.c.s:
-	cd /d C:\Users\Massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_spiflash.dir\build.make airspy-tools/src/CMakeFiles/airspy_spiflash.dir/airspy_spiflash.c.s
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(MAKE) $(MAKESILENT) -f airspy-tools\src\CMakeFiles\airspy_spiflash.dir\build.make airspy-tools/src/CMakeFiles/airspy_spiflash.dir/airspy_spiflash.c.s
 .PHONY : airspy_spiflash.c.s
 
 # Help Target
@@ -519,6 +519,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\Massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d D:\Users\massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\airspyone_host && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,1 +1,1 @@
-C:/Users/Massimo/Documents/echoes-git/trunk/echoes/deps/Soapy/lib/SoapySDR/modules0.8/libaudioSupport.dll
+D:/Users/massimo/Documents/echoes-git/trunk/echoes/deps/Soapy/lib/SoapySDR/modules0.8/libaudioSupport.dll

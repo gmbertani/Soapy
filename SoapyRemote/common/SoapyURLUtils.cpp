@@ -1,6 +1,9 @@
 // Copyright (c) 2015-2018 Josh Blum
 // SPDX-License-Identifier: BSL-1.0
 
+
+#include "GMB_patch-inet.c"  //GMB 10sep21 
+
 #include "SoapySocketDefs.hpp"
 #include "SoapyURLUtils.hpp"
 #include <cstring> //memset

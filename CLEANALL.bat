@@ -12,7 +12,6 @@ SET make="C:\Qt\Tools\mingw730_64\bin\mingw32-make.exe"
 
 SET SRCDIR=%CD%
 
-rem builds the unixem library first
 cd %SRCDIR%\UNIXem\build\mingw730
 %make% clean
 cd %SRCDIR%
@@ -64,7 +63,12 @@ cd %SRCDIR%\SoapyAudio
 %make% clean
 rmdir /s /q CMakeFiles
 del /q CMakeCache.*
+cd %SRCDIR%
 
+cd %SRCDIR%\SoapyRemote
+%make% clean
+rmdir /s /q CMakeFiles
+del /q CMakeCache.*
 cd %SRCDIR%
 
 pause

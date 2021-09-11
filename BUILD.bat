@@ -4,17 +4,17 @@ REM builds SoapySDR utilities, library and devices support libraries
 REM ----------------------------------------------------------------
 @ECHO off
 REM SET INSTALL_PREFIX="D:\program files\Soapy"
-rem SET INSTALL_PREFIX="D:\Users\massimo\Documents\echoes-git\trunk\echoes\deps\Soapy"
-SET INSTALL_PREFIX="c:\Users\massimo\Documents\echoes-git\trunk\echoes\deps\Soapy"
-rem SET make="D:\Qt\Tools\mingw730_64\bin\mingw32-make.exe"
-SET make="C:\Qt\Tools\mingw730_64\bin\mingw32-make.exe"
+SET INSTALL_PREFIX="D:\Users\massimo\Documents\echoes-git\trunk\echoes\deps\Soapy"
+REM SET INSTALL_PREFIX="c:\Users\massimo\Documents\echoes-git\trunk\echoes\deps\Soapy"
+SET make="D:\Qt\Tools\mingw730_64\bin\mingw32-make.exe"
+rem SET make="C:\Qt\Tools\mingw730_64\bin\mingw32-make.exe"
 
 REM for laziness, the libusb provided is the static library with its header
 REM so there is no .pc file and CMake is not able to detect it implicitly
-rem SET LIBUSB_INCLUDE_DIR="D:\Users\massimo\Documents\sviluppo\echoes-related\soapy\myRepo\deps\include"
-rem SET LIBUSB_LIBRARY_DIRS="D:\Users\massimo\Documents\sviluppo\echoes-related\soapy\myRepo\deps\lib64"
-SET LIBUSB_INCLUDE_DIR="C:\Users\massimo\Documents\sviluppo\echoes-related\soapy\myRepo\deps\include"
-SET LIBUSB_LIBRARY_DIRS="C:\Users\massimo\Documents\sviluppo\echoes-related\soapy\myRepo\deps\lib64"
+SET LIBUSB_INCLUDE_DIR="D:\Users\massimo\Documents\sviluppo\echoes-related\soapy\myRepo\deps\include"
+SET LIBUSB_LIBRARY_DIRS="D:\Users\massimo\Documents\sviluppo\echoes-related\soapy\myRepo\deps\lib64"
+rem SET LIBUSB_INCLUDE_DIR="C:\Users\massimo\Documents\sviluppo\echoes-related\soapy\myRepo\deps\include"
+rem SET LIBUSB_LIBRARY_DIRS="C:\Users\massimo\Documents\sviluppo\echoes-related\soapy\myRepo\deps\lib64"
 REM ----------------------------------------------------------------
 
 
@@ -114,15 +114,24 @@ IF %yn% EQU n GOTO skipSoapyAudio
 IF %yn% EQU N GOTO skipSoapyAudio
 CD SoapyAudio
 cmake -G "MinGW Makefiles" -DCMAKE_INSTALL_PREFIX=%INSTALL_PREFIX% -DCMAKE_BUILD_TYPE=%BUILD_TYPE% -DCMAKE_PREFIX_PATH=%INSTALL_PREFIX% .
-%make%
+%make% 
 %make% install
 CD %SRCDIR%
 @ECHO "SoapyAudio support library installed, please take a look above for errors before continuing"
 REM
 
 :skipSoapyAudio
+SET /P yn=Build SoapyRemote? (y/n): 
+IF %yn% EQU n GOTO skipSoapyRemote
+IF %yn% EQU N GOTO skipSoapyRemote
+CD SoapyRemote
+cmake -G "MinGW Makefiles" -DCMAKE_INSTALL_PREFIX=%INSTALL_PREFIX% -DCMAKE_BUILD_TYPE=%BUILD_TYPE% -DCMAKE_PREFIX_PATH=%INSTALL_PREFIX% .
+%make% -k
+%make% install
+CD %SRCDIR%
+@ECHO "SoapyRemote support library installed, please take a look above for errors before continuing"
+REM
 
-
-
+:skipSoapyRemote
 :end
 CD %SRCDIR%
