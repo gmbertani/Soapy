@@ -4,11 +4,11 @@ rem cleans SoapySDR utilities, library and devices support libraries
 rem ----------------------------------------------------------------
 @echo on 
 
-rem SET INSTALL_PREFIX="D:\Users\massimo\Documents\echoes-git\trunk\echoes\deps\Soapy"
-rem SET make="D:\Qt\Tools\mingw730_64\bin\mingw32-make.exe"
+REM SET INSTALL_PREFIX="D:\Users\massimo\Documents\echoes-git\trunk\echoes\deps\x86_64\Soapy"
+SET INSTALL_PREFIX="C:\temp\radio\echoes-git\trunk\echoes\deps\x86_32\Soapy"
 
-SET INSTALL_PREFIX="c:\Users\massimo\Documents\echoes-git\trunk\echoes\deps\Soapy"
-SET make="C:\Qt\Tools\mingw730_64\bin\mingw32-make.exe"
+REM SET make="D:\Qt\Tools\mingw730_64\bin\mingw32-make.exe"
+SET make="C:\Qt\Tools\mingw730_32\bin\mingw32-make.exe"
 
 SET SRCDIR=%CD%
 
