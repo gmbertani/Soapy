@@ -4,8 +4,8 @@ REM builds SoapySDR utilities, library and devices support libraries
 REM ----------------------------------------------------------------
 @ECHO off
 REM SET INSTALL_PREFIX="D:\program files\Soapy"
-SET INSTALL_PREFIX="D:\Users\massimo\Documents\echoes-git\trunk\echoes\deps\Soapy"
-REM SET INSTALL_PREFIX="c:\Users\massimo\Documents\echoes-git\trunk\echoes\deps\Soapy"
+SET INSTALL_PREFIX="D:\Users\massimo\Documents\echoes-git\trunk\echoes\deps\x86_64\Soapy"
+REM SET INSTALL_PREFIX="D:\Users\massimo\Documents\echoes-git\trunk\echoes\deps\x86_32\Soapy"
 SET make="D:\Qt\Tools\mingw730_64\bin\mingw32-make.exe"
 rem SET make="C:\Qt\Tools\mingw730_64\bin\mingw32-make.exe"
 

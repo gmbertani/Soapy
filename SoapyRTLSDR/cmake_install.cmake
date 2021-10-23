@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "D:/Users/massimo/Documents/echoes-git/trunk/echoes/deps/Soapy")
+  set(CMAKE_INSTALL_PREFIX "D:/Users/massimo/Documents/echoes-git/trunk/echoes/deps/x86_64/Soapy")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
