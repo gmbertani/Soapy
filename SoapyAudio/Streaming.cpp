@@ -45,6 +45,7 @@ std::string SoapyAudio::getNativeStreamFormat(const int direction, const size_t 
 }
 
 SoapySDR::ArgInfoList SoapyAudio::getStreamArgsInfo(const int direction, const size_t channel) const {
+    
     SoapySDR::ArgInfoList streamArgs;
 
     SoapySDR::ArgInfo chanArg;
@@ -70,6 +71,28 @@ SoapySDR::ArgInfoList SoapyAudio::getStreamArgsInfo(const int direction, const s
     chanArg.optionNames = chanOptNames;
 
     streamArgs.push_back(chanArg);
+    
+//GMB patch 26nov2021
+    SoapySDR::ArgInfo bufflenArg;
+    bufflenArg.key = "bufflen";
+    bufflenArg.value = std::to_string(DEFAULT_BUFFER_LENGTH);
+    bufflenArg.name = "Buffer Size";
+    bufflenArg.description = "Number of bytes per buffer, multiples of 512 only.";
+    bufflenArg.units = "bytes";
+    bufflenArg.type = SoapySDR::ArgInfo::INT;
+
+    streamArgs.push_back(bufflenArg);
+
+    SoapySDR::ArgInfo buffersArg;
+    buffersArg.key = "buffers";
+    buffersArg.value = std::to_string(DEFAULT_NUM_BUFFERS);
+    buffersArg.name = "Ring buffers";
+    buffersArg.description = "Number of buffers in the ring.";
+    buffersArg.units = "buffers";
+    buffersArg.type = SoapySDR::ArgInfo::INT;
+
+    streamArgs.push_back(buffersArg);
+//GMB end patch 26nov2021
 
     return streamArgs;
 }
@@ -166,7 +189,7 @@ SoapySDR::Stream *SoapyAudio::setupStream(
     }
 
     inputParameters.deviceId = deviceId;
-    
+        
     switch (cSetup) {
         case FORMAT_MONO_L:
             inputParameters.nChannels = 1;
@@ -193,6 +216,39 @@ SoapySDR::Stream *SoapyAudio::setupStream(
             elementsPerSample = 2;
             break;
     }
+
+//GMB patch 26nov2021
+    //bufferLength = DEFAULT_BUFFER_LENGTH;
+    if (args.count("bufflen") != 0)
+    {
+        try
+        {
+            int bufferLength_in = std::stoi(args.at("bufflen"));
+            if (bufferLength_in > 0)
+            {
+                bufferLength = bufferLength_in;
+            }
+        }
+        catch (const std::invalid_argument &){}
+    }
+    SoapySDR_logf(SOAPY_SDR_DEBUG, "Using buffer length %d", bufferLength);
+
+    numBuffers = DEFAULT_NUM_BUFFERS;
+    if (args.count("buffers") != 0)
+    {
+        try
+        {
+            int numBuffers_in = std::stoi(args.at("buffers"));
+            if (numBuffers_in > 0)
+            {
+                numBuffers = numBuffers_in;
+            }
+        }
+        catch (const std::invalid_argument &){}
+    }
+    SoapySDR_logf(SOAPY_SDR_DEBUG, "Using %d buffers", numBuffers);
+//GMB end patch 26nov2021    
+    
 
     //clear async fifo counts
     _buf_tail = 0;
