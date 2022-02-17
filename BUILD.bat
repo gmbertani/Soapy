@@ -3,23 +3,23 @@ REM BUILD
 REM builds SoapySDR utilities, library and devices support libraries
 REM ----------------------------------------------------------------
 @ECHO off
-SET INSTALL_PREFIX="D:\Users\massimo\Documents\echoes-git\trunk\echoes\deps\x86_64\Soapy"
+REM SET INSTALL_PREFIX="D:\Users\massimo\Documents\echoes-git\trunk\echoes\deps\x86_64\Soapy"
 REM SET INSTALL_PREFIX="C:\temp\radio\echoes-git\trunk\echoes\deps\x86_32\Soapy"
-REM SET INSTALL_PREFIX="C:\Users\Massimo\Documents\echoes-git\trunk\echoes\deps\x86_64\Soapy"
+SET INSTALL_PREFIX="C:\Users\Massimo\Documents\echoes-git\trunk\echoes\deps\x86_64\Soapy"
 
-SET make="D:\Qt\Tools\mingw730_64\bin\mingw32-make.exe"
+REM make="D:\Qt\Tools\mingw730_64\bin\mingw32-make.exe"
 REM SET make="C:\Qt\Tools\mingw730_32\bin\mingw32-make.exe"
-REM SET make="C:\Qt\Tools\mingw730_64\bin\mingw32-make.exe"
+SET make="C:\Qt\Tools\mingw730_64\bin\mingw32-make.exe"
 
 REM for laziness, the libusb provided is the static library with its header
 REM so there is no .pc file and CMake is not able to detect it implicitly
 
-SET LIBUSB_INCLUDE_DIR="D:\Users\massimo\Documents\sviluppo\echoes-related\soapy\myRepo\deps\include"
-SET LIBUSB_LIBRARY_DIRS="D:\Users\massimo\Documents\sviluppo\echoes-related\soapy\myRepo\deps\lib64"
+REM SET LIBUSB_INCLUDE_DIR="D:\Users\massimo\Documents\sviluppo\echoes-related\soapy\myRepo\deps\include"
+REM SET LIBUSB_LIBRARY_DIRS="D:\Users\massimo\Documents\sviluppo\echoes-related\soapy\myRepo\deps\lib64"
 REM SET LIBUSB_INCLUDE_DIR="C:\temp\Soapy\deps\include"
 REM SET LIBUSB_LIBRARY_DIRS="C:\temp\Soapy\deps\lib32"
-REM SET LIBUSB_INCLUDE_DIR="C:\Users\Massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\deps\include"
-REM SET LIBUSB_LIBRARY_DIRS="C:\Users\Massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\deps\lib64"
+SET LIBUSB_INCLUDE_DIR="C:\Users\Massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\deps\include"
+SET LIBUSB_LIBRARY_DIRS="C:\Users\Massimo\Documents\sviluppo\echoes-related\Soapy\myRepo\deps\lib64"
 
 
 
@@ -127,8 +127,35 @@ cmake -G "MinGW Makefiles" -DCMAKE_INSTALL_PREFIX=%INSTALL_PREFIX% -DCMAKE_BUILD
 CD %SRCDIR%
 @ECHO "SoapyAudio support library installed, please take a look above for errors before continuing"
 REM
-
 :skipSoapyAudio
+
+REM SDRPlay and PlutoSDR API libraries are available in binary only, MSVC format. No source, no way to build their support libraries with MinGW.
+goto skipSoapyPlutoSDR
+
+SET /P yn=Build SoapySDRPlay3? (y/n): 
+IF %yn% EQU n GOTO skipSoapySDRPlay3
+IF %yn% EQU N GOTO skipSoapySDRPlay3
+CD SoapySDRPlay3
+cmake -G "MinGW Makefiles" -DCMAKE_INSTALL_PREFIX=%INSTALL_PREFIX% -DCMAKE_BUILD_TYPE=%BUILD_TYPE% .
+%make%
+%make% install
+CD %SRCDIR%
+@ECHO "SoapySDRPlay3 support library installed, please take a look above for errors before continuing"
+REM
+:skipSoapySDRPlay3
+
+SET /P yn=Build SoapyPlutoSDR? (y/n): 
+IF %yn% EQU n GOTO skipSoapyPlutoSDR
+IF %yn% EQU N GOTO skipSoapyPlutoSDR
+CD SoapyPlutoSDR
+cmake -G "MinGW Makefiles" -DCMAKE_INSTALL_PREFIX=%INSTALL_PREFIX% -DCMAKE_BUILD_TYPE=%BUILD_TYPE% .
+%make%
+%make% install
+CD %SRCDIR%
+@ECHO "SoapyPlutoSDR support library installed, please take a look above for errors before continuing"
+REM
+:skipSoapyPlutoSDR
+
 SET /P yn=Build SoapyRemote? (y/n): 
 IF %yn% EQU n GOTO skipSoapyRemote
 IF %yn% EQU N GOTO skipSoapyRemote
