@@ -45,7 +45,6 @@ std::string SoapyAudio::getNativeStreamFormat(const int direction, const size_t 
 }
 
 SoapySDR::ArgInfoList SoapyAudio::getStreamArgsInfo(const int direction, const size_t channel) const {
-    
     SoapySDR::ArgInfoList streamArgs;
 
     SoapySDR::ArgInfo chanArg;
@@ -71,28 +70,6 @@ SoapySDR::ArgInfoList SoapyAudio::getStreamArgsInfo(const int direction, const s
     chanArg.optionNames = chanOptNames;
 
     streamArgs.push_back(chanArg);
-    
-//GMB patch 26nov2021
-    SoapySDR::ArgInfo bufflenArg;
-    bufflenArg.key = "bufflen";
-    bufflenArg.value = std::to_string(DEFAULT_BUFFER_LENGTH);
-    bufflenArg.name = "Buffer Size";
-    bufflenArg.description = "Number of bytes per buffer, multiples of 512 only.";
-    bufflenArg.units = "bytes";
-    bufflenArg.type = SoapySDR::ArgInfo::INT;
-
-    streamArgs.push_back(bufflenArg);
-
-    SoapySDR::ArgInfo buffersArg;
-    buffersArg.key = "buffers";
-    buffersArg.value = std::to_string(DEFAULT_NUM_BUFFERS);
-    buffersArg.name = "Ring buffers";
-    buffersArg.description = "Number of buffers in the ring.";
-    buffersArg.units = "buffers";
-    buffersArg.type = SoapySDR::ArgInfo::INT;
-
-    streamArgs.push_back(buffersArg);
-//GMB end patch 26nov2021
 
     return streamArgs;
 }
@@ -189,7 +166,7 @@ SoapySDR::Stream *SoapyAudio::setupStream(
     }
 
     inputParameters.deviceId = deviceId;
-        
+    
     switch (cSetup) {
         case FORMAT_MONO_L:
             inputParameters.nChannels = 1;
@@ -217,39 +194,6 @@ SoapySDR::Stream *SoapyAudio::setupStream(
             break;
     }
 
-//GMB patch 26nov2021
-    //bufferLength = DEFAULT_BUFFER_LENGTH;
-    if (args.count("bufflen") != 0)
-    {
-        try
-        {
-            int bufferLength_in = std::stoi(args.at("bufflen"));
-            if (bufferLength_in > 0)
-            {
-                bufferLength = bufferLength_in;
-            }
-        }
-        catch (const std::invalid_argument &){}
-    }
-    SoapySDR_logf(SOAPY_SDR_DEBUG, "Using buffer length %d", bufferLength);
-
-    numBuffers = DEFAULT_NUM_BUFFERS;
-    if (args.count("buffers") != 0)
-    {
-        try
-        {
-            int numBuffers_in = std::stoi(args.at("buffers"));
-            if (numBuffers_in > 0)
-            {
-                numBuffers = numBuffers_in;
-            }
-        }
-        catch (const std::invalid_argument &){}
-    }
-    SoapySDR_logf(SOAPY_SDR_DEBUG, "Using %d buffers", numBuffers);
-//GMB end patch 26nov2021    
-    
-
     //clear async fifo counts
     _buf_tail = 0;
     _buf_count = 0;
@@ -266,7 +210,7 @@ SoapySDR::Stream *SoapyAudio::setupStream(
 void SoapyAudio::closeStream(SoapySDR::Stream *stream)
 {
     _buffs.clear();
-    SoapySDR_logf(SOAPY_SDR_DEBUG, "Closed stream");}
+}
 
 size_t SoapyAudio::getStreamMTU(SoapySDR::Stream *stream) const
 {
@@ -295,7 +239,6 @@ int SoapyAudio::activateStream(
         dac.startStream();
 
         streamActive = true;
-        SoapySDR_logf(SOAPY_SDR_DEBUG, "Activate stream");
     } catch (RtAudioError& e) {
         throw std::runtime_error("RtAudio init error '" + e.getMessage());
     }
@@ -308,16 +251,14 @@ int SoapyAudio::deactivateStream(SoapySDR::Stream *stream, const int flags, cons
     if (flags != 0) return SOAPY_SDR_NOT_SUPPORTED;
 
     if (dac.isStreamRunning()) {
-        SoapySDR_logf(SOAPY_SDR_DEBUG,  "stopping stream");
         dac.stopStream();
     }
     if (dac.isStreamOpen()) {
-        SoapySDR_logf(SOAPY_SDR_DEBUG,  "closing stream");
         dac.closeStream();
     }
     
     streamActive = false;
-    SoapySDR_logf(SOAPY_SDR_DEBUG, "Deactivated stream");
+    
     return 0;
 }
 
@@ -329,8 +270,7 @@ int SoapyAudio::readStream(
         long long &timeNs,
         const long timeoutUs)
 {    
-    if (!dac.isStreamRunning()) {      
-        SoapySDR_logf(SOAPY_SDR_DEBUG, "readStream(): no stream running");
+    if (!dac.isStreamRunning()) {
         return 0;
     }
     
@@ -353,19 +293,13 @@ int SoapyAudio::readStream(
     if (bufferedElems == 0 || (sampleOffset && (bufferedElems < abs(sampleOffset))))
     {
         int ret = this->acquireReadBuffer(stream, _currentHandle, (const void **)&_currentBuff, flags, timeNs, timeoutUs);
-        if (ret < 0) 
-        {
-            //SoapySDR_logf(SOAPY_SDR_DEBUG, "readStream(): acquireReadBuffer() returned %d", ret);
-            return ret;
-        }
+        if (ret < 0) return ret;
         bufferedElems = ret;
     }
 
     size_t returnedElems = std::min(bufferedElems, numElems);
 
-    if (sampleOffset && (bufferedElems < abs(sampleOffset))) 
-    {
-        //SoapySDR_logf(SOAPY_SDR_DEBUG, "readStream(): bufferedElems=%d, sampleOffset=%d", bufferedElems, sampleOffset);
+    if (sampleOffset && (bufferedElems < abs(sampleOffset))) {
         return 0;
     }
 
@@ -660,14 +594,9 @@ int SoapyAudio::readStream(
         }
     }
     
-    
-    
     //bump variables for next call into readStream
     bufferedElems -= returnedElems;
     _currentBuff += returnedElems * elementsPerSample;
-
-    //SoapySDR_logf(SOAPY_SDR_DEBUG, "readStream(): bufferedElems=%d, _currentBuff=%d", bufferedElems, _currentBuff);
-
 
     //return number of elements written to buff0
     if (bufferedElems != 0) flags |= SOAPY_SDR_MORE_FRAGMENTS;
