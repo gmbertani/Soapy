@@ -83,7 +83,7 @@ static std::vector<std::string> searchModulePath(const std::string &path)
     std::vector<std::string> modulePaths;
     const std::string pattern = path + "*@MODULE_EXT@";
 
-#ifdef _MSC_VER
+#ifdef _MSC_VER 
     //http://stackoverflow.com/questions/612097/how-can-i-get-a-list-of-files-in-a-directory-using-c-or-c
     WIN32_FIND_DATA fd; 
     HANDLE hFind = ::FindFirstFile(pattern.c_str(), &fd); 
@@ -135,8 +135,10 @@ std::vector<std::string> SoapySDR::listSearchPaths(void)
             searchPaths.push_back("/usr/local/lib/SoapySDR/modules" + SoapySDR::getABIVersion());
     }
 
-    //separator for search paths
-    #ifdef _MSC_VER
+    //separator for search paths - GMB 25/3/2022: this is OS dependent, not compiler dependent
+    //#ifdef _MSC_VER 
+    #ifdef _WIN32
+    #warning "***WINDOZ***"
     static const char sep = ';';
     #else
     static const char sep = ':';
