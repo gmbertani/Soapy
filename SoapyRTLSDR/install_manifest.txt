@@ -1,1 +1,1 @@
-C:/temp/radio/echoes-git/trunk/echoes/deps/x86_32/Soapy/lib/SoapySDR/modules0.8/librtlsdrSupport.dll
+D:/Users/massimo/Documents/echoes-git/trunk/echoes/deps/x86_64/Soapy/lib/SoapySDR/modules0.8/librtlsdrSupport.dll

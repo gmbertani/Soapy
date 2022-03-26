@@ -1,4 +1,4 @@
-prefix=C:/temp/radio/echoes-git/trunk/echoes/deps/x86_32/Soapy
+prefix=D:/Users/massimo/Documents/echoes-git/trunk/echoes/deps/x86_64/Soapy
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include/rtaudio        
