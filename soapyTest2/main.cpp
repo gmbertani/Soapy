@@ -21,7 +21,7 @@
 
 #ifdef CF32_STREAM
     #define TYPE_STREAM SOAPY_SDR_CF32
-    #define TYPE_BUFF   complex<float>
+    #define TYPE_BUFF   std::complex<float>
 #elif U8_STREAM
     #define TYPE_STREAM SOAPY_SDR_U8
     #define TYPE_BUFF   uint8_t
@@ -273,7 +273,7 @@ int main()
             int bufTotalSize = streamMTU;
             int bufSize = streamMTU;
             // 5. create a re-usable buffer for rx samples
-            TYPE_BUFF buff[bufTotalSize];
+            TYPE_BUFF* buff = new TYPE_BUFF[bufTotalSize];
 
             // 6. receive some samples
 
@@ -283,7 +283,7 @@ int main()
             for( int i = 0; i < totSamples; ++i)
             {
                 double avgI, avgQ;
-                void *buffs[] = {buff};
+                void *buffs[] = {&buff};
                 int flags = 0;
                 long long time_ns = 0;
 
@@ -370,7 +370,7 @@ int main()
             int bufTotalSize = streamMTU;
             int bufSize = streamMTU;
             // 5. create a re-usable buffer for rx samples
-            TYPE_BUFF buff[bufTotalSize];
+            TYPE_BUFF* buff = new TYPE_BUFF[bufTotalSize];
 
             // 6. receive some samples
 
@@ -380,7 +380,7 @@ int main()
             for( int i = 0; i < totSamples; ++i)
             {
                 double avgI, avgQ;
-                void *buffs[] = {buff};
+                void *buffs[] = {&buff};
                 int flags = 0;
                 long long time_ns = 0;
 
