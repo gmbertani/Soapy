@@ -44,6 +44,11 @@ set_target_properties(SoapySDR PROPERTIES SOVERSION ${SOAPY_SDR_ABI_VERSION})
 set_target_properties(SoapySDR PROPERTIES VERSION ${SOAPY_SDR_LIBVER})
 set_target_properties(SoapySDR PROPERTIES DEFINE_SYMBOL "SOAPY_SDR_DLL_EXPORTS")
 
+#symbols are only exported from the library explicitly
+set_property(TARGET SoapySDR PROPERTY C_VISIBILITY_PRESET hidden)
+set_property(TARGET SoapySDR PROPERTY CXX_VISIBILITY_PRESET hidden)
+set_property(TARGET SoapySDR PROPERTY VISIBILITY_INLINES_HIDDEN ON)
+
 ########################################################################
 # compiler specifics
 ########################################################################
@@ -67,18 +72,15 @@ if("${CMAKE_CXX_COMPILER_ID}" MATCHES "Clang")
     target_link_libraries(SoapySDR PUBLIC -pthread)
 endif()
 
-if(CMAKE_COMPILER_IS_GNUCXX)
+if(CMAKE_COMPILER_IS_GNUCXX OR (CMAKE_CXX_COMPILER_ID MATCHES "Clang"))
     #support threaded client code
     #notice that -pthread is not the same as -lpthread
     target_link_libraries(SoapySDR PUBLIC -pthread)
 
-    #symbols are only exported from libraries/modules explicitly
-    target_compile_options(SoapySDR PRIVATE -fvisibility=hidden)
-    target_compile_options(SoapySDR PRIVATE -fvisibility-inlines-hidden)
-
     #common warnings to help encourage good coding practices
     target_compile_options(SoapySDR PUBLIC -Wall)
     target_compile_options(SoapySDR PUBLIC -Wextra)
+    target_compile_options(SoapySDR PUBLIC $<$<COMPILE_LANGUAGE:CXX>:-Wnon-virtual-dtor>)
 endif()
 
 if (MSVC)
@@ -109,6 +111,10 @@ endif()
 ########################################################################
 # Configure sources
 ########################################################################
+
+#get a relative CMAKE_INSTALL_LIBDIR for the the module loader logic
+file(RELATIVE_PATH CMAKE_INSTALL_LIBDIR "${CMAKE_INSTALL_PREFIX}" "${CMAKE_INSTALL_FULL_LIBDIR}")
+
 configure_file(
     ${CMAKE_CURRENT_SOURCE_DIR}/Modules.in.cpp
     ${CMAKE_CURRENT_BINARY_DIR}/Modules.cpp

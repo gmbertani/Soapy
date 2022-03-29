@@ -1,3 +1,3 @@
 #include <SoapySDR/Modules.hpp>
-            static const SoapySDR::ModuleVersion registerairspySupportVersion("0.1.2");
+            static const SoapySDR::ModuleVersion registerairspySupportVersion("0.2.0");
         

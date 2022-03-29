@@ -4,15 +4,18 @@
 /// Misc data type definitions used in the API.
 ///
 /// \copyright
-/// Copyright (c) 2014-2017 Josh Blum
+/// Copyright (c) 2014-2021 Josh Blum
+///                    2021 Nicholas Corgan
 /// SPDX-License-Identifier: BSL-1.0
 ///
 
 #pragma once
 #include <SoapySDR/Config.hpp>
 #include <SoapySDR/Types.h>
+#include <cstring>
 #include <type_traits>
 #include <vector>
+#include <stdexcept>
 #include <string>
 #include <map>
 
@@ -173,16 +176,24 @@ namespace Detail {
 template <typename Type>
 typename std::enable_if<std::is_same<Type, bool>::value, Type>::type StringToSetting(const std::string &s)
 {
-    if (s == SOAPY_SDR_TRUE) return true;
-    if (s == SOAPY_SDR_FALSE) return false;
+  if (s.empty() or s == SOAPY_SDR_FALSE) {
+    return false;
+  }
+  if (s == SOAPY_SDR_TRUE) {
+    return true;
+  }
+  try {
+    // C++: Float conversion to bool is unambiguous
+    char *str_end = nullptr;
+    double d = std::strtod(s.c_str(), &str_end);
 
-    //zeros and empty strings are false
-    if (s == "0") return false;
-    if (s == "0.0") return false;
-    if (s == "") return false;
-
-    //other values are true
-    return "true";
+    // Either the input wasn't numeric, so str_end should point to the front of the string,
+    // or the whole string was consumed and the resulting number is non-zero.
+    return (s == str_end) or ((d != 0.0) and (std::strlen(str_end) == 0));
+  } catch (std::invalid_argument&) {
+  }
+  // other values are true
+  return true;
 }
 
 template <typename Type>

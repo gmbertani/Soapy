@@ -33,7 +33,12 @@ private:
     const bool is_pro_plus;
     snd_pcm_t* d_pcm_handle;
     uint32_t d_period_size;
+    uint32_t d_running_size;
     std::vector<int32_t> d_buff;
+    std::string d_out_format;
+    bool d_mmap_valid;
+    snd_pcm_uframes_t d_mmap_frames;
+    snd_pcm_uframes_t d_mmap_offset;
 
     // Device properties
     double d_sample_rate;
@@ -60,7 +65,7 @@ private:
     hid_device *d_handle;
     
 public:
-    SoapyFCDPP(const std::string &hid_path, const std::string &alsa_device, const bool is_plus);
+    SoapyFCDPP(const std::string &hid_path, const std::string &alsa_device, const bool is_plus, const uint32_t overide_period);
     ~SoapyFCDPP();
     
     // Identification API
@@ -92,6 +97,27 @@ public:
                    int &flags,
                    long long &timeNs,
                    const long timeoutUs = 100000);
+
+    // Direct buffer API
+    size_t getNumDirectAccessBuffers(SoapySDR::Stream *stream);
+    int getDirectAccessBufferAddrs(SoapySDR::Stream *stream, const size_t handle, void **buffs) { return SOAPY_SDR_NOT_SUPPORTED; }  // unsupported with ALSA underneath (moving addresses)
+    int acquireReadBuffer(SoapySDR::Stream *stream,
+        size_t &handle,
+        const void **buffs,
+        int &flags,
+        long long &timeNs,
+        const long timeoutUs = 100000);
+    void releaseReadBuffer(SoapySDR::Stream *stream, const size_t handle);
+    // Unsupported
+    int acquireWriteBuffer(SoapySDR::Stream *stream,
+        size_t &handle,
+        void **buffs,
+        const long timeoutUs = 100000) { return SOAPY_SDR_NOT_SUPPORTED; }
+    void releaseWriteBuffer(SoapySDR::Stream *stream,
+        const size_t handle,
+        const size_t numElems,
+        int &flags,
+        const long long timeNs = 0) {}
 
     // Antennas
     std::vector<std::string> listAntennas(const int direction, const size_t channel) const;
