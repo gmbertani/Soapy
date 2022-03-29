@@ -1,0 +1,29 @@
+Source: soapyredpitaya
+Section: libs
+Priority: optional
+Maintainer: Pavel Demin <pavel.demin@cern.ch>
+Uploaders: Josh Blum <josh@pothosware.com>
+Build-Depends:
+    debhelper (>= 9.0.0),
+    cmake,
+    libsoapysdr-dev
+Standards-Version: 4.1.4
+Homepage: https://github.com/pothosware/SoapyRedPitaya/wiki
+Vcs-Git: https://github.com/pothosware/SoapyRedPitaya.git
+Vcs-Browser: https://github.com/pothosware/SoapyRedPitaya
+
+Package: soapysdr0.6-module-redpitaya
+Architecture: any
+Multi-Arch: same
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Soapy RedPitaya - RedPitaya device support for Soapy SDR.
+ A Soapy module that supports RedPitaya devices within the Soapy API.
+
+Package: soapysdr-module-redpitaya
+Architecture: all
+Depends: soapysdr0.6-module-redpitaya, ${misc:Depends}
+Description: Soapy RedPitaya - RedPitaya device support for Soapy SDR.
+ A Soapy module that supports RedPitaya devices within the Soapy API.
+ .
+ This is an empty dependency package that pulls in the RedPitaya module
+ for the default version of libsoapysdr.

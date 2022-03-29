@@ -1,0 +1,83 @@
+Source: soapyosmo
+Section: libs
+Priority: optional
+Maintainer: Josh Blum <josh@pothosware.com>
+Build-Depends:
+    debhelper (>= 9.0.0),
+    cmake,
+    libboost-all-dev,
+    libosmosdr-dev,
+    libmirisdr-dev,
+    libsoapysdr-dev
+Standards-Version: 3.9.8
+Homepage: https://github.com/pothosware/SoapyOsmo/wiki
+Vcs-Git: https://github.com/pothosware/SoapyOsmo.git
+Vcs-Browser: https://github.com/pothosware/SoapyOsmo
+
+Package: libsoapyosmosdr0
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Soapy Osmo - shared library
+ Soapy SDR plugins for OsmoSDR devices
+
+Package: soapysdr0.7-module-osmosdr
+Architecture: any
+Multi-Arch: same
+Depends:
+    libsoapyosmosdr0 (= ${binary:Version}),
+    ${misc:Pre-Depends},
+    ${shlibs:Depends},
+    ${misc:Depends}
+Description: Soapy Osmo - Osmo SDR module
+ Soapy SDR plugins for OsmoSDR devices
+
+Package: soapysdr-module-osmosdr
+Architecture: all
+Depends: soapysdr0.7-module-osmosdr, ${misc:Depends}
+Description: Soapy Osmo - Osmo SDR module
+ Soapy SDR plugins for OsmoSDR devices
+ .
+ This is an empty dependency package that pulls in the OsmoSDR module
+ for the default version of libsoapysdr.
+
+Package: soapysdr0.7-module-rfspace
+Architecture: any
+Multi-Arch: same
+Depends:
+    libsoapyosmosdr0 (= ${binary:Version}),
+    ${misc:Pre-Depends},
+    ${shlibs:Depends},
+    ${misc:Depends}
+Description: Soapy Osmo - RFSPACE module
+ Soapy SDR plugins for OsmoSDR devices
+
+Package: soapysdr-module-rfspace
+Architecture: all
+Depends: soapysdr0.7-module-rfspace, ${misc:Depends}
+Description: Soapy Osmo - RFSPACE module
+ Soapy SDR plugins for OsmoSDR devices
+ .
+ This is an empty dependency package that pulls in the RFSPACE module
+ for the default version of libsoapysdr.
+
+Package: soapysdr0.7-module-mirisdr
+Architecture: any
+Multi-Arch: same
+Depends:
+    libsoapyosmosdr0 (= ${binary:Version}),
+    ${misc:Pre-Depends},
+    ${shlibs:Depends},
+    ${misc:Depends}
+Description: Soapy Osmo - Mirics SDR module
+ Soapy SDR plugins for OsmoSDR devices
+
+Package: soapysdr-module-mirisdr
+Architecture: all
+Depends: soapysdr0.7-module-mirisdr, ${misc:Depends}
+Description: Soapy Osmo - Mirics SDR module
+ Soapy SDR plugins for OsmoSDR devices
+ .
+ This is an empty dependency package that pulls in the Mirics module
+ for the default version of libsoapysdr.
